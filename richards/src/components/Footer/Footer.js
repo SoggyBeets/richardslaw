@@ -1,23 +1,21 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "./Footer.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-const Navbar = props => (
-  <nav>
-  <div className="row" id="navbarRow">
-  <div className="col-md-4"><h1>Menu</h1></div>
+const Footer = props => (
+  <footer>
+  <div className="row" id="footerRow">
+  <div className="col-md-4"><h1>Links</h1></div>
   <div className="col-md-4">
-  <div id="richardsbrand"><h1>This will be the logo</h1></div>
+  <div id="richardsbrand"><h1>Copy Right 2018</h1></div>
     </div>
   <div className="col-md-4"><h1>Contact</h1></div>       
-      <div className="col-md-2">
   </div>
-  </div>
-  </nav>
+  </footer>
 );
 
-export default Navbar;
+export default Footer;
 
  /* <div className="navbar-brand" to="/">
       Pupster

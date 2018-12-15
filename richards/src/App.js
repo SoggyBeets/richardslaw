@@ -1,26 +1,38 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';import Navbar from './components/Navbar';
+import './App.css';
+import Navbar from './components/Navbar';
+import MissionStatement from './components/MissionStatement';
+import AboutUs from './components/AboutUs';
+import Google from './components/Google';
+import Contact from './components/Contact';
+import Facebook from './components/Facebook';
+import Instagram from './components/Instagram';
+import Footer from './components/Footer';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
       <Navbar></Navbar>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <h3>What is up chin</h3>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <MissionStatement></MissionStatement>
+      <AboutUs></AboutUs>
+      <div className="row">
+      <div className="col-md-6">
+      <Google></Google>
+      </div>
+      <div className="col-md-6">
+      <Contact></Contact>
+      </div>
+      </div>
+      <div className="row">
+      <div className="col-md-6">
+      <Facebook></Facebook>
+      </div>
+      <div className="col-md-6">
+      <Instagram></Instagram>
+      </div>
+      </div>
+      <Footer></Footer>
       </div>
     );
   }

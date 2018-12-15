@@ -1,23 +1,17 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "./Contact.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-const Navbar = props => (
+const Contact = props => (
   <nav>
-  <div className="row" id="navbarRow">
-  <div className="col-md-4"><h1>Menu</h1></div>
-  <div className="col-md-4">
-  <div id="richardsbrand"><h1>This will be the logo</h1></div>
-    </div>
-  <div className="col-md-4"><h1>Contact</h1></div>       
-      <div className="col-md-2">
-  </div>
+  <div className="row">
+  <div className="col-md-12"><h1>This will be the Contact Card</h1></div>
   </div>
   </nav>
 );
 
-export default Navbar;
+export default Contact;
 
  /* <div className="navbar-brand" to="/">
       Pupster
