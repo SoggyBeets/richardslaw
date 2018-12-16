@@ -33,7 +33,7 @@ class App extends Component {
       </div>
       </div>
       <Footer></Footer>
-      <h1>turd</h1>
+      <h1>booty</h1>
       </div>
     );
   }
