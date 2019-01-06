@@ -1,6 +1,6 @@
 {
   "name": "richards",
-  "version": "1.12.3",
+  "version": "1.12.4",
   "private": true,
   "dependencies": {
     "react": "^16.6.3",
