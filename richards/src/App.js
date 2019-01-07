@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import MissionStatement from './components/MissionStatement';
 import AboutUs from './components/AboutUs';
 import Google from './components/Google';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import Facebook from './components/Facebook';
 import Instagram from './components/Instagram';
 import Footer from './components/Footer';
@@ -21,7 +21,7 @@ class App extends Component {
       <Google></Google>
       </div>
       <div className="col-md-6">
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
       </div>
       </div>
       <div className="row">
@@ -33,7 +33,6 @@ class App extends Component {
       </div>
       </div>
       <Footer></Footer>
-      <h1>booty</h1>
       </div>
     );
   }
