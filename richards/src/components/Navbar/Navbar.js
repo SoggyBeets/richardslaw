@@ -5,22 +5,26 @@ import Button from "../Button";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Navbar = props => (
   <nav>
-  <div className="row" id="navbarRow">
-  <div className="col-md-4">
-  <Button></Button>
-  </div>
-  <div className="col-md-4">
-  <div id="richardsbrand"><h1>This will be the logo</h1></div>
+    <div className="row" id="navbarRow">
+      <div className="col-md-4" id="button">
+        <Button />
+      </div>
+      <div className="col-md-4" id="logodiv">
+        <div id="logo" />
+      </div>
+      <div id="icon">
+      </div>
+      <div className="col-md-4" id="phone">
+        <h3>Get Help Now!</h3>
+        <a href="tel:+1-555-555-1212">555-555-1212</a>
+      </div>
     </div>
-  <div className="col-md-4"><h1>Contact</h1></div>       
-  
-  </div>
   </nav>
 );
 
 export default Navbar;
 
- /* <div className="navbar-brand" to="/">
+/* <div className="navbar-brand" to="/">
       Pupster
     </div>
     <div>
@@ -61,5 +65,5 @@ export default Navbar;
             Search
           // </div> */
 
-          /* </li>
+/* </li>
       </ul> */
