@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Anton|Lobster|Roboto|Source+Sans+Pro rel="stylesheet">
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
     <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-    
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"
+      integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -31,11 +53,8 @@
     <title>React App</title>
   </head>
   <body>
-     
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -47,5 +66,47 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+<div class="float">Have a question?</div>
+    <style>
+.float {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9998;
+    right: 40px;
+    top: 42px;
+    width: 240px;
+    height: 56px;
+    /* transition-delay: 0;
+    opacity: 0;
+    visibility: hidden; */
+    /* transform: translateX(100%); */
+    /* border-radius: 40% 40% 0% 60%; */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.28);
+    background: #2D4897;
+}
+
+      .eapps-form-floating-button {
+        top: 20px;
+        width: 60px;
+        height: 60px;
+      }
+
+      .eapps-facebook-feed-inner {
+    background: #fafafa;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0px;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+ 
+    </style>
   </body>
 </html>

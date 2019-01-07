@@ -1,14 +1,19 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import "./Facebook.css";
+// import { nominalTypeHack } from "../../../../../../AppData/Local/Microsoft/TypeScript/3.2/node_modules/@types/prop-types";
 
+
+const fbRadius = {
+  borderRaidus: '0px'
+}
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-const Facebook = props => (
-  <nav>
+const Facebook = () => (
+  <div>
   <div className="row">
-  <div className="col-md-12"><div className="elfsight-app-e368cb13-615c-49ad-9689-b81caeafee2f"></div></div>
+  <div className="col-md-12"><div style={fbRadius} className="elfsight-app-e368cb13-615c-49ad-9689-b81caeafee2f"></div></div>
   </div>
-  </nav>
+  </div>
 );
 
 export default Facebook;

@@ -9,7 +9,7 @@ import Facebook from './components/Facebook';
 import Instagram from './components/Instagram';
 import Footer from './components/Footer';
 import Tabs from './components/Tabs';
-
+import Carousel from './components/Carousel'
 
 
 class App extends Component {
@@ -19,7 +19,7 @@ class App extends Component {
 
         <Navbar></Navbar>
            
-          
+        <Carousel></Carousel>  
 
         <MissionStatement></MissionStatement>
 
@@ -57,21 +57,25 @@ With RBR Law you get an Aggressive defense and an Advocate for the protection of
 
         <AboutUs></AboutUs>
         <div className="row">
-          <div className="col-md-6">
-            <Google></Google>
+        <div className="col-md-2"></div>
+          <div className="col-md-4">
+            {/* <Google></Google> */}
             <div className="elfsight-app-14fd1b7f-cef3-4c59-add5-8558eec9bf75"></div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-4">
             {/* <Contact></Contact> */}
           </div>
+          <div className="col-md-2"></div>
         </div>
         <div className="row">
-          <div className="col-md-6">
+        <div className="col-md-4"><Google></Google></div>
+          <div className="col-md-4">
             <Facebook></Facebook>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-4">
             <Instagram></Instagram>
           </div>
+          {/* <div className="col-md-2"></div> */}
         </div>
         <Footer></Footer>
       </div>
