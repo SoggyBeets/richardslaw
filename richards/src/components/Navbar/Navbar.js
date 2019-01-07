@@ -13,8 +13,7 @@ const Navbar = props => (
   <div id="richardsbrand"><h1>This will be the logo</h1></div>
     </div>
   <div className="col-md-4"><h1>Contact</h1></div>       
-      <div className="col-md-2">
-  </div>
+  
   </div>
   </nav>
 );
