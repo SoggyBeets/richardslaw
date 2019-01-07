@@ -6,7 +6,7 @@ import "./Instagram.css";
 const Instagram = props => (
   <nav>
   <div className="row">
-  <div className="col-md-12"><h1>This will be the instagram API</h1></div>
+  <div className="col-md-12"><div className="elfsight-app-f0fb39e2-e88a-4a78-8872-02d8989c544e"></div></div>
   </div>
   </nav>
 );

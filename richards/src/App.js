@@ -18,34 +18,8 @@ class App extends Component {
       <div className="App">
 
         <Navbar></Navbar>
-        <div className="row">
-        <div className="col-md-4"></div>
-          <div className="col-md-4">
-            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-            <div className="elfsight-app-b594ca64-b2d3-41bd-8a5f-d1040cd8f505"></div>
-            <div className="col-md-4"></div>
-          </div>
-        </div>
-        <div className="row">
-        <div className="col-md-2"></div>
-          <div className="col-md-4">
-            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-            <div className="elfsight-app-e368cb13-615c-49ad-9689-b81caeafee2f"></div>
-          </div>
-          <div className="col-md-4">
-            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-            <div className="elfsight-app-f0fb39e2-e88a-4a78-8872-02d8989c544e"></div>
-          </div>
-          <div className="col-md-2"></div>
-          </div>
-          <div className="row">
-          <div className="col-md-4"></div>
-          <div className="col-md-4">
-            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-            <div className="elfsight-app-14fd1b7f-cef3-4c59-add5-8558eec9bf75"></div>
-          </div>
-          <div className="col-md-4"></div>
-          </div>
+           
+          
 
         <MissionStatement></MissionStatement>
 
@@ -85,6 +59,7 @@ With RBR Law you get an Aggressive defense and an Advocate for the protection of
         <div className="row">
           <div className="col-md-6">
             <Google></Google>
+            <div className="elfsight-app-14fd1b7f-cef3-4c59-add5-8558eec9bf75"></div>
           </div>
           <div className="col-md-6">
             {/* <Contact></Contact> */}
