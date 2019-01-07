@@ -9,7 +9,7 @@ import Facebook from './components/Facebook';
 import Instagram from './components/Instagram';
 import Footer from './components/Footer';
 import Tabs from './components/Tabs';
-
+import Carousel from './components/Carousel'
 
 
 class App extends Component {
@@ -19,7 +19,7 @@ class App extends Component {
 
         <Navbar></Navbar>
            
-          
+        <Carousel></Carousel>  
 
         <MissionStatement></MissionStatement>
 
