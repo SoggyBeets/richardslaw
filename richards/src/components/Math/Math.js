@@ -1,17 +1,32 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import "./Instagram.css";
+import "./Math.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-const Instagram = props => (
-  <nav>
-  <div className="row">
-  <div className="col-md-12"><div className="elfsight-app-f0fb39e2-e88a-4a78-8872-02d8989c544e"></div></div>
-  </div>
-  </nav>
-);
+const Math = (props) => {
+  let value;
 
-export default Instagram;
+  switch(props.operator){
+    case "+":
+    value = props.num1 + props.num2;
+    break;
+    case "-":
+    value = props.num1 - props.num2;
+    break;
+    case "*":
+    value = props.num1 * props.num2;
+    break;
+    case "/":
+    value = props.num1 / props.num2;
+    break;
+    default:
+    value = NaN;
+  }
+
+  return <span style={{fontSize: value}}>{value}</span>
+};
+
+export default Math;
 
  /* <div className="navbar-brand" to="/">
       Pupster
