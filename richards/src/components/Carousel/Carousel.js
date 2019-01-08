@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Carousel.css"
 import {
   Carousel,
   CarouselItem,
@@ -9,19 +10,19 @@ import {
 const items = [
   {
     src:
-      "https://www.visitogden.com/imager/s3-us-west-1_amazonaws_com/ogden-craft/craft/historic_25th_street_december_2016_1694e1b2ccd168cee29a0179df2a7819.png"
+    "https://media.gettyimages.com/photos/mount-ogden-wasatch-mountains-picture-id148515187"
     // altText: "Slide 1",
     // caption: "Slide 1"
   },
   {
     src:
-      "https://media.deseretdigital.com/file/001f088444?crop%3Dtop%3A0%7Cleft%3A0%7Cwidth%3A620%7Cheight%3A330%7Cgravity%3ACenter%26quality%3D55%26interlace%3Dnone%26resize%3Dwidth%3A620%26order%3Dresize%2Ccrop%26c%3D14%26a%3D0fab10fb"
+    "https://media.gettyimages.com/photos/washington-boulevard-picture-id148568385"
     // altText: "Slide 2",
     // caption: "Slide 2"
   },
   {
     src:
-      "https://www.visitogden.com/imager/s3-us-west-1_amazonaws_com/ogden-craft/craft/25th_high_res_file_1694e1b2ccd168cee29a0179df2a7819.jpg"
+    "https://media.gettyimages.com/photos/25th-street-ogden-utah-picture-id145652195"
     // altText: "Slide 3",
     // caption: "Slide 3"
   }
@@ -89,11 +90,13 @@ class Example extends Component {
     });
 
     return (
+      
       <Carousel
         activeIndex={activeIndex}
         next={this.next}
         previous={this.previous}
       >
+    
         {slides}
         <CarouselControl
           direction="prev"
@@ -109,5 +112,7 @@ class Example extends Component {
     );
   }
 }
+
+
 
 export default Example;
