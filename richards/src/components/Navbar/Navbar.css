@@ -38,14 +38,14 @@ h1 {
   top: ;
 }
 
-#phone h3{
-  font-size: 1.7rem;
-  padding-top: 5px;
-}
-
 #phone {
   font-size: 1.5rem;
   line-height: .5rem;
+}
+
+#phone h3{
+  font-size: 1.7rem;
+  padding-top: 5px;
 }
 
 #menu h3 {
