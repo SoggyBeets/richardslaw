@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const hOneStyle = {
@@ -38,47 +37,3 @@ Main Phone: (801) 621-7443 </h3></div>
 );
 
 export default Footer;
-
- /* <div className="navbar-brand" to="/">
-      Pupster
-    </div>
-    <div>
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <div
-            to="/"
-            className={
-              window.location.pathname === "/" || window.location.pathname === "/about"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >
-            About
-          </div>
-        </li>
-        <li className="nav-item">
-          <div
-            to="/discover"
-            className={
-              window.location.pathname === "/discover"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >
-            Discover
-          </div>
-        </li>
-        <li className="nav-item">
-          <div
-            to="/search"
-            className={
-              window.location.pathname === "/search"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >
-            Search
-          // </div> */
-
-          /* </li>
-      </ul> */
