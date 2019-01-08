@@ -44,3 +44,10 @@ h1 {
 #jaime {
   padding-left: 2px;
 }
+
+#kevin .myElement {
+}
+
+#kevin:hover #jaime{
+  opacity: 0;
+}

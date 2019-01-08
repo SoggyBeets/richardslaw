@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-// import MissionStatement from './components/MissionStatement';
+import MissionStatement from './components/MissionStatement';
 import AboutUs from "./components/AboutUs";
 import Google from "./components/Google";
 // import Contact from './components/Contact';
@@ -16,10 +16,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
-
 
         <Navbar></Navbar>
+        
         <div className="carouselContainer">
         <div className="overlay"><h1>UTAH'S AGGRESSIVE LAW FIRM</h1><h2>OGDEN BASED PERSONAL INJURY, BANKRUPTCY, FAMILY AND CRIMINAL LAWYERS</h2></div>
         <Carousel></Carousel>
@@ -82,7 +81,7 @@ class App extends Component {
               defense and an Advocate for the protection of your Rights.
             </p>
           </div>
-        </Tabs>=======
+        </Tabs>
         </section>
 
         <AboutUs></AboutUs>
