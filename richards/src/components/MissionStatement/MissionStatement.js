@@ -6,13 +6,6 @@ import "./MissionStatement.css";
 const MissionStatement = props => (
   <section id="msSection">
   
-  <div className="row" id="msRow">
-  <div className="col-md-3"></div>
-  <div className="col-md-6">
-  <div><h1 id="missionStatement">OGDEN BASED PERSONAL INJURY, BANKRUPTCY, FAMILY AND CRIMINAL LAWYERS</h1></div>
-    </div>
-  <div className="col-md-3"></div>       
-  </div>
   <div className="row" id="iconRow">
   <div className="col-md-1"></div>
   <div className="col-md-2">
