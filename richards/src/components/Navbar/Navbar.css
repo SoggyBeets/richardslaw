@@ -1,6 +1,8 @@
-nav{
-  background-color: rgb(33, 25, 39);
-  padding: 18px; 
+nav {
+  background-color: white;
+  height: 70px;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -9,47 +11,112 @@ h1 {
   font-family: roboto;
   margin-bottom: 0rem;
   font-weight: 500;
-  line-height: .9;
+  line-height: 0.9;
 }
 
-.navlogin{
-  color: white;
-  padding-right: 6px;
+#logo {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -30px;
+  border-radius: 50%;
+  width: 165px;
+  height: 165px;
+  border: 1px;
+  border-style: solid;
+  border-color: lightgrey;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.28);
+  z-index: 99;
 }
 
-#loginbtn{
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
-  background: rgba(33, 25, 39);
-  border: none;
-  font-size: large;
-  padding: 10px;
+#icon {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
-input {
-  width: 62%;
-  padding: 9px;
-  border: 2px solid white;
-  border-radius: 22px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  background:  rgba(33, 25, 39);
-  font-family: sans-serif;
-  color: white; 
+#phone {
+  font-size: 1.5rem;
+  line-height: .5rem;
 }
 
-::placeholder {
-  color: rgba(255, 255, 255, 0.25);
-  opacity: 1; /* Firefox */
-  padding-left: 5px;
+#phone h3{
+  font-size: 1.7rem;
+  padding-top: 5px;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
- color:rgba(255, 255, 255, 0.25);
- padding-left: 5px;
+#menu h3 {
+  font-size: 1.5rem;
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
- color: rgba(255, 255, 255, 0.25);
- padding-left: 5px;
+#menu {
+  position: absolute;
+  left: 110px;
+  right: 0;
+  top: 21px;
+ }
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 31px;
+  height: 23px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 23px;
 }
+ 
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: lightgray;
+}
+ 
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #2d4897;
+}
+ 
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+ 
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #2d4897;
+}
+ 
+/* General sidebar styles */
+.bm-menu {
+  background: white;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+ 
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+ 
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+ 
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+ 
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
