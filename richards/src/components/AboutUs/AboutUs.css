@@ -1,11 +1,3 @@
-h1 {
-  font-size: 2.5rem;
-  color: white;
-  font-family: roboto;
-  margin-bottom: 0rem;
-  font-weight: 500;
-  line-height: 0.9;
-}
 
 .card-body {
   background-color: #2d4897;
@@ -41,8 +33,8 @@ h1 {
   padding-left: 2px;
 } */
 
-#kevin .myElement {
-}
+/* #kevin .myElement {
+} */
 
 #kevin:hover #jaime{
   opacity: 0;

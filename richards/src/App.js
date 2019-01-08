@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-// import MissionStatement from "./components/MissionStatement";
 import AboutUs from "./components/AboutUs";
 import Google from "./components/Google";
-// import Contact from './components/Contact';
 import Facebook from "./components/Facebook";
 import Instagram from "./components/Instagram";
 import Footer from "./components/Footer";
 import Tabs from "./components/Tabs";
 import Carousel from "./components/Carousel";
+import MissionStatement from "./components/MissionStatement";
 
 class App extends Component {
   render() {
@@ -17,16 +16,19 @@ class App extends Component {
       <div className="App">
         <Navbar />
 
-        <div className="carouselContainer">
+        {/* <div className="carouselContainer">
           <div className="overlay">
-            <h1>UTAH'S AGGRESSIVE LAW FIRM</h1>
+            <h1>UTAH'S LAW FIRM</h1>
             <h2>
               OGDEN BASED PERSONAL INJURY, BANKRUPTCY, FAMILY AND CRIMINAL
-              LAWYERS
+              LAWYERS WITH SOME YARS OF EXPERIENCE.
             </h2>
-          </div>
-          <Carousel />
-        </div>
+          </div> */}
+        <Carousel>
+    
+       </Carousel>
+
+        {/* </div> */}
         <section id="tabSection">
           {/* <MissionStatement /> */}
 

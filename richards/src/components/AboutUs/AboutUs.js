@@ -1,8 +1,6 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import "./AboutUs.css";
 
-// Depending on the current path, this component sets the "active" className on the appropriate navigation link item
 const AboutUs = props => (
   <section id="aboutUs">
       <div className="row">

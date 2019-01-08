@@ -8,6 +8,7 @@ import {
 } from "reactstrap";
 
 const items = [
+  
   {
     src:
     "https://media.gettyimages.com/photos/mount-ogden-wasatch-mountains-picture-id148515187"
@@ -29,6 +30,7 @@ const items = [
 ];
 
 class Example extends Component {
+  
   constructor(props) {
     super(props);
     this.state = { activeIndex: 0 };
@@ -75,6 +77,7 @@ class Example extends Component {
 
     const slides = items.map(item => {
       return (
+        
         <CarouselItem
           onExiting={this.onExiting}
           onExited={this.onExited}
