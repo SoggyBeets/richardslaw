@@ -28,7 +28,7 @@ const Footer = () => (
 Ogden, UT 84401 
 Main Phone: (801) 621-7443 </h3></div> 
   <div className="col-md-4">
-  <div id="richardsbrand"><h1 style={hOneStyle}>Thier Logo</h1><h3>Copy Right 2018</h3><h2>Made By SoggyBeets</h2></div>
+  <div id="richardsbrand"><h1 style={hOneStyle}>Their Logo</h1><h3>Copy Right 2018</h3><h2>Made By SoggyBeets</h2></div>
     </div>
   <div className="col-md-4"><h2>Links</h2>     
   </div>
