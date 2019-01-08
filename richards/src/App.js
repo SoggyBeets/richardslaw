@@ -5,11 +5,12 @@ import Navbar from "./components/Navbar";
 import AboutUs from "./components/AboutUs";
 import Google from "./components/Google";
 // import Contact from './components/Contact';
-import Facebook from "./components/Facebook";
-import Instagram from "./components/Instagram";
-import Footer from "./components/Footer";
-import Tabs from "./components/Tabs";
-import Carousel from "./components/Carousel";
+import Facebook from './components/Facebook';
+import Instagram from './components/Instagram';
+import Footer from './components/Footer';
+import Tabs from './components/Tabs';
+import Carousel from './components/Carousel'
+
 
 class App extends Component {
   render() {
@@ -17,9 +18,15 @@ class App extends Component {
       <div className="App">
         <Navbar />
 
-        <Carousel />
 
-        {/* <MissionStatement></MissionStatement> */}
+        <Navbar></Navbar>
+        <div className="carouselContainer">
+        <div className="overlay"><h1>UTAH'S AGGRESSIVE LAW FIRM</h1><h2>OGDEN BASED PERSONAL INJURY, BANKRUPTCY, FAMILY AND CRIMINAL LAWYERS</h2></div>
+        <Carousel></Carousel>
+        </div>  
+        <section id="tabSection">
+        <MissionStatement></MissionStatement>
+
 
         <Tabs>
           <div label="injuryLaw">
@@ -75,9 +82,11 @@ class App extends Component {
               defense and an Advocate for the protection of your Rights.
             </p>
           </div>
-        </Tabs>
+        </Tabs>=======
+        </section>
 
-        <AboutUs />
+        <AboutUs></AboutUs>
+
         <div className="row">
           <div className="col-md-2" />
           <div className="col-md-4">

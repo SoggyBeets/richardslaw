@@ -5,6 +5,7 @@ import "./AboutUs.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const AboutUs = props => (
   <section id="aboutUs">
+
     <div className="row">
       <div className="col-md-6" id="kevin">
         {" "}
@@ -34,6 +35,8 @@ const AboutUs = props => (
         </div>
       </div>
     </div>
+
+
   </section>
 );
 
