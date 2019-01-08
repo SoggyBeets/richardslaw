@@ -66,12 +66,14 @@ With RBR Law you get an Aggressive defense and an Advocate for the protection of
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6">
+        <div className="col-md-2"></div>
+          <div className="col-md-4">
             <Facebook></Facebook>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-4">
             <Instagram></Instagram>
           </div>
+          <div className="col-md-2"></div>
         </div>
         <Footer></Footer>
       </div>
