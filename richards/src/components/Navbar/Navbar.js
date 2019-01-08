@@ -20,7 +20,7 @@ const Navbar = props => (
       <div id="icon" />
       <div className="col-md-4" id="phone">
         <h3>Get Help Now!</h3>
-        <a href="tel:+1-555-555-1212">555-555-1212</a>
+        <a href="tel:+1-801-621-7443">801-621-7443</a>
       </div>
     </div>
   </nav>
