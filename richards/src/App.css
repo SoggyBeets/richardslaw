@@ -57,3 +57,20 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
+
+#tabSection{
+  background-image: linear-gradient(rgb(10, 10, 43), rgb(48, 48, 77));
+}
+
+.carouselContainer{
+  position:relative;
+}
+.overlay { 
+  color:#fff;
+  position:absolute;
+  z-index:12;
+  top:20%;
+  left:0;
+  width:100%;
+  text-align:center;
+}

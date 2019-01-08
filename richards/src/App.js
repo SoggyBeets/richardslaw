@@ -11,16 +11,17 @@ import Footer from './components/Footer';
 import Tabs from './components/Tabs';
 import Carousel from './components/Carousel'
 
-
 class App extends Component {
   render() {
     return (
       <div className="App">
 
         <Navbar></Navbar>
-           
-        <Carousel></Carousel>  
-
+        <div className="carouselContainer">
+        <div className="overlay"><h1>UTAH'S AGGRESSIVE LAW FIRM</h1><h2>OGDEN BASED PERSONAL INJURY, BANKRUPTCY, FAMILY AND CRIMINAL LAWYERS</h2></div>
+        <Carousel></Carousel>
+        </div>  
+        <section id="tabSection">
         <MissionStatement></MissionStatement>
 
         <Tabs>
@@ -53,7 +54,7 @@ Every second counts, and your Lawyer’s experience counts. Your future, your jo
 With RBR Law you get an Aggressive defense and an Advocate for the protection of your Rights.</p>
           </div>
         </Tabs>
-
+        </section>
 
         <AboutUs></AboutUs>
         <div className="row">
