@@ -11,21 +11,17 @@ import Carousel from "./components/Carousel";
 // import MissionStatement from "./components/MissionStatement";
 import Form from "./components/Form";
 
-
-
 class App extends Component {
   render() {
     return (
       <div className="App">
-
         <Navbar />
         <Carousel />
-   
+
         <section id="tabSection">
-        {/* <MissionStatement></MissionStatement> */}
+          {/* <MissionStatement></MissionStatement> */}
 
-
-        <Tabs></Tabs>
+          <Tabs />
         </section>
 
         <AboutUs />

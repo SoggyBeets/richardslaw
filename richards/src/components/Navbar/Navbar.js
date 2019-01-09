@@ -39,7 +39,6 @@ const Navbar = props => (
         <h3>Get Help Now!</h3>
         <a href="tel:+1-801-621-7443">801-621-7443</a>
       </div>
-    </div>
   </nav>
 );
 
