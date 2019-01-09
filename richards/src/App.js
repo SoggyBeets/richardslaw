@@ -8,7 +8,6 @@ import Instagram from "./components/Instagram";
 import Footer from "./components/Footer";
 import Tabs from "./components/Tabs";
 import Carousel from "./components/Carousel";
-// import MissionStatement from "./components/MissionStatement";
 import Form from "./components/Form";
 
 class App extends Component {
@@ -17,34 +16,27 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Carousel />
-
+        <Form />
         <section id="tabSection">
-          {/* <MissionStatement></MissionStatement> */}
-
           <Tabs />
         </section>
 
         <AboutUs />
 
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <Google />
-            </div>
-            <div class="col">
-              <Form />
-            </div>
+        <div className="row" id="googlemaps">
+          <div className="col">
+            <Google />
           </div>
         </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <Facebook />
-            </div>
-            <div class="col">
-              <Instagram />
-            </div>
+        <div className="row" id="socialfeeds">
+          <div className="col-6" id="fbfeed">
+          <div className="test">
+            <Facebook />
+          </div>
+          </div>
+          <div className="col-6" id="instafeed">
+            <Instagram />
           </div>
         </div>
 
