@@ -8,25 +8,15 @@ import Instagram from "./components/Instagram";
 import Footer from "./components/Footer";
 import Tabs from "./components/Tabs";
 import Carousel from "./components/Carousel";
-import MissionStatement from "./components/MissionStatement";
+// import MissionStatement from "./components/MissionStatement";
+import Form from "./components/Form";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar />
-
-        {/* <div className="carouselContainer">
-          <div className="overlay">
-            <h1>UTAH'S LAW FIRM</h1>
-            <h2>
-              OGDEN BASED PERSONAL INJURY, BANKRUPTCY, FAMILY AND CRIMINAL
-              LAWYERS WITH SOME YARS OF EXPERIENCE.
-            </h2>
-          </div> */}
-        <Carousel>
-    
-       </Carousel>
+        <Carousel />
 
         {/* </div> */}
         <section id="tabSection">
@@ -90,18 +80,28 @@ class App extends Component {
 
         <AboutUs />
 
-        <div className="row">
-          <div className="col-md-4">
-            <Google />
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <Google />
+            </div>
+            <div class="col">
+              <Form />
+            </div>
           </div>
-          <div className="col-md-4">
-            <Facebook />
-          </div>
-          <div className="col-md-4">
-            <Instagram />
-          </div>
-          {/* <div className="col-md-2"></div> */}
         </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <Facebook />
+            </div>
+            <div class="col">
+              <Instagram />
+            </div>
+          </div>
+        </div>
+
         <Footer />
       </div>
     );
