@@ -1,4 +1,7 @@
 #footerRow{
-  background-color: rgb(33, 25, 39);
+  height: 8vh;
+  width: 100%;
+  color: aqua;
+  background-color: white;
   padding: 18px; 
 }

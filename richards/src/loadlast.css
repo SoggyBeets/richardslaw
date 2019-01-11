@@ -1,0 +1,66 @@
+.carousel-item > img {
+  width: 100%;
+  height: 500px;
+}
+
+.float {
+  display: flex;
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 9998;
+  right: 60px;
+  bottom: 20px;
+  width: 240px;
+  height: 56px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28);
+  background: #2d4897;
+}
+
+.eapps-form-floating-button {
+  bottom: 45px;
+  width: 60px;
+  height: 60px;
+  right: 30px;
+}
+
+.eapps-facebook-feed-inner {
+  background: #fafafa;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0px;
+  width: 100%;
+  border: 5px solid #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 30rem;
+  width: 100%;
+}
+
+#socialfeeds {
+  height: 30rem;
+}
+
+.eapps-instagram-feed {
+  height: 100%;
+  width: 100%;
+  max-height: 30rem;
+  max-width: 30rem;
+}
+
+#eapps-google-maps-1 .eapps-google-maps {
+  width: 100%;
+  height: 30rem;
+}
+
+.eapps-google-maps-has-error.eapps-google-maps-debug
+  .eapps-google-maps-content {
+  min-height: 30rem;
+}
+
+.row {
+  height: 30rem;
+}

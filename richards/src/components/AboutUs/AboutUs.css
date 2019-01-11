@@ -1,47 +1,63 @@
+#aboutusrow {
+  width: 100vw;
+  height: 55vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+#ascol {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+#kevin {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#jaime {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.kevinimg {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.jaimeimg {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
 
 .card-body {
+  position: absolute;
   background-color: #2d4897;
-  opacity: 0.8;
+  opacity: 0.7;
   width: 100%;
   height: 13%;
   bottom: 0;
   line-height: 1px;
+  overflow: hidden;
 }
 
 .card-body h5 {
   color: white;
   line-height: 0.7rem;
   font-size: 1.5rem;
-}
-
-.card-title {
-  font-family: "Raleway", sans-serif;
-  color: white;
-  opacity: 1;
-}
-
-.card-img-top {
-  height: 500px;
-  width: 100%;
-}
-
-/* #kevin {
-  padding-right: 2px;
-}
-
-#jaime {
-  padding-left: 2px;
-} */
-
-/* #kevin .myElement {
-} */
-
-#kevin:hover #jaime{
-  opacity: 0;
-}
-
-#h {
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
+  overflow: hidden;
 }
