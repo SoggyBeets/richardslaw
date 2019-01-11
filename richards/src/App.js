@@ -16,10 +16,12 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Carousel />
-        <Form />
+
         <section id="tabSection">
           <Tabs />
         </section>
+
+        <Form />
 
         <AboutUs />
 
@@ -31,9 +33,9 @@ class App extends Component {
 
         <div className="row" id="socialfeeds">
           <div className="col-6" id="fbfeed">
-          <div className="test">
-            <Facebook />
-          </div>
+            <div className="test">
+              <Facebook />
+            </div>
           </div>
           <div className="col-6" id="instafeed">
             <Instagram />

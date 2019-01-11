@@ -7,7 +7,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+
     <meta name="theme-color" content="#000000" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Anton"
@@ -30,8 +33,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
     <script
       src="https://code.jquery.com/jquery-3.3.1.js"
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -46,109 +47,49 @@
       integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1"
       crossorigin="anonymous"
     ></script>
-    <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
 
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Richards Law</title>
   </head>
+
   <body>
+
     <noscript> You need to enable JavaScript to run this app. </noscript>
 
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <div class="float">Have Questions?</div>
+  </body>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-    <div class="float">Have a question?</div>
-    <style>
-      .carousel-item > img {
-        width: 100%;
-        height: 500px;
-      }
-
-      .float {
-        display: flex;
-        font-size: 20px;
-        color: white;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        z-index: 9998;
-        right: 60px;
-        bottom: 20px;
-        width: 240px;
-        height: 56px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28);
-        background: #2d4897;
-      }
-
-      .eapps-form-floating-button {
-        bottom: 45px;
-        width: 60px;
-        height: 60px;
-        right: 30px;
-      }
-
-      .eapps-facebook-feed-inner {
-        background: #fafafa;
-        overflow: hidden;
-        position: relative;
-        border-radius: 0px;
-        width: 100%;
-        border: 5px solid #f1f1f1;
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-        height: 30rem;
-        width: 100%;
-      }
-
-      #socialfeeds {
-        height: 30rem;
-      }
-
-      .eapps-instagram-feed {
-        height: 100%;
-        width: 100%;
-        max-height: 30rem;
-        max-width: 30rem;
-      }
-
-    
-
-      #eapps-google-maps-1 .eapps-google-maps {
-         width: 100%;    
-         height: 30rem;  
+  <style>
+    .eapps-form-floating-button {
+      bottom: 1.6rem;
+      width: 2.75rem;
+      height: 2.75rem;
+      right: 1.6rem;
     }
 
-    .eapps-google-maps-has-error.eapps-google-maps-debug .eapps-google-maps-content {
-  min-height: 30rem;
-}
+    .eapps-facebook-feed-inner {
+      background: #fafafa;
+      overflow: hidden;
+      position: relative;
+      border-radius: 0px;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      height: 45vh;
+      width: 100%;
+    }
 
+    .eapps-instagram-feed {
+      height: 100%;
+      width: 100%;
+      max-height: 45vh;
+      max-width: 100%;
+    }
 
-      .row {
-        height: 30rem;
-        /* border-style: solid;
-        border-width: 5px;
-        border-color: palegreen; */
-      }
-    </style>
-  </body>
+    #eapps-google-maps-1 .eapps-google-maps {
+      width: 100%;
+      height: 55vh;
+    }
+  </style>
 </html>

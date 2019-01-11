@@ -6,7 +6,7 @@ import "./Google.css";
 const Google = () => (
   <div>
   <div className="row">
-  <div className="col-md-12"><div className="elfsight-app-b594ca64-b2d3-41bd-8a5f-d1040cd8f505"></div></div>
+  <div className="col"><div className="elfsight-app-b594ca64-b2d3-41bd-8a5f-d1040cd8f505"></div></div>
   </div>
   </div>
 );

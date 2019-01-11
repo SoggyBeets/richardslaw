@@ -1,0 +1,22 @@
+.float {
+    display: flex;
+    font-size: .7rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9998;
+    right: 3rem;
+    bottom: 1rem;
+    width: 9rem;
+    height: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28);
+    background: #2d4897;
+  }
+
+  #formrow {
+    height: 40vh;
+  
+  }
+
+  

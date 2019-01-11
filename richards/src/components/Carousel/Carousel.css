@@ -1,3 +1,13 @@
 .carousel-inner {
   opacity: 0.75;
 }
+
+.carousel-item > img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.carousel-item {
+  height: 16rem;
+}

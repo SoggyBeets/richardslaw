@@ -22,15 +22,15 @@ const hThreeStyle = {
 const Footer = () => (
   <footer>
   <div className="row" id="footerRow">
-  <div className="col-md-4"><h2 style={hTwoStyle} >Contact</h2>
+  <div className="col"><h2 style={hTwoStyle} >Contact</h2>
   <h3 style={hThreeStyle}>RBR Law Group - Bankruptcy, Car Accident and Criminal Attorneys
 289 24th St Suite 101 
 Ogden, UT 84401 
 Main Phone: (801) 621-7443 </h3></div> 
-  <div className="col-md-4">
+  <div className="col">
   <div id="richardsbrand"><h1 style={hOneStyle}>Their Logo</h1><h3>Copy Right 2018</h3><h2>Made By SoggyBeets</h2></div>
     </div>
-  <div className="col-md-4"><h2>Links</h2>     
+  <div className="col"><h2>Links</h2>     
   </div>
   </div>
   </footer>

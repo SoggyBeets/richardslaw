@@ -1,15 +1,19 @@
 import React from "react";
 import "./Navbar.css";
 import Hamburger from "../Hamburger";
+
+
+
 const Navbar = props => (
+
   <nav>
     <div className="row" id="navbarRow">
-      <div className="col" id="button">
+      <div className="col">
         <div id="hambuger">
           <Hamburger />
         </div>
         <div id="menu">
-          <h3>Menu</h3>
+          <h6>Menu</h6>
         </div>
       </div>
       <div className="col" id="logodiv">
@@ -17,7 +21,7 @@ const Navbar = props => (
       </div>
       <div id="icon" />
       <div className="col" id="phone">
-        <h3>Get Help Now!</h3>
+        <h6>Get Help Now!</h6>
         <a href="tel:+1-801-621-7443">801-621-7443</a>
       </div>
     </div>

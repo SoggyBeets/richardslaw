@@ -3,11 +3,12 @@ import "./AboutUs.css";
 
 const AboutUs = props => (
   <section id="aboutUs">
-    <div className="row">
-      <div className="col" id="kevin">
-        <div className="card">
+  
+    <div className="row" id="aboutusrow">
+      <div className="col" id="ascol">
+        <div className="card" id="kevin">
           <img
-            className="card-img-top"
+            className="kevinimg"
             src={require("../AboutUs/Kevin.jpg")}
             alt="Card cap"
           />
@@ -18,10 +19,10 @@ const AboutUs = props => (
         </div>
       </div>
 
-      <div className="col" id="jaime">
-        <div className="card">
+      <div className="col" id="ascol">
+        <div className="card" id="jaime">
           <img
-            className="card-img-top"
+            className="jaimeimg"
             src={require("../AboutUs/Jaime.jpg")}
             alt="Card cap"
           />
@@ -32,6 +33,7 @@ const AboutUs = props => (
         </div>
       </div>
     </div>
+    
   </section>
 );
 
