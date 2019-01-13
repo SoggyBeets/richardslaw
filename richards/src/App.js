@@ -14,35 +14,50 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
-        <Carousel />
+    
+         
+            <Navbar />
+         
+            <Carousel />
+          
 
-        <section id="tabSection">
+        {/* <section id="tabSection">
           <Tabs />
-        </section>
-
-        <Form />
-
-        <AboutUs />
-
-        <div className="row" id="googlemaps">
-          <div className="col">
-            <Google />
-          </div>
-        </div>
-
-        <div className="row" id="socialfeeds">
-          <div className="col-6" id="fbfeed">
-            <div className="test">
-              <Facebook />
+        </section> */}
+        <div className="row no-gutters" id="ttabs">
+            <div className="col-12">
             </div>
           </div>
-          <div className="col-6" id="instafeed">
-            <Instagram />
+
+
+       
+
+        <AboutUs />
+        <Form />
+        
+          <div className="row no-gutters" id="googlemaps">
+            <div className="col-12">
+              <Google />
+            </div>
           </div>
-        </div>
+      
+
+    
+          <div className="row no-gutters" id="socialfeeds">
+            <div className="col-6" id="fbfeed">
+              <div className="test">
+                <Facebook />
+              </div>
+            </div>
+            <div className="col-6" id="instafeed">
+              <Instagram />
+            </div>
+          </div>
+      
+
 
         <Footer />
+        <div className="elfsight-app-14fd1b7f-cef3-4c59-add5-8558eec9bf75" />
       </div>
     );
   }

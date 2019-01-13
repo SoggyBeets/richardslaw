@@ -1,8 +1,15 @@
 nav {
   background-color: white;
-  height: 2.5rem;
+  height: 3rem;
   width: 100%;
-  font-family: 'Raleway', sans-serif;
+  z-index: 5;
+}
+
+
+#phone {
+  line-height: .01rem;
+  top: .25rem;
+  left: -1.5rem;
 }
 
 #logo {
@@ -12,92 +19,22 @@ nav {
   right: 0;
   top: -1rem;
   border-radius: 50%;
-  width: 5.5rem;
-  height: 5.5rem;
-  border: .05rem;
-  border-style: solid;
-  border-color: lightgrey;
+  width: 7rem;
+  height: 7rem;
   background: rgb(255, 255, 255);
-  box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.28);
+  box-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.28);
   z-index: 999;
 }
 
-#icon {
+/* #icon {
   margin: auto;
   position: absolute;
   left: 0;
   right: 0;
-  z-index: 999;
-}
+  z-index: 9999;
+} */
 
-#phone {
-  line-height: .01rem;
+#q {
+  top: .5rem;
+  right: -1.5rem;
 }
-
-#menu {
-  position: absolute;
-  left: 4.7rem;
-  right: 0;
-  top: .65rem;
- }
-
-/* Position and sizing of burger button */
-.bm-burger-button {
-  position: absolute;
-  width: 1.5rem;
-  height: 1rem;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: .75rem;
-}
- 
-/* Color/shape of burger icon bars */
-.bm-burger-bars {
-  background: lightgray;
-}
- 
-/* Color/shape of burger icon bars on hover*/
-.bm-burger-bars-hover {
-  background: #2d4897;
-}
- 
-/* Position and sizing of clickable cross button */
-.bm-cross-button {
-  height: 1.5rem;
-  width: 1.5rem;
-}
- 
-/* Color/shape of close button cross */
-.bm-cross {
-  background: #2d4897;
-}
- 
-/* General sidebar styles */
-.bm-menu {
-  background: white;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
-}
- 
-/* Morph shape necessary with bubble or elastic */
-.bm-morph-shape {
-  fill: #373a47;
-}
- 
-/* Wrapper for item list */
-.bm-item-list {
-  color: #b8b7ad;
-  padding: 0.8em;
-}
- 
-/* Individual item */
-.bm-item {
-  display: inline-block;
-}
- 
-/* Styling of overlay */
-.bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
-}
-

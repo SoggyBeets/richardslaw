@@ -1,63 +1,27 @@
 #aboutusrow {
-  width: 100vw;
-  height: 55vh;
+  height: 30rem;
   overflow: hidden;
   padding: 0;
   margin: 0;
+  
 }
 
-#ascol {
-  position: relative;
-  padding: 0;
-  margin: 0;
+#img-card-body {
+  border-style: solid;
+  border-width: 0 .2rem 0 0;
+  border-color: #ffd54f;
+
 }
 
-#kevin {
-  position: absolute;
-  left: 0;
-  top: 0;
-  padding: 0;
-  margin: 0;
-}
-
-#jaime {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 0;
-  margin: 0;
-}
-
-.kevinimg {
-  max-width: 100%;
-  height: auto;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-}
-
-.jaimeimg {
-  max-width: 100%;
-  height: auto;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-}
-
-.card-body {
-  position: absolute;
-  background-color: #2d4897;
-  opacity: 0.7;
-  width: 100%;
-  height: 13%;
-  bottom: 0;
-  line-height: 1px;
+.imgcardimg {
+  width: auto;
+  height: 100%;
   overflow: hidden;
 }
 
-.card-body h5 {
-  color: white;
-  line-height: 0.7rem;
-  font-size: 1.5rem;
-  overflow: hidden;
+#txt-card-body {
+  font-family: "Libre Franklin", sans-serif;
+  background-color: #bbdefb;
+  padding: 1.75rem 1.25rem 1.75rem 1.25rem;
 }
+

@@ -5,6 +5,7 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-49773369-2"
     ></script>
+
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -16,44 +17,24 @@
     </script>
 
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="shortcut icon" href="/richards/public/favicon.ico" />
+    <link rel="manifest" href="/richards/public/manifest.json" />
+
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
     <meta name="theme-color" content="#000000" />
-
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Anton"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway"
-      rel="stylesheet"
-    />
 
     <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css?family=Libre+Franklin"
       rel="stylesheet"
-      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-      crossorigin="anonymous"
     />
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"
-      integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.js"
-      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-      crossorigin="anonymous"
-    ></script>
-
-    <script src="https://apps.elfsight.com/p/platform.js"></script>
 
     <script
       defer
@@ -62,18 +43,26 @@
       crossorigin="anonymous"
     ></script>
 
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://apps.elfsight.com/p/platform.js"></script>
+
     <title>Richards Law</title>
   </head>
 
   <body>
     <noscript> You need to enable JavaScript to run this app. </noscript>
-
     <div id="root"></div>
-
     <div class="float">Have Questions?</div>
+    <div class="grey1"></div>
   </body>
 
   <style>
+
     .eapps-form-floating-button {
       bottom: 1.6rem;
       width: 2.75rem;
@@ -102,7 +91,23 @@
 
     #eapps-google-maps-1 .eapps-google-maps {
       width: 100%;
-      height: 55vh;
+      height: 25rem;
+    }
+
+    .float {
+      display: flex;
+      font-size: 0.7rem;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      z-index: 9998;
+      right: 3rem;
+      bottom: 1rem;
+      width: 9rem;
+      height: 2rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28);
+      background: #2d4897;
     }
   </style>
 </html>
