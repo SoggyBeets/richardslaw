@@ -6,7 +6,7 @@ import Google from "./components/Google";
 import Facebook from "./components/Facebook";
 import Instagram from "./components/Instagram";
 import Footer from "./components/Footer";
-import Tabs from "./components/Tabs";
+// import Tabs from "./components/Tabs";
 import Carousel from "./components/Carousel";
 import Form from "./components/Form";
 
@@ -24,8 +24,11 @@ class App extends Component {
         {/* <section id="tabSection">
           <Tabs />
         </section> */}
+
+        
         <div className="row no-gutters" id="ttabs">
             <div className="col-12">
+            
             </div>
           </div>
 
@@ -44,12 +47,12 @@ class App extends Component {
 
     
           <div className="row no-gutters" id="socialfeeds">
-            <div className="col-6" id="fbfeed">
+            <div className="col-xs-12 col-md-6" id="fbfeed">
               <div className="test">
                 <Facebook />
               </div>
             </div>
-            <div className="col-6" id="instafeed">
+            <div className="col-xs-12 col-md-6" id="instafeed">
               <Instagram />
             </div>
           </div>
@@ -57,7 +60,6 @@ class App extends Component {
 
 
         <Footer />
-        <div className="elfsight-app-14fd1b7f-cef3-4c59-add5-8558eec9bf75" />
       </div>
     );
   }

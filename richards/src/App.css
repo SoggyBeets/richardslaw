@@ -3,24 +3,24 @@
   outline-offset: -1px;
 } */
 
+
 html {
-  width: 100vw;
-  height: 100vw;
-  font-size: 1rem;
-  overflow-x: hidden;
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+.App {
+  overflow: hidden !important;
 }
 
 .grey1 {
   width: 100vw;
   height: 30rem;
   background-color: lightgrey;
-  opacity: .25;
+  opacity: 0.25;
   z-index: -999;
-
   position: absolute;
 }
-
-
 
 .App {
   margin: auto;
@@ -41,7 +41,7 @@ html {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-itrems: center;
+  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -156,9 +156,6 @@ h6 {
   background-image: linear-gradient(rgb(10, 10, 43), rgb(48, 48, 77));
 } */
 
-
-
-
 #ttabs {
   background-color: lightgrey;
   height: 13rem;
@@ -166,11 +163,8 @@ h6 {
 
 #googlemaps {
   height: 25.85rem;
- 
 }
-
 
 #socialfeeds {
-  height: 30rem;
+  height: 26rem;
 }
-

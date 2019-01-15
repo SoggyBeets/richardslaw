@@ -4,7 +4,7 @@ import "./AboutUs.css";
 const AboutUs = props => (
   <section id="aboutUs">
     <div className="row no-gutters" id="aboutusrow">
-      <div className="col-6" id="img-card-body">
+      <div className="col-xs-12 col-md-6" id="img-card-body">
         <img
           className="imgcardimg"
           src="http://www.studentworldonline.com/userfiles/images/Courses/Law/giammarco-boscaro-380907.jpg"
@@ -12,7 +12,7 @@ const AboutUs = props => (
         />
       </div>
 
-      <div className="col-6" id="txt-card-body">
+      <div className="col-xs-12 col-md-6" id="txt-card-body">
         <p>
           The attorneys at Richards & Richards Law Group, P.C. offer legal
           advice and representation to clients throughout Northern Utah. We are

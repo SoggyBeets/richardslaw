@@ -15,8 +15,8 @@
 
 .imgcardimg {
   width: auto;
-  height: 100%;
-  overflow: hidden;
+  height: 30rem;
+  /* overflow: hidden; */
 }
 
 #txt-card-body {
