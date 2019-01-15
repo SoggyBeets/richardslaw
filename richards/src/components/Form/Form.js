@@ -3,17 +3,16 @@ import "./Form.css";
 
 const Form = props => (
 
-<div className="row" id="formrow">
-        <div className="col" id="questionscol">
-            <div className="questionscard">
-                <div><h1>Questionsdafdjas;fldjasf</h1></div>
-            </div>
-        </div>
+<div className="row no-gutters" id="formrow">
+      <div className="col-xs-12 col-md-6" id="formcta">
+        
+      </div>
 
-        <div className="col" id="form">
-        <div className="elfsight-app-14fd1b7f-cef3-4c59-add5-8558eec9bf75" />
-        </div>
-</div>
+      <div className="col-xs-12 col-md-6" id="formcolor">
+       
+      </div>
+    </div>
+  /* <div className="elfsight-app-14fd1b7f-cef3-4c59-add5-8558eec9bf75" /> */
 
 );
 

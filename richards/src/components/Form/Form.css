@@ -15,8 +15,16 @@
   }
 
   #formrow {
-    height: 40vh;
-  
+    height: 15rem;
+  }
+
+  #formcolor {
+    
+  }
+
+  #formcta {
+    font-family: "Libre Franklin", sans-serif;
+  background-color: #ffeb3b;
   }
 
   

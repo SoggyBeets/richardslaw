@@ -6,7 +6,7 @@ import Google from "./components/Google";
 import Facebook from "./components/Facebook";
 import Instagram from "./components/Instagram";
 import Footer from "./components/Footer";
-import Tabs from "./components/Tabs";
+// import Tabs from "./components/Tabs";
 import Carousel from "./components/Carousel";
 import Form from "./components/Form";
 
@@ -14,33 +14,50 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
-        <Carousel />
+    
+         
+            <Navbar />
+         
+            <Carousel />
+          
 
-        <section id="tabSection">
+        {/* <section id="tabSection">
           <Tabs />
-        </section>
+        </section> */}
 
-        <Form />
-
-        <AboutUs />
-
-        <div className="row" id="googlemaps">
-          <div className="col">
-            <Google />
-          </div>
-        </div>
-
-        <div className="row" id="socialfeeds">
-          <div className="col-6" id="fbfeed">
-            <div className="test">
-              <Facebook />
+        
+        <div className="row no-gutters" id="ttabs">
+            <div className="col-12">
+            
             </div>
           </div>
-          <div className="col-6" id="instafeed">
-            <Instagram />
+
+
+       
+
+        <AboutUs />
+        <Form />
+        
+          <div className="row no-gutters" id="googlemaps">
+            <div className="col-12">
+              <Google />
+            </div>
           </div>
-        </div>
+      
+
+    
+          <div className="row no-gutters" id="socialfeeds">
+            <div className="col-xs-12 col-md-6" id="fbfeed">
+              <div className="test">
+                <Facebook />
+              </div>
+            </div>
+            <div className="col-xs-12 col-md-6" id="instafeed">
+              <Instagram />
+            </div>
+          </div>
+      
+
 
         <Footer />
       </div>
