@@ -22,16 +22,18 @@ library.add(fab, faCarrot, faBalanceScale, faRocket)
 
 const hThreeStyle = {
   fontFamily: 'Roboto',
-  color: 'white',
-  fontSize: '1em',
+  color: 'black',
+  fontSize: '1rem',
   fontWeight: '200',
   marginLeft: '1rem',
   marginRight: '1rem',
+  padding: '0rem'
 }
+
 const copyrightStyle = {
   fontFamily: 'Roboto',
-  color: 'rgba(255, 255, 255, .5)',
-  fontSize: '1em',
+  color: 'grey',
+  fontSize: '.75rem',
   fontWeight: '200',
   marginLeft: '1rem',
   marginRight: '1rem'
@@ -45,7 +47,7 @@ const copyrightStyle = {
 // }
 
 const google = {
-  fontSize: '3.5rem',
+  fontSize: '2.65rem',
   color: '#3cba54',
   padding: '10px'
 }
@@ -57,12 +59,12 @@ const ourLogo = {
 }
 
 const fb = {
-  fontSize: '4rem',
+  fontSize: '3rem',
   color: '#3b5998',
   padding: '10px'
 }
 const insta = {
-  fontSize: '4rem',
+  fontSize: '3rem',
   color: '#e95950',
   padding: '10px'
 }
@@ -70,34 +72,33 @@ const insta = {
 const iconLinks = {
   marginLeft: '1rem',
   marginRight: '1rem',
-  padding: '.5rem'
+  padding: '0rem'
 }
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Footer = () => (
   <footer>
     <div className="row" id="footerRow">
 
-      <div className="col-md-4">
-      </div>
-      <div className="col-md-4">
-
-        <div style={iconLinks}>
-          <h3 style={hThreeStyle}>RBR Law Group - Bankruptcy, Car Accident and Criminal Attorneys
-        289 24th St Suite 101 Ogden, UT 84401 Main Phone: (801) 621-7443 </h3>
-        </div>
-
-        <div style={iconLinks}>
+      <div className="col-md-2">
+      <div style={iconLinks}>
           <FontAwesomeIcon icon={['fab', 'google']} style={google} />
           <FontAwesomeIcon icon={['fab', 'facebook']} style={fb} />
           <FontAwesomeIcon icon={['fab', 'instagram']} style={insta} />
         </div>
+      </div>
 
+      <div className="col-md-4">
         <div style={iconLinks}>
-          {/* <FontAwesomeIcon icon="rocket" style={richardsLogo} /> */}
-          <h3 style={copyrightStyle}>Copyright 2019. Created By<FontAwesomeIcon icon="carrot" style={ourLogo} />SoggyBeets.</h3>
+          <h3 style={hThreeStyle}>RBR Law Group - Bankruptcy, Car Accident and Criminal Attorneys
+        289 24th St Suite 101 Ogden, UT 84401 Main Phone: (801) 621-7443 </h3>
+        </div>
         </div>
 
-        <div className="col-md-4">
+        <div className="col-md-3"></div>
+        <div className="col-md-3">
+        <div style={iconLinks}>
+          {/* <FontAwesomeIcon icon="rocket" style={richardsLogo} /> */}
+          <h3 style={copyrightStyle}>Created By<FontAwesomeIcon icon="carrot" style={ourLogo} />SoggyBeets.</h3>
         </div>
       </div>
     </div>
