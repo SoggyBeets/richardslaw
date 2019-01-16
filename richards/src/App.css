@@ -1,5 +1,5 @@
 /* * { 
-  outline: 1px solid red;
+  outline: 1px solid palegreen;
   outline-offset: -1px;
 } */
 
@@ -10,26 +10,14 @@ html {
 }
 
 .App {
-  overflow: hidden !important;
-}
-
-.grey1 {
   width: 100vw;
-  height: 30rem;
-  background-color: lightgrey;
-  opacity: 0.25;
-  z-index: -999;
-  position: absolute;
-}
-
-/* .App {
   margin: auto;
   position: absolute;
   left: 0;
   right: 0;
   text-align: center;
-  max-width: 52.5rem;
-} */
+  overflow: hidden !important;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -74,65 +62,6 @@ html {
   }
 }
 
-h1 {
-  display: block;
-  font-size: 2rem;
-  margin-top: 0.67rem;
-  margin-bottom: 0.67rem;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-}
-
-h2 {
-  display: block;
-  font-size: 1.5rem;
-  margin-top: 0.83rem;
-  margin-bottom: 0.83rem;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-}
-
-h3 {
-  display: block;
-  font-size: 1.17rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-}
-
-h4 {
-  display: block;
-  font-size: 1rem;
-  margin-top: 1.33rem;
-  margin-bottom: 1.33rem;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-}
-
-h5 {
-  display: block;
-  font-size: 0.83rem;
-  margin-top: 1.67rem;
-  margin-bottom: 1.67rem;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-}
-
-h6 {
-  display: block;
-  font-size: 0.67rem;
-  margin-top: 2.33rem;
-  margin-bottom: 2.33rem;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-}
 /* 
 .tab-list {
   border-bottom: 1px solid #ccc;
@@ -156,9 +85,9 @@ h6 {
   background-image: linear-gradient(rgb(10, 10, 43), rgb(48, 48, 77));
 } */
 
-/* #carouselSection{
-  margin-bottom: 1rem;
-} */
+#carouselrow{
+  margin-bottom: 5rem;
+}
 
 #ttabs {
   background-color: rgba(234, 234, 234, 0.5);
@@ -182,6 +111,25 @@ h6 {
 
 #aboutUs {
   padding-top: 30rem;
+}
+
+
+
+
+
+.container {
+  outline: 1px solid blue;
+  outline-offset: 6px;
+}
+
+.row {
+  outline: 1px solid green;
+  outline-offset: 3px;
+}
+
+.col {
+  outline: 1px solid red;
+  outline-offset: 0px;
 }
 
 .nav-link.active,
