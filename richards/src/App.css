@@ -168,3 +168,14 @@ h6 {
 #socialfeeds {
   height: 26rem;
 }
+
+#aboutUs {
+  padding-top: 30rem;
+}
+
+.nav-link.active,
+.nav-item.show .nav-link {
+  color: blue;
+  background-color: red;
+  border-color: black;
+}

@@ -14,38 +14,24 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-    
-         
-            <Navbar />
-         
+            <Navbar /> 
             <Carousel />
-          
-
         {/* <section id="tabSection">
           <Tabs />
         </section> */}
-
-        
         <div className="row no-gutters" id="ttabs">
             <div className="col-12">
-            
             </div>
           </div>
-
-
-       
-
         <AboutUs />
         <Form />
-        
+
           <div className="row no-gutters" id="googlemaps">
             <div className="col-12">
               <Google />
+              </div>
             </div>
-          </div>
-      
-
-    
+          
           <div className="row no-gutters" id="socialfeeds">
             <div className="col-xs-12 col-md-6" id="fbfeed">
               <div className="test">
@@ -54,11 +40,9 @@ class App extends Component {
             </div>
             <div className="col-xs-12 col-md-6" id="instafeed">
               <Instagram />
+              </div>
             </div>
-          </div>
       
-
-
         <Footer />
       </div>
     );
