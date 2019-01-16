@@ -22,14 +22,14 @@ html {
   position: absolute;
 }
 
-.App {
+/* .App {
   margin: auto;
   position: absolute;
   left: 0;
   right: 0;
   text-align: center;
   max-width: 52.5rem;
-}
+} */
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -156,6 +156,10 @@ h6 {
   background-image: linear-gradient(rgb(10, 10, 43), rgb(48, 48, 77));
 } */
 
+/* #carouselSection{
+  margin-bottom: 1rem;
+} */
+
 #ttabs {
   background-color: lightgrey;
   height: 13rem;
@@ -163,10 +167,16 @@ h6 {
 
 #googlemaps {
   height: 25.85rem;
+  background-color: midnightblue;
+  padding-top: 5rem;
+  padding-bottom: 28rem;
 }
 
 #socialfeeds {
   height: 26rem;
+  background-color: rgba(234, 234, 234, 0.5);;
+  padding-top: 5rem;
+  padding-bottom: 31rem;
 }
 
 #aboutUs {

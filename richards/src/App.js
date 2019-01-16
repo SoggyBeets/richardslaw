@@ -15,7 +15,12 @@ class App extends Component {
     return (
       <div className="App">
             <Navbar /> 
-            <Carousel />
+            <div class="row no-gutters" id="carouselSection">
+            <div className="col-1"></div>
+            <div className="col-10"> <Carousel /></div>
+            <div className="col-1"></div>
+           
+            </div>
         {/* <section id="tabSection">
           <Tabs />
         </section> */}
@@ -27,20 +32,24 @@ class App extends Component {
         <Form />
 
           <div className="row no-gutters" id="googlemaps">
-            <div className="col-12">
+          <div className="col-1"></div>
+            <div className="col-10">
               <Google />
               </div>
+              <div className="col-1"></div>
             </div>
           
           <div className="row no-gutters" id="socialfeeds">
-            <div className="col-xs-12 col-md-6" id="fbfeed">
+          <div className="col-xs-1 col-md-2"></div>
+            <div className="col-xs-10 col-md-4" id="fbfeed">
               <div className="test">
                 <Facebook />
               </div>
             </div>
-            <div className="col-xs-12 col-md-6" id="instafeed">
+            <div className="col-xs-10 col-md-4" id="instafeed">
               <Instagram />
               </div>
+              <div className="col-xs-1 col-md-2"></div>
             </div>
       
         <Footer />
