@@ -13,14 +13,14 @@ html {
   overflow: hidden !important;
 }
 
-.grey1 {
+/* .grey1 {
   width: 100vw;
   height: 30rem;
   background-color: lightgrey;
   opacity: 0.25;
   z-index: -999;
   position: absolute;
-}
+} */
 
 /* .App {
   margin: auto;
@@ -181,7 +181,7 @@ h6 {
 }
 
 #aboutUs {
-  padding-top: 30rem;
+  /* padding-top: 30rem; */
 }
 
 .nav-link.active,
