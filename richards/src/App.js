@@ -6,7 +6,7 @@ import Google from "./components/Google";
 import Facebook from "./components/Facebook";
 import Instagram from "./components/Instagram";
 import Footer from "./components/Footer";
-// import Tabs from "./components/Tabs";
+import Tabs from "./components/Tabs";
 import Carousel from "./components/Carousel";
 import Form from "./components/Form";
 
@@ -29,12 +29,14 @@ class App extends Component {
           <Tabs />
         </section> */}
         <div className="row no-gutters" id="ttabs">
-            <div className="col-12">
+        <div className="col-2"></div>
+            <div className="col-8">
+            <Tabs />
             </div>
-        </div>
+            <div className="col-2"></div>
+          </div>
 
-
-
+        
         <AboutUs />
         <Form />
 
