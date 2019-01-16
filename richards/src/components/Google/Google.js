@@ -5,9 +5,9 @@ import "./Google.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Google = () => (
 
-<div></div>
+ <div className="elfsight-app-b594ca64-b2d3-41bd-8a5f-d1040cd8f505">
 
- /* <div className="elfsight-app-b594ca64-b2d3-41bd-8a5f-d1040cd8f505"></div> */
+ </div>
 );
 
 export default Google;
