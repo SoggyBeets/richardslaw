@@ -28,31 +28,28 @@ class App extends Component {
           <Tabs />
         </section> */}
 
-
         <div className="container">
           <div className="row no-gutters" id="ttabs">
             <div className="col" />
           </div>
         </div>
 
+        <AboutUs />
+
         <div className="container">
-          <div className="row no-gutters">
+          <div className="row no-gutters" id="faces">
             <div className="col">
-              <AboutUs />
+              <div className="kevin" />
+            </div>
+            <div className="col">
+              <div className="jaime" />
             </div>
           </div>
         </div>
 
-        <div className="container">
-          <div className="row no-gutters">
-            <div className="col">
-              <Form />
-            </div>
-          </div>
-        </div>
+        <Form />
 
-
-        <div className="container">
+        <div className="container" id="googlemaps">
           <div className="row no-gutters">
             <div className="col-12">
               <Google />

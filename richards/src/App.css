@@ -3,7 +3,6 @@
   outline-offset: -1px;
 } */
 
-
 html {
   width: auto !important;
   overflow-x: hidden !important;
@@ -14,7 +13,6 @@ html {
   position: absolute;
   left: 0;
   right: 0;
-  text-align: center;
   overflow: hidden !important;
 }
 
@@ -84,39 +82,48 @@ html {
   background-image: linear-gradient(rgb(10, 10, 43), rgb(48, 48, 77));
 } */
 
-#carouselrow{
+#carouselrow {
   margin-bottom: 5rem;
 }
 
+.grey1 {
+  height: 22rem;
+  background-color: #f8f8f9;
+  position: relative;
+  z-index: -5;
+}
+
+.darkblue1 {
+  top: 40rem;
+  height: 25rem;
+  background-color: #111444;
+  position: relative;
+  z-index: -5;
+}
+
 #ttabs {
-  background-color: rgba(234, 234, 234, 0.5);
-    height: 33rem;
-    padding-top: 5rem;
+  background-color: #f8f8f9;
+  height: 20rem;
+  margin-top: 10rem;
 }
 
 #googlemaps {
-  height: 25.85rem;
-  background-color: midnightblue;
-  padding-top: 5rem;
-  padding-bottom: 28rem;
+  height: 20rem;
+  background-color: #111444;
+  margin-top: 5rem;
 }
 
 #socialfeeds {
   height: 26rem;
-  background-color: rgba(234, 234, 234, 0.5);;
-  padding-top: 5rem;
-  padding-bottom: 31rem;
+  background-color: rgba(234, 234, 234, 0.5);
+  margin-top: 15rem;
 }
 
 #aboutUs {
   /* padding-top: 30rem; */
 }
 
-
-
-
-
-.container {
+/* .container {
   outline: 1px solid blue;
   outline-offset: 6px;
 }
@@ -129,7 +136,7 @@ html {
 .col {
   outline: 1px solid red;
   outline-offset: 0px;
-}
+} */
 
 .nav-link.active,
 .nav-item.show .nav-link {
