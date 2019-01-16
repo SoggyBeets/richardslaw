@@ -1,30 +1,57 @@
 .float {
-    display: flex;
-    font-size: .7rem;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 9998;
-    right: 3rem;
-    bottom: 1rem;
-    width: 9rem;
-    height: 2rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28);
-    background: #2d4897;
-  }
+  display: flex;
+  font-size: 0.7rem;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 9998;
+  right: 3rem;
+  bottom: 1rem;
+  width: 9rem;
+  height: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28);
+  background: #2d4897;
+}
 
-  #formrow {
-    height: 15rem;
-  }
+#faces {
+  height: 5rem;
+  margin-top: 5rem;
+}
 
-  #formcolor {
-    
-  }
+.kevin {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  background: #E8E8EA;
+  z-index: 999;
+}
 
-  #formcta {
-    font-family: "Libre Franklin", sans-serif;
+.jaime {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  background: #E8E8EA;
+  z-index: 999;
+}
+
+#formrow {
+  height: 20rem;
+  margin-top: 4rem;
+}
+
+#formcolor {
+}
+
+#formcta {
+  font-family: "Libre Franklin", sans-serif;
   background-color: #ffeb3b;
-  }
-
-  
+}

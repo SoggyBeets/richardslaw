@@ -1,14 +1,17 @@
 nav {
-  background-color: white;
+  
   height: 3rem;
   z-index: 5;
 }
 
-/* #phone {
+#phone {
   line-height: .01rem;
-  top: .25rem;
-  left: -1.5rem;
-} */
+  text-align: center;
+}
+
+#phone a{
+  padding-left: 0rem;
+}
 
 #logo {
   margin: auto;
@@ -19,7 +22,7 @@ nav {
   border-radius: 50%;
   width: 7rem;
   height: 7rem;
-  background: rgb(255, 255, 255);
+  background: #F8F8F9;
   box-shadow: 0 .2rem .1rem rgba(0, 0, 0, 0.28);
   z-index: 999;
 }
@@ -32,8 +35,7 @@ nav {
   z-index: 9999;
 } */
 
-/* #q {
-  width: 5rem;
-  top: .5rem;
-  right: -1.5rem;
-} */
+#q {
+  
+  text-align: center;
+}
