@@ -161,8 +161,9 @@ h6 {
 } */
 
 #ttabs {
-  background-color: lightgrey;
-  height: 13rem;
+  background-color: rgba(234, 234, 234, 0.5);
+    height: 33rem;
+    padding-top: 5rem;
 }
 
 #googlemaps {
