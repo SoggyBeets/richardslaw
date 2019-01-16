@@ -14,7 +14,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
+
             <Navbar /> 
+
+
             <Carousel />
         {/* <section id="tabSection">
           <Tabs />
@@ -22,7 +26,10 @@ class App extends Component {
         <div className="row no-gutters" id="ttabs">
             <div className="col-12">
             </div>
-          </div>
+        </div>
+
+
+
         <AboutUs />
         <Form />
 
