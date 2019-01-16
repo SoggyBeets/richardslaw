@@ -14,53 +14,65 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navbar />
 
-
-            <Navbar /> 
-
-            <div class="row no-gutters" id="carouselSection">
-            <div className="col-1"></div>
-            <div className="col-10"> <Carousel /></div>
-            <div className="col-1"></div>
-           
+        <div className="container" id="carouselcont">
+          <div className="row no-gutters" id="carouselrow">
+            <div className="col-12">
+              <Carousel />
             </div>
+          </div>
+        </div>
 
         {/* <section id="tabSection">
           <Tabs />
         </section> */}
-        <div className="row no-gutters" id="ttabs">
-        <div className="col-2"></div>
-            <div className="col-8">
-            <Tabs />
-            </div>
-            <div className="col-2"></div>
+
+
+        <div className="container">
+          <div className="row no-gutters" id="ttabs">
+            <div className="col" />
           </div>
+        </div>
 
-        
-        <AboutUs />
-        <Form />
-
-          <div className="row no-gutters" id="googlemaps">
-          <div className="col-1"></div>
-            <div className="col-10">
-              <Google />
-              </div>
-              <div className="col-1"></div>
+        <div className="container">
+          <div className="row no-gutters">
+            <div className="col">
+              <AboutUs />
             </div>
-          
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row no-gutters">
+            <div className="col">
+              <Form />
+            </div>
+          </div>
+        </div>
+
+
+        <div className="container">
+          <div className="row no-gutters">
+            <div className="col-12">
+              <Google />
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
           <div className="row no-gutters" id="socialfeeds">
-          <div className="col-xs-1 col-md-2"></div>
-            <div className="col-xs-10 col-md-4" id="fbfeed">
+            <div className="col-xs-12 col-md-6" id="fbfeed">
               <div className="test">
                 <Facebook />
               </div>
             </div>
-            <div className="col-xs-10 col-md-4" id="instafeed">
+            <div className="col-xs-12 col-md-6" id="instafeed">
               <Instagram />
-              </div>
-              <div className="col-xs-1 col-md-2"></div>
             </div>
-      
+          </div>
+        </div>
+
         <Footer />
       </div>
     );

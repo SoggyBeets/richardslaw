@@ -116,6 +116,4 @@ class Example extends Component {
   }
 }
 
-
-
 export default Example;
