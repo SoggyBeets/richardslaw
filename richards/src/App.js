@@ -14,13 +14,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
+
             <Navbar /> 
+
             <div class="row no-gutters" id="carouselSection">
             <div className="col-1"></div>
             <div className="col-10"> <Carousel /></div>
             <div className="col-1"></div>
            
             </div>
+
         {/* <section id="tabSection">
           <Tabs />
         </section> */}
