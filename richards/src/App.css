@@ -100,25 +100,25 @@ html {
   position: relative;
   z-index: -5;
 }
-
 #ttabs {
-  background-color: #f8f8f9;
-  height: 20rem;
-  margin-top: 10rem;
+  background-color: rgba(234, 234, 234, 0.5);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 #googlemaps {
-  height: 20rem;
-  background-color: #111444;
-  margin-top: 5rem;
+  height: 25.85rem;
+  background-color: #012998;
+  padding-top: 5rem;
+  padding-bottom: 28rem;
 }
 
 #socialfeeds {
   height: 26rem;
-  background-color: rgba(234, 234, 234, 0.5);
-  margin-top: 15rem;
+  background-color: rgba(234, 234, 234, 0.5);;
+  padding-top: 5rem;
+  padding-bottom: 31rem;
 }
-
 #aboutUs {
   /* padding-top: 30rem; */
 }

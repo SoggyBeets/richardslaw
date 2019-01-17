@@ -48,7 +48,7 @@ const copyrightStyle = {
 
 const google = {
   fontSize: '2.65rem',
-  color: '#3cba54',
+  color: 'black',
   padding: '10px'
 }
 
@@ -60,12 +60,12 @@ const ourLogo = {
 
 const fb = {
   fontSize: '3rem',
-  color: '#3b5998',
+  color: 'black',
   padding: '10px'
 }
 const insta = {
   fontSize: '3rem',
-  color: '#e95950',
+  color: 'black',
   padding: '10px'
 }
 

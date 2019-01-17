@@ -76,7 +76,7 @@ class FullWidthTabs extends React.Component {
           {/* <div className="row">
           <div className="col-md-1"></div>
           <div className="col-md-2"> */}
-            <Tab label="Injury Law"  />
+            <Tab img src={'notworking'} alt="placeholder"/> label="Injury Law"  <Tab/>
             {/* </div>
             <div className="col-md-2"> */}
             <Tab label="Bankruptcy Law" />
