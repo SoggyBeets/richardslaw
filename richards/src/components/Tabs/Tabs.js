@@ -76,22 +76,23 @@ class FullWidthTabs extends React.Component {
           {/* <div className="row">
           <div className="col-md-1"></div>
           <div className="col-md-2"> */}
-            <Tab label="Injury Law" />
+            <Tab label="Injury Representation" />
             {/* </div>
             <div className="col-md-2"> */}
-            <Tab label="Bankruptcy Law" />
+            <Tab label="Bankruptcy Help" />
             {/* </div>
             <div className="col-md-2"> */}
-            <Tab label="Family Law" />
+            <Tab label="Divorce/Custody" />
             {/* </div>
             <div className="col-md-2"> */}
-            <Tab label="Immigration Law" />
+            <Tab label="Immigration" />
             {/* </div>
             <div className="col-md-2"> */}
-            <Tab label="DUI/Crimanl Law" />
+            <Tab label="DUI/Crimanl" />
             {/* </div>
             <div className="col-md-1"></div> */}
             {/* </div> */}
+            <Tab label="Estate Planning" />
           </Tabs>
         </AppBar>
         <SwipeableViews
