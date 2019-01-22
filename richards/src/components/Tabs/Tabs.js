@@ -76,19 +76,20 @@ class FullWidthTabs extends React.Component {
           {/* <div className="row">
           <div className="col-md-1"></div>
           <div className="col-md-2"> */}
-            <Tab label="Injury Law" />
+            <Tab label="Injury" />
             {/* </div>
             <div className="col-md-2"> */}
-            <Tab label="Bankruptcy Law" />
+            <Tab label="Bankruptcy" />
             {/* </div>
             <div className="col-md-2"> */}
-            <Tab label="Family Law" />
+            <Tab label="Divorce/Custody" />
             {/* </div>
             <div className="col-md-2"> */}
-            <Tab label="Immigration Law" />
+            <Tab label="Immigration" />
             {/* </div>
             <div className="col-md-2"> */}
-            <Tab label="DUI/Crimanl Law" />
+            <Tab label="DUI/Crimanl" />
+            <Tab label="Estate Planning" />
             {/* </div>
             <div className="col-md-1"></div> */}
             {/* </div> */}
@@ -124,6 +125,11 @@ Sadly, you would not believe the games insurance companies will play, and the ef
 With Injuries, there’s no time for games. RBR Law will be aggressive with the Insurance Company, and help you get compensation for your injuries. We give you a fighting chance against the big money in Insurance, so you can get your life back, and the justice you deserve.
  </h3></TabContainer>
           <TabContainer dir={theme.direction}><h2 style={containerTitle}>AGGRESIVE DEFENSE WHILTE FACING DIFFICULT CHARGES</h2><h3 style={containerText}>If you’ve been accused of driving under the influence, you are guaranteed to have the State, the City, the Police and the Prosecution come after you AGGRESSIVELY.
+
+Every second counts, and your Lawyer’s experience counts. Your future, your job, your right to drive – depends on it.
+
+With RBR Law you get an Aggressive defense and an Advocate for the protection of your Rights.</h3></TabContainer>
+<TabContainer dir={theme.direction}><h2 style={containerTitle}>AGGRESIVE DEFENSE WHILTE FACING DIFFICULT CHARGES</h2><h3 style={containerText}>If you’ve been accused of driving under the influence, you are guaranteed to have the State, the City, the Police and the Prosecution come after you AGGRESSIVELY.
 
 Every second counts, and your Lawyer’s experience counts. Your future, your job, your right to drive – depends on it.
 

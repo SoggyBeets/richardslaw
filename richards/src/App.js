@@ -62,16 +62,17 @@ class App extends Component {
             </div>
 
           <div className="row no-gutters" id="socialfeeds">
-          <div className="col-xs-1 col-md-2"></div>
-            <div className="col-xs-10 col-md-4" id="fbfeed">
+          <div className="col-xs-1 col-md-1"></div>
+            <div className="col-xs-10 col-md-5" id="fbfeed">
               <div className="test">
                 <Facebook />
               </div>
             </div>
-            <div className="col-xs-10 col-md-4" id="instafeed">
+            {/* <div className="col-xs-1 col-md-1"></div> */}
+            <div className="col-xs-10 col-md-5" id="instafeed">
               <Instagram />
               </div>
-              <div className="col-xs-1 col-md-2"></div>
+              <div className="col-xs-1 col-md-1"></div>
             </div>
 
         <Footer />

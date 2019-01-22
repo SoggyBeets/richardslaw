@@ -49,7 +49,9 @@ const copyrightStyle = {
 const google = {
   fontSize: '2.65rem',
   color: 'black',
-  padding: '10px'
+  padding: '8px',
+  paddingBottom: '12px'
+  /* padding: 10px; */
 }
 
 const ourLogo = {
@@ -74,12 +76,16 @@ const iconLinks = {
   marginRight: '1rem',
   padding: '0rem'
 }
+
+const linkAlign = {
+  textAlign: 'center'
+}
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Footer = () => (
   <footer>
     <div className="row" id="footerRow">
 
-      <div className="col-md-2">
+      <div className="col-md-2" style={linkAlign}>
       <div style={iconLinks}>
           <FontAwesomeIcon icon={['fab', 'google']} style={google} />
           <FontAwesomeIcon icon={['fab', 'facebook']} style={fb} />
@@ -95,7 +101,7 @@ const Footer = () => (
         </div>
 
         <div className="col-md-3"></div>
-        <div className="col-md-3">
+        <div className="col-md-3" style={linkAlign}>
         <div style={iconLinks}>
           {/* <FontAwesomeIcon icon="rocket" style={richardsLogo} /> */}
           <h3 style={copyrightStyle}>Created By<FontAwesomeIcon icon="carrot" style={ourLogo} />SoggyBeets.</h3>
