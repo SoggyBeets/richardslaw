@@ -135,18 +135,18 @@ html {
 
 .grey3 {
   top: 40rem;
-  height: 37rem;
+  height: 40rem;
   background-color: #f8f8f9;
   position: relative;
   z-index: -5;
 }
-.white3 {
+/* .white3 {
   top: 40rem;
   height: 15rem;
   background-color: white;
   position: relative;
   z-index: -5;
-}
+} */
 
 #ttabs {
   padding-top: 3rem;
@@ -158,6 +158,14 @@ html {
 
 #socialfeeds{
   margin-top: 15rem;
+}
+
+#instafeed{
+  padding: .75rem;
+}
+
+#fbfeed{
+  padding: .75rem;
 }
 /*
 #googlemaps {
