@@ -9,7 +9,7 @@ import Typography from '@material-ui/core/Typography';
 
 function TabContainer({ children, dir }) {
   return (
-    <Typography component="div" dir={dir} style={{ padding: 8 * 3, height: '20rem' }}>
+    <Typography component="div" dir={dir} style={{ padding: 8 * 3, height: '20rem', backgroundColor: '#ffd8543d' }}>
       {children}
     </Typography>
   );
