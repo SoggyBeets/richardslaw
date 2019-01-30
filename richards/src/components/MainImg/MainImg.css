@@ -1,0 +1,33 @@
+/* .carousel-inner {
+  opacity: 1;
+} */
+
+#headerSection {
+position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+#missionStatement{
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 5rem;
+  color: white;
+  padding: 1rem;
+}
+
+#msText{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 9rem;
+  color: white;
+  padding: 1rem;
+}
+/* 104e7d */
+/* .carousel-item {
+  height: 25rem;
+} */

@@ -1,5 +1,13 @@
 .nav-tabs .nav-link.active {
-  color: #495057;
+  color: #c9e3fd;
   background-color: rgba(red, green, blue, .0);
   border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.MuiTab-selected-52 {
+  color: yellow;
+}
+
+.Tab[aria-selected="true"]{
+  color: yellow;
 }
