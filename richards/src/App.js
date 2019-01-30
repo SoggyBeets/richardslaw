@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        {/* <Navbar /> */}
 <MainImg />
         {/* <div className="container" id="carouselcont">
           <div className="row no-gutters" id="carouselrow">

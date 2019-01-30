@@ -1,8 +1,66 @@
 nav {
   
-  height: 3rem;
-  z-index: 5;
-  margin: 2rem;
+  height: 4rem;
+  position: absolute;
+  /* z-index: 5; */
+  /* margin: 2rem; */
+  top: 0rem;
+  width: 100%;
+  background-color: #ffffff0f;
+}
+
+#navP {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  text-align: left;
+  font-family: 'Montesserat';
+}
+
+#navA {
+  width: 100%;
+  color: #ffcc54 !important;
+  text-align: left;
+  text-decoration: none;
+  background-color: #84212100;
+}
+
+#navA:hover {
+  color: #ffcc54ad !important;
+  text-decoration: underline;
+}
+
+#navPR {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  text-align: right;
+  font-family: 'Montesserat';
+}
+
+#navAR {
+  width: 100%;
+  color: #ffcc54 !important;
+  text-align: right;
+  text-decoration: none;
+  background-color: #84212100;
+}
+
+#navAR:hover {
+  color: #ffcc54ad !important;
+  text-decoration: underline;
+}
+
+.textAlignL{
+  text-align: left;
+}
+
+.textAlignR{
+  text-align: right;
 }
 
 #phone {
@@ -23,8 +81,8 @@ nav {
   border-radius: 50%;
   width: 7rem;
   height: 7rem;
-  background: #F8F8F9;
-  box-shadow: 0 .2rem .1rem rgba(0, 0, 0, 0.28);
+  background: #f8f8f914;
+  box-shadow: 0 0.2rem 0.1rem rgba(0, 0, 0, 0.28);
   z-index: 999;
 }
 
