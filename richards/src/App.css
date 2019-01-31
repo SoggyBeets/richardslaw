@@ -153,19 +153,24 @@ html {
 }
 
 #googlemaps{
-  padding-top: 12rem;
+  padding-top: 5rem;
+  /* background-color: #111444; */
+}
+
+#mapsBorder{
+  border: #104e7d 1rem solid;
 }
 
 #socialfeeds{
-  margin-top: 15rem;
+  margin-top: 5rem;
 }
 
 #instafeed{
-  padding: .75rem;
+  
 }
 
 #fbfeed{
-  padding: .75rem;
+  border: solid 1rem #ffcc54;
 }
 /*
 #googlemaps {

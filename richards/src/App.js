@@ -35,49 +35,33 @@ class App extends Component {
             {/* <div className="col-2"></div> */}
             {/* <div className="col-2"></div> */}
           </div>
-
+<Meet />
         {/* <div className="container">
           <div className="row no-gutters" id="ttabs">
             <div className="col" />
           </div>
         </div> */}
-<Meet />
-        <AboutUs />
-        
-
-        <div className="container">
-          <div className="row no-gutters" id="faces">
-            <div className="col">
-              <div className="kevin" />
-            </div>
-            <div className="col">
-              <div className="jaime" />
-            </div>
-          </div>
-        </div>
-
-        <Form />
 
         <div className="row no-gutters" id="googlemaps">
-          <div className="col-1"></div>
-            <div className="col-10">
+          {/* <div className="col-1"></div> */}
+            <div className="col-12" id="mapsBorder">
               <Google />
               </div>
-              <div className="col-1"></div>
+              {/* <div className="col-1"></div> */}
             </div>
 
           <div className="row no-gutters" id="socialfeeds">
-          <div className="col-xs-1 col-md-1"></div>
-            <div className="col-xs-10 col-md-5" id="fbfeed">
+          <div className="col-2"></div>
+            <div className="col-4" id="fbfeed">
               <div className="test">
                 <Facebook />
               </div>
             </div>
             {/* <div className="col-xs-1 col-md-1"></div> */}
-            <div className="col-xs-10 col-md-5" id="instafeed">
+            <div className="col-4" id="instafeed">
               <Instagram />
               </div>
-              <div className="col-xs-1 col-md-1"></div>
+              <div className="col-2"></div>
             </div>
 
         <Footer />

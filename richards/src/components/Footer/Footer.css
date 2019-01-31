@@ -1,5 +1,40 @@
 #footerRow{
-  background-color: #ffffff;
-    padding: 7rem 1rem 7rem 1rem;
+  background-color: #191919;
+    /* padding: 7rem 1rem 7rem 1rem; */
     /* margin-top: 5rem; */
+}
+
+#contact{
+  color: #ffcc54;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: .25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+#contactText{
+  font-size: 0.85rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: .25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+
+#richardsLogo{
+  text-align: center;
+  color: #ffcc54;
+  padding-top: 2rem;
+}
+
+#ourLogoSection{
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: #ffcc54 solid ;
 }
