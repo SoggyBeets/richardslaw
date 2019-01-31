@@ -12,7 +12,7 @@ const MainImg = () => (
 <div className="row">
 <div className="col-2"></div>
 <div className="col-8">
-<h1 id="aggresiveText"><span>U</span>tah's <span>A</span>ggresive <span>L</span>awfirm</h1>
+<h1 id="aggresiveText"><span id="span">U</span>tah's <span id="span">A</span>ggresive <span id="span">L</span>awfirm</h1>
 <h2 id="missionStatement">This will be the mission statement of the company</h2>
 <h3 id="msText">This will be some extra text for the mission statement</h3></div>
 {/* <div className="col-2"></div> */}

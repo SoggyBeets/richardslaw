@@ -10,6 +10,7 @@ import Tabs from "./components/Tabs";
 // import Carousel from "./components/Carousel";
 import MainImg from "./components/MainImg";
 import Form from "./components/Form";
+import Meet from "./components/Meet";
 
 class App extends Component {
   render() {
@@ -27,9 +28,11 @@ class App extends Component {
 
         <div className="row no-gutters" id="ttabs">
         {/* <div className="col-2"></div> */}
+        {/* <div className="col-2"></div> */}
             <div className="col-12">
             <Tabs />
             </div>
+            {/* <div className="col-2"></div> */}
             {/* <div className="col-2"></div> */}
           </div>
 
@@ -38,8 +41,9 @@ class App extends Component {
             <div className="col" />
           </div>
         </div> */}
-
+<Meet />
         <AboutUs />
+        
 
         <div className="container">
           <div className="row no-gutters" id="faces">

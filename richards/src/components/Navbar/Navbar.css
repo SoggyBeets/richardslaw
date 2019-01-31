@@ -1,12 +1,11 @@
 nav {
-  
-  height: 4rem;
+  height: 4.55rem;
   position: absolute;
   /* z-index: 5; */
   /* margin: 2rem; */
   top: 0rem;
   width: 100%;
-  background-color: #ffffff0f;
+  background-color: #3333338f;
 }
 
 #navP {
@@ -57,10 +56,12 @@ nav {
 
 .textAlignL{
   text-align: left;
+  padding-top: .5rem;
 }
 
 .textAlignR{
   text-align: right;
+  padding-top: .5rem;
 }
 
 #phone {

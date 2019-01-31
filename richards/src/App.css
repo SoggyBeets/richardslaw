@@ -9,11 +9,11 @@ html {
 }
 
 .App {
-  margin: auto;
+  /* margin: auto;
   position: absolute;
   left: 0;
   right: 0;
-  overflow: hidden !important;
+  overflow: hidden !important; */
 }
 
 .App-logo {
