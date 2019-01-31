@@ -1,0 +1,47 @@
+/* .carousel-inner {
+  opacity: 1;
+} */
+
+#headerSection {
+position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+#missionStatement{
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  top: -14.5rem;
+  color: white;
+  
+}
+
+#msText{
+  width: 100%;
+  text-align: left;
+  position: absolute;
+  top:-11rem;
+  color: #dadada;
+  font-size: 1.2rem;
+
+}
+
+#aggresiveText{
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  top: -18rem;
+  color: white;
+  
+}
+
+#span{
+  color: #ffcc54
+}
+/* 104e7d */
+/* .carousel-item {
+  height: 25rem;
+} */

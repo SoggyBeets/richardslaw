@@ -11,22 +11,24 @@ const items = [
   
   {
     src:
-    "https://media.gettyimages.com/photos/mount-ogden-wasatch-mountains-picture-id148515187"
+    "https://www.rbrlawgroup.com/wp-content/uploads/2016/08/utah-lawyer-homepage-hero-3.jpg"
+    // src:
+    // "https://media.gettyimages.com/photos/mount-ogden-wasatch-mountains-picture-id148515187"
     // altText: "Slide 1",
     // caption: "Slide 1"
-  },
-  {
-    src:
-    "https://media.gettyimages.com/photos/washington-boulevard-picture-id148568385"
-    // altText: "Slide 2",
-    // caption: "Slide 2"
-  },
-  {
-    src:
-    "https://media.gettyimages.com/photos/25th-street-ogden-utah-picture-id145652195"
-    // altText: "Slide 3",
-    // caption: "Slide 3"
   }
+  // {
+  //   src:
+  //   "https://media.gettyimages.com/photos/washington-boulevard-picture-id148568385"
+  //   // altText: "Slide 2",
+  //   // caption: "Slide 2"
+  // },
+  // {
+  //   src:
+  //   "https://media.gettyimages.com/photos/25th-street-ogden-utah-picture-id145652195"
+  //   // altText: "Slide 3",
+  //   // caption: "Slide 3"
+  // }
 ];
 
 class Example extends Component {
