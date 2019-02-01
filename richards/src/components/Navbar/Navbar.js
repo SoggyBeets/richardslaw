@@ -28,9 +28,6 @@ const Navbar = props => (
       </div>
       <div className="col-2"></div>
 
-
-
-
     </div>
     </div>
   </nav>

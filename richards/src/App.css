@@ -166,11 +166,11 @@ html {
 }
 
 #instafeed{
-  
+  border: solid 1rem #ffcc54;
 }
 
 #fbfeed{
-  border: solid 1rem #ffcc54;
+  
 }
 /*
 #googlemaps {
