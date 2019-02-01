@@ -14,10 +14,10 @@ const Meet = () => (
 </div>
 
 <div className="row">
-<div className="col-2"></div>
-<div className="col-4" id="meetCol"><img src="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px.jpg" alt="portrait1 500px" itemprop="image" srcset="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px.jpg 500w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px-150x150.jpg 150w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px-300x300.jpg 300w" sizes="(max-width: 500px) 100vw, 500px">
+{/* <div className="col-2"></div> */}
+<div className="col-6" id="meetCol"><img src="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px.jpg" alt="portrait1 500px" itemprop="image" srcset="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px.jpg 500w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px-150x150.jpg 150w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px-300x300.jpg 300w" sizes="(max-width: 500px) 100vw, 500px">
 </img></div>
-<div className="col-4" id="meetCol">
+<div className="col-6" id="meetCol">
 <div id="lawyerCard">
 <h2 id="meetTitle">Kevin G. Richards</h2>
 <h3 id="meeth3">Education</h3>
@@ -36,15 +36,15 @@ U.S. Bankruptcy Court, District of Utah
     running having completed several including the Boston Marathon in April of 2012.</p>
 </div>
 </div>
-<div className="col-2"></div>
+{/* <div className="col-2"></div> */}
 </div>
 
 <div className="row">
-<div className="col-2"></div>
-<div className="col-4" id="meetCol"><img src="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px.jpg" alt="portrait2 500px" itemprop="image" srcset="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px.jpg 500w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px-150x150.jpg 150w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px-300x300.jpg 300w" sizes="(max-width: 500px) 100vw, 500px">
+{/* <div className="col-2"></div> */}
+<div className="col-6" id="meetCol"><img src="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px.jpg" alt="portrait2 500px" itemprop="image" srcset="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px.jpg 500w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px-150x150.jpg 150w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px-300x300.jpg 300w" sizes="(max-width: 500px) 100vw, 500px">
 </img>
 </div>
-<div className="col-4" id="meetCol">
+<div className="col-6" id="meetCol">
 <div id="lawyerCard">
 <h2 id="meetTitle">Jaime G. Richards</h2>
 <h3 id="meeth3">Education</h3>
@@ -54,7 +54,7 @@ B.A., Weber State University (2011)</h4>
 <h4 id="meeth4">Utah State Courts
 U.S. District Courts, District of Utah
 </h4>
-<p id="meetp">Jaime is the firm’s bankruptcy expert. He excels in helping people through tough and stressful
+{/* <p id="meetp">Jaime is the firm’s bankruptcy expert. He excels in helping people through tough and stressful
  situations using bankruptcy. His other practices areas include divorce, paternity and custody, as well as 
  general civil litigation, will and estate work and contract disputes and drafting. Jaime became a lawyer 
  because he likes working with people and problem solving. Most clients who meet with him immediately like 
@@ -65,11 +65,11 @@ coupled with his diverse prior business experience, puts Jaime in a unique posit
 and the real world work.Jaime grew up in Ogden, attended Ogden High School and graduated from Weber State 
 University before attending Washburn University School of Law in Topeka, Kansas. Jaime’s greatest pride and joy
 are his family, which now includes five children. Jaime is an avid golfer and CrossFitter, he loves spending 
-time outside playing with his family.</p>
+time outside playing with his family.</p> */}
 </div>
 </div>
 
-<div className="col-2"></div>
+{/* <div className="col-2"></div> */}
 </div>
 
 </div>

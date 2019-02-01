@@ -11,6 +11,7 @@ import Tabs from "./components/Tabs";
 import MainImg from "./components/MainImg";
 import Form from "./components/Form";
 import Meet from "./components/Meet";
+import Consultation from "./components/Consultation";
 
 class App extends Component {
   render() {
@@ -41,7 +42,7 @@ class App extends Component {
             <div className="col" />
           </div>
         </div> */}
-
+<Consultation />
         <div className="row no-gutters" id="googlemaps">
           {/* <div className="col-1"></div> */}
             <div className="col-12" id="mapsBorder">
@@ -51,17 +52,17 @@ class App extends Component {
             </div>
 
           <div className="row no-gutters" id="socialfeeds">
-          <div className="col-2"></div>
-            <div className="col-4" id="fbfeed">
+          {/* <div className="col-2"></div> */}
+            <div className="col-6" id="fbfeed">
               <div className="test">
                 <Facebook />
               </div>
             </div>
             {/* <div className="col-xs-1 col-md-1"></div> */}
-            <div className="col-4" id="instafeed">
+            <div className="col-6" id="instafeed">
               <Instagram />
               </div>
-              <div className="col-2"></div>
+              {/* <div className="col-2"></div> */}
             </div>
 
         <Footer />
