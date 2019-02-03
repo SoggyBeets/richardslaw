@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import Logo from "../Icon"
 
 const Navbar = props => (
   <nav>
@@ -16,8 +17,7 @@ const Navbar = props => (
       </div>
 
       <div className="col-2">
-      <div id="logo" />
-  
+  <Logo />
       </div>
 
       <div className="col-3">

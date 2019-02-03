@@ -1,9 +1,9 @@
 .consultationContainer{
   margin-top: 5rem;
-  /* margin-bottom: 5rem; */
-  padding-top: 3rem;
+  margin-bottom: 5rem;
+  /* padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: black;
+  background-color: #104e7d; */
 }
 
 #consultationText{
@@ -33,7 +33,7 @@
 }
 
 #consultationBtn:hover {
-  color: #fff;
-  background: transparent;
-  border-color: #fff;
+  color: #fbfbfb;
+  background: #f1c253;
+  /* border-color: #fff; */
 }

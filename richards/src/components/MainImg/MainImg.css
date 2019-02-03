@@ -8,6 +8,7 @@ position: relative;
   height: auto;
   overflow: hidden;
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 #missionStatement{
@@ -16,6 +17,7 @@ position: relative;
   width: 100%;
   top: -14.5rem;
   color: white;
+  font-family: 'Playfair Display', serif;
   
 }
 
@@ -26,6 +28,7 @@ position: relative;
   top:-11rem;
   color: #dadada;
   font-size: 1.2rem;
+  font-family: 'Playfair Display', serif;
 
 }
 
@@ -35,11 +38,15 @@ position: relative;
   width: 100%;
   top: -18rem;
   color: white;
-  
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
 }
 
+
 #span{
-  color: #ffcc54
+  color: #ffcc54;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
 }
 /* 104e7d */
 /* .carousel-item {

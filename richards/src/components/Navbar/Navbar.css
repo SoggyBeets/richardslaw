@@ -15,7 +15,7 @@ nav {
   font-size: 1rem;
   letter-spacing: .15rem;
   text-align: left;
-  font-family: 'Montesserat';
+  font-family: 'Rubik', sans-serif;
 }
 
 #navA {
@@ -24,6 +24,8 @@ nav {
   text-align: left;
   text-decoration: none;
   background-color: #84212100;
+  font-family: 'Rubik', sans-serif;
+  
 }
 
 #navA:hover {
@@ -38,7 +40,7 @@ nav {
   font-size: 1rem;
   letter-spacing: .15rem;
   text-align: right;
-  font-family: 'Montesserat';
+  font-family: 'Rubik', sans-serif;
 }
 
 #navAR {
@@ -47,6 +49,7 @@ nav {
   text-align: right;
   text-decoration: none;
   background-color: #84212100;
+  font-family: 'Rubik', sans-serif;
 }
 
 #navAR:hover {
@@ -62,15 +65,18 @@ nav {
 .textAlignR{
   text-align: right;
   padding-top: .5rem;
+  font-family: 'Playfair Display', serif;
 }
 
 #phone {
   line-height: .01rem;
   text-align: center;
+  font-family: 'Rubik', sans-serif;
 }
 
 #phone a{
   padding-left: 0rem;
+  font-family: 'Rubik', sans-serif;
 }
 
 #logo {

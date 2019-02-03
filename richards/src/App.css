@@ -153,24 +153,29 @@ html {
 }
 
 #googlemaps{
-  padding-top: 5rem;
+  padding-top: 1rem;
   /* background-color: #111444; */
 }
 
 #mapsBorder{
-  border: #104e7d 1rem solid;
+  /* border: #104e7d 1rem solid; */
 }
 
 #socialfeeds{
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 
 #instafeed{
-  border: solid 1rem #ffcc54;
+  /* border-top: solid #ffcc54; */
+  border-bottom: solid #ffcc54;
+  border-left: solid #ffcc54;
+  border-right: solid #ffcc54;
 }
 
 #fbfeed{
-  
+  /* border-top: solid #ffcc54; */
+  border-bottom: solid #ffcc54;
+  border-left: solid #ffcc54;
 }
 /*
 #googlemaps {
@@ -205,3 +210,19 @@ html {
   background-color: red;
   border-color: black;
 }
+
+#whereToFind{
+  /* padding-top: 1rem; */
+  padding-bottom: 1rem;
+  /* color: white; */
+  font-family: 'Playfair Display', serif;
+}
+
+#wtfContainer{
+  /* background-color: #104e7d ; */
+}
+
+h1, h2{
+font-family: 'Playfair Display', serif;
+}
+

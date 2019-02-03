@@ -12,7 +12,7 @@ import "./Tabs.css";
 
 function TabContainer({ children, dir }) {
   return (
-    <Typography component="div" dir={dir} style={{ padding: 8 * 3, height: '38rem', backgroundColor: ' rgba(0, 0, 0, 0.5)' }}>
+    <Typography component="div" dir={dir} style={{ padding: 8 * 3, height: '25rem', backgroundColor: ' rgba(0, 0, 0, 0.5)' }}>
       {children}
     </Typography>
   );
@@ -33,7 +33,7 @@ const lawArea = {
   fontSize: '3rem',
   fontWeight: '500',
   textAlign: 'left',
-  paddingTop: '5rem',
+  paddingTop: '2rem',
   lineHeight: '1.5rem',
   color: 'white'
 }
