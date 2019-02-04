@@ -113,7 +113,11 @@ const Footer = () => (
 
 <div className="row">
 <div className="col-4"></div>
-<div className="col-4"><Logo /></div>
+<div className="col-4" id="footerLogo">
+<div>
+<Logo id="footerImg"/>
+</div>
+</div>
 <div className="col-4"></div>
 </div>
 
