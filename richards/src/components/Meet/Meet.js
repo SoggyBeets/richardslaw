@@ -3,8 +3,10 @@ import "./Meet.css"
 
 
 const Meet = () => (
- <div className="row">
-<div className="col-md-12">
+
+<div className="row">
+<div className="col-md-12" id="attornyContainer">
+
 <div className="row">
 <div className="col-2"></div>
 <div className="col-8">
