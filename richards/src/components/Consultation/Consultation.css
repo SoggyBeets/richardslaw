@@ -1,9 +1,9 @@
 .consultationContainer{
   margin-top: 5rem;
-  /* margin-bottom: 5rem; */
-  padding-top: 3rem;
+  margin-bottom: 5rem;
+  /* padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: black;
+  background-color: #104e7d; */
 }
 
 #consultationText{
@@ -15,6 +15,7 @@
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
   /* padding-top: 4rem; */
+  font-family: 'Rubik', sans-serif;
 }
 
 #consultationBtn{
@@ -30,10 +31,11 @@
   float: right;
   /* margin-top: 1em; */
   border: 2px solid transparent;
+  font-family: 'Rubik', sans-serif;
 }
 
 #consultationBtn:hover {
-  color: #fff;
-  background: transparent;
-  border-color: #fff;
+  color: #fbfbfb;
+  background: #f1c253;
+  /* border-color: #fff; */
 }

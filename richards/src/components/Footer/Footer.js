@@ -6,7 +6,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 // import { faGavel, faInstagram, faFacebookSquare, faMapMarkerAlt, faCarrot, faBeer, faUsers, faUserInjured, faBalanceScale } from '@fortawesome/free-solid-svg-icons'
 // library.add(faGavel, faInstagram, faFacebookSquare, faMapMarkerAlt, faCarrot, faBeer, faUsers, faUserInjured, faBalanceScale)
 import { faCarrot, faBalanceScale, faRocket } from '@fortawesome/free-solid-svg-icons'
-
+import Logo from "../Icon"
 library.add(fab, faCarrot, faBalanceScale, faRocket)
 
 // const hOneStyle = {
@@ -48,7 +48,7 @@ const copyrightStyle = {
 // }
 
 const google = {
-  fontSize: '2.20rem',
+  fontSize: '2rem',
   color: 'white',
   padding: '8px',
   paddingBottom: '12px'
@@ -62,14 +62,14 @@ const ourLogo = {
 }
 
 const fb = {
-  fontSize: '2.5rem',
+  fontSize: '2.25rem',
   color: 'white',
   padding: '10px',
   marginRight: '2rem',
   marginLeft: '2rem'
 }
 const insta = {
-  fontSize: '2.5rem',
+  fontSize: '2.25rem',
   color: 'white',
   padding: '10px'
 }
@@ -77,7 +77,7 @@ const insta = {
 const iconLinks = {
   marginLeft: '2rem',
   marginRight: '2rem',
-  marginBottom: '3rem',
+  marginBottom: '1rem',
   padding: '0rem',
   textAlign: 'center'
 }
@@ -113,7 +113,11 @@ const Footer = () => (
 
 <div className="row">
 <div className="col-4"></div>
-<div className="col-4"><h1 id="richardsLogo">Richards Logo</h1></div>
+<div className="col-4">
+<div id="footerLogo">
+<Logo id="footerImg"/>
+</div>
+</div>
 <div className="col-4"></div>
 </div>
 

@@ -12,7 +12,7 @@ import "./Tabs.css";
 
 function TabContainer({ children, dir }) {
   return (
-    <Typography component="div" dir={dir} style={{ padding: 8 * 3, height: '38rem', backgroundColor: ' rgba(0, 0, 0, 0.5)' }}>
+    <Typography component="div" dir={dir} style={{ padding: 8 * 3, height: '25rem', backgroundColor: ' rgba(0, 0, 0, 0.5)' }}>
       {children}
     </Typography>
   );
@@ -33,13 +33,14 @@ const lawArea = {
   fontSize: '3rem',
   fontWeight: '500',
   textAlign: 'left',
-  paddingTop: '5rem',
+  paddingTop: '2rem',
   lineHeight: '1.5rem',
-  color: 'white'
+  color: 'white',
+  fontFamily: 'Playfair Display, serif'
 }
 
 const containerText = {
-  
+  fontFamily: 'Rubik, sansSerif',
     fontSize: '.85rem',
     fontWeight: '400',
     textAlign: 'left',
@@ -50,9 +51,8 @@ const containerText = {
 }
 
 const containerTitle = {
-  
+  fontFamily: 'Rubik, sansSerif',
   fontSize: '1.25rem',
-  fontFamily: 'Khula',
   letterSpacing: '.1rem',
   textAlign: 'left',
   paddingTop: '2rem',
@@ -141,42 +141,42 @@ class FullWidthTabs extends React.Component {
        
       
           <TabContainer dir={theme.direction}>
-          <h1 style={lawArea}>INJURY</h1>
+          <h1 style={lawArea}>Injury</h1>
           <h2 style={containerTitle}>Agressive Pursuit Of Your Accident Claim And Care While You Recover</h2><h3 style={containerText}>If you’ve been injured in Utah, through an accident or by someone else’s negligence; it may seem impossible to get your life back on track.
 Sadly, you would not believe the games insurance companies will play, and the efforts they will go through to prevent you from seeking legal protection for yourself.
 With Injuries, there’s no time for games. RBR Law will be aggressive with the Insurance Company, and help you get compensation for your injuries. We give you a fighting chance against the big money in Insurance, so you can get your life back, and the justice you deserve.
  </h3></TabContainer>
           <TabContainer dir={theme.direction}>
-          <h1 style={lawArea}>BANKRUPTCY</h1>
-          <h2 style={containerTitle}>AGGRESIVE ASSISTANCE AND PROTECTION FROM CRIPLING DEBT</h2><h3 style={containerText}>If you have Bill Problems you probably have a lot of questions like: Will I lose my home? Creditors are so aggressive! Can they Really Call Me At Work? What about my retirement?
+          <h1 style={lawArea}>Bankruptcy</h1>
+          <h2 style={containerTitle}>Aggressive Assistance And Protection From Crippling Debt</h2><h3 style={containerText}>If you have Bill Problems you probably have a lot of questions like: Will I lose my home? Creditors are so aggressive! Can they Really Call Me At Work? What about my retirement?
 At RBR we’ve helped hundreds of people get their Bill Problems taken care of, reduce stress, and get back peace of mind.
 Even if you’re facing a foreclosure, dealing with the IRS on back-taxes, or have been told by Bill Collectors that you can’t file bankruptcy, we have a solution.
 We get Aggressive with your creditors so they stop harassing you, and you get to move on with a fresh start.
 
  </h3></TabContainer>
           <TabContainer dir={theme.direction}>
-          <h1 style={lawArea}>DIVORCE/CUSTODY</h1>
-          <h2 style={containerTitle}>AGGRESIVE PROTECTION OF YOUR TOP PRIORITIES AND HIGHEST CARES</h2><h3 style={containerText}>Facing a divorce or a domestic dispute is hard; You’re about to be in the fight of your life.
+          <h1 style={lawArea}>Divorce/Custody</h1>
+          <h2 style={containerTitle}>Aggressive Protection Of Your Top Priorities And Your Highest Cares</h2><h3 style={containerText}>Facing a divorce or a domestic dispute is hard; You’re about to be in the fight of your life.
 Divorce, custody, and other family changes need to be handled by council with real experience in Utah. RBR has helped people just like you through the most painful times of their lives with grace and strength. If you've come to need help with difficult family circumstances, we'd like you to consider our help.
 When it comes to your kids, your home, and the life you’ve worked so hard to build, you need a Law Firm that Aggressively protects your future.
 
  </h3></TabContainer>
           <TabContainer dir={theme.direction}>
-          <h1 style={lawArea}>IMMIGRATION</h1>
-          <h2 style={containerTitle}>AGRESSIVE PURSUIT OF YOUR ACCIDENT CLAIM AND CARE WHILE YOU RECOVER</h2><h3 style={containerText}>If you’ve been injured in Utah, through an accident or by someone else’s negligence; it may seem impossible to get your life back on track.
+          <h1 style={lawArea}>Immigration</h1>
+          <h2 style={containerTitle}>Aggressive Pursuit Of Your Accident Claim And Care While Your Recover</h2><h3 style={containerText}>If you’ve been injured in Utah, through an accident or by someone else’s negligence; it may seem impossible to get your life back on track.
 Sadly, you would not believe the games insurance companies will play, and the efforts they will go through to prevent you from seeking legal protection for yourself.
 With Injuries, there’s no time for games. RBR Law will be aggressive with the Insurance Company, and help you get compensation for your injuries. We give you a fighting chance against the big money in Insurance, so you can get your life back, and the justice you deserve.
  </h3></TabContainer>
           <TabContainer dir={theme.direction}>
-          <h1 style={lawArea}>DUI/CRIMINAL</h1>
-          <h2 style={containerTitle}>AGGRESIVE DEFENSE WHILTE FACING DIFFICULT CHARGES</h2><h3 style={containerText}>If you’ve been accused of driving under the influence, you are guaranteed to have the State, the City, the Police and the Prosecution come after you AGGRESSIVELY.
+          <h1 style={lawArea}>DUI/Criminal</h1>
+          <h2 style={containerTitle}>Aggresive Defense While Facing Difficult Charges</h2><h3 style={containerText}>If you’ve been accused of driving under the influence, you are guaranteed to have the State, the City, the Police and the Prosecution come after you AGGRESSIVELY.
 
 Every second counts, and your Lawyer’s experience counts. Your future, your job, your right to drive – depends on it.
 
 With RBR Law you get an Aggressive defense and an Advocate for the protection of your Rights.</h3></TabContainer>
 <TabContainer dir={theme.direction}>
-<h1 style={lawArea}>ESTATE PLANNING</h1>
-<h2 style={containerTitle}>AGGRESIVE DEFENSE WHILTE FACING DIFFICULT CHARGES</h2><h3 style={containerText}>If you’ve been accused of driving under the influence, you are guaranteed to have the State, the City, the Police and the Prosecution come after you AGGRESSIVELY.
+<h1 style={lawArea}>Estate Planning</h1>
+<h2 style={containerTitle}>Aggressive Defense While Facing Difficult Charges</h2><h3 style={containerText}>If you’ve been accused of driving under the influence, you are guaranteed to have the State, the City, the Police and the Prosecution come after you AGGRESSIVELY.
 
 Every second counts, and your Lawyer’s experience counts. Your future, your job, your right to drive – depends on it.
 
