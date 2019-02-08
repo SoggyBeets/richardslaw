@@ -15,6 +15,7 @@
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
   /* padding-top: 4rem; */
+  font-family: 'Rubik', sans-serif;
 }
 
 #consultationBtn{
@@ -30,6 +31,7 @@
   float: right;
   /* margin-top: 1em; */
   border: 2px solid transparent;
+  font-family: 'Rubik', sans-serif;
 }
 
 #consultationBtn:hover {

@@ -15,8 +15,12 @@ const Meet = () => (
 
 <div className="row">
 <div className="col-2"></div>
-<div className="col-4" id="meetCol"><img src="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px.jpg" alt="portrait1 500px" itemprop="image" srcset="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px.jpg 500w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px-150x150.jpg 150w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px-300x300.jpg 300w" sizes="(max-width: 500px) 100vw, 500px">
-</img></div>
+<div className="col-4">
+<div id="meetCol">
+<img src="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px.jpg" alt="portrait1 500px" itemprop="image" srcset="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px.jpg 500w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px-150x150.jpg 150w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px-300x300.jpg 300w" sizes="(max-width: 500px) 100vw, 500px">
+</img>
+</div>
+</div>
 <div className="col-4" id="meetCol">
 <div id="lawyerCard">
 <h2 id="meetTitle">Kevin G. Richards</h2>
@@ -41,8 +45,11 @@ U.S. Bankruptcy Court, District of Utah
 
 <div className="row">
 <div className="col-2"></div>
-<div className="col-4" id="meetCol"><img src="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px.jpg" alt="portrait2 500px" itemprop="image" srcset="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px.jpg 500w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px-150x150.jpg 150w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px-300x300.jpg 300w" sizes="(max-width: 500px) 100vw, 500px">
+<div className="col-4">
+<div id="meetCol">
+<img src="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px.jpg" alt="portrait2 500px" itemprop="image" srcset="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px.jpg 500w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px-150x150.jpg 150w, https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px-300x300.jpg 300w" sizes="(max-width: 500px) 100vw, 500px">
 </img>
+</div>
 </div>
 <div className="col-4" id="meetCol">
 <div id="lawyerCard">

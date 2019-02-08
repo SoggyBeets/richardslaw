@@ -12,8 +12,8 @@ const MainImg = () => (
 <div className="row">
 <div className="col-2"></div>
 <div className="col-8">
-<h1 id="aggresiveText"><span id="span">U</span>tah's <span id="span">A</span>ggressive <span id="span">L</span>aw <span id="span">F</span>irm</h1>
-<hr></hr>
+<h1 id="aggresiveText">Utah's Aggressive Law Firm</h1>
+{/* <hr></hr> */}
 <h2 id="missionStatement">This will be the mission statement of the company</h2>
 <h3 id="msText">This will be some extra text for the mission statement</h3></div>
 {/* <div className="col-2"></div> */}

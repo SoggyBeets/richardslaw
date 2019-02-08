@@ -13,16 +13,18 @@
 }
 
 #meetCol{
-  padding-bottom: .25rem;
-  margin: 0rem;
+  padding-bottom: .1rem;
+  padding-left: .0000001rem;
+  /* margin: 0rem;
   background-color: black;
-  padding-right: 15rem;
+  padding-right: 15rem; */
 }
 
 #meetTitle{
   color: #ffcc54;
   text-align: left;
-  padding: 1rem;
+  padding-top: 1rem;
+  font-family: 'Playfair Display', serif;
 }
 
 #meeth3{
@@ -34,6 +36,7 @@
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
   color: white;
+  font-family: 'Playfair Display', serif;
 }
 #meeth4{
   font-size: 0.65rem;
@@ -44,6 +47,7 @@
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
   color: rgba(255, 255, 255, 0.671);
+  font-family: 'Rubik', sans-serif;
 }
 #meetp{
   font-size: 0.65rem;
@@ -53,4 +57,5 @@
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
   color: rgba(255, 255, 255, 0.753);
+  font-family: 'Rubik', sans-serif;
 }

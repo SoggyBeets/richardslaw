@@ -17,7 +17,9 @@ const Navbar = props => (
       </div>
 
       <div className="col-2">
+      <div id="navLogo">
   <Logo />
+      </div>
       </div>
 
       <div className="col-3">

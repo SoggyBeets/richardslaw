@@ -48,7 +48,7 @@ const copyrightStyle = {
 // }
 
 const google = {
-  fontSize: '2.20rem',
+  fontSize: '2rem',
   color: 'white',
   padding: '8px',
   paddingBottom: '12px'
@@ -62,14 +62,14 @@ const ourLogo = {
 }
 
 const fb = {
-  fontSize: '2.5rem',
+  fontSize: '2.25rem',
   color: 'white',
   padding: '10px',
   marginRight: '2rem',
   marginLeft: '2rem'
 }
 const insta = {
-  fontSize: '2.5rem',
+  fontSize: '2.25rem',
   color: 'white',
   padding: '10px'
 }
@@ -113,8 +113,8 @@ const Footer = () => (
 
 <div className="row">
 <div className="col-4"></div>
-<div className="col-4" id="footerLogo">
-<div>
+<div className="col-4">
+<div id="footerLogo">
 <Logo id="footerImg"/>
 </div>
 </div>
