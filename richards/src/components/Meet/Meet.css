@@ -4,18 +4,30 @@
   font-family: "Playfair Display", serif;
 }
 
+#jaimeRow {
+  margin-top: 1rem;
+}
+
 #kevinPortrait {
   width: 100%;
   max-width: 500px;
   max-width: 500px;
+  margin-left: 8rem;
+  padding-top: 5rem;
 }
 
 #jaimePortrait {
   width: 100%;
   max-width: 500px;
   max-width: 500px;
+  margin-left: 8rem;
+  padding-top: 5rem;
 }
 
+#imgCard {
+  height: 34rem;
+  background-color: rgba(0, 0, 0, 0.859);
+}
 
 #lawyerCard {
   height: 34rem;
@@ -26,7 +38,6 @@
   color: #ffcc54;
   text-align: left;
   padding-top: 1rem;
-  padding-left: 1rem;
   font-family: "Playfair Display", serif;
 }
 
@@ -35,33 +46,82 @@
   font-weight: 400;
   text-align: left;
   padding-top: 0.25rem;
-  padding-left: 1rem;
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
   color: white;
   font-family: "Playfair Display", serif;
 }
+
 #meeth4 {
   font-size: 0.9rem;
   font-weight: 400;
   text-align: left;
-  padding-top: 0.25rem;
-  padding-left: 0.5rem;
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
   color: rgba(255, 255, 255, 0.671);
   font-family: "Rubik", sans-serif;
 }
+
 #meetp {
   font-size: 0.9rem;
   font-weight: 200;
   text-align: left;
-  padding-top: 1.5rem;
-  padding-left: 0.25rem;
-  padding-right: .25rem;
+  padding-right: 0.25rem;
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
   color: rgba(255, 255, 255, 0.9);
   font-family: "Rubik", sans-serif;
   font-family: "Playfair Display", serif;
+}
+
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 375px) {
+  #aboutUsTitle {
+    padding-left: .5rem;
+  }
+
+  #imgCard {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.859);
+  }
+
+  #lawyerCard {
+    height: 45rem;
+    background-color: rgba(0, 0, 0, 0.859);
+  }
+
+  #kevinPortrait {
+    margin-left: 0rem;
+    padding-top: 0rem;
+  }
+
+  #jaimePortrait {
+    margin-left: 0rem;
+    padding-top: 0rem;
+  }
+
+  #meetTitle {
+    padding-left: 1rem;
+  }
+
+  #meeth3 {
+    font-size: 1.25rem;
+    padding-left: 1rem;
+  }
+
+  #meeth4 {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+
+  #meetp {
+    font-size: 1rem;
+    padding-right: 0.25rem;
+    padding-left: 1rem;
+  }
 }

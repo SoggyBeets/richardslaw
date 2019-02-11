@@ -1,19 +1,6 @@
-/* * { 
-  outline: 1px solid palegreen;
-  outline-offset: -1px;
-} */
-
 html {
   width: auto !important;
   overflow-x: hidden !important;
-}
-
-.App {
-  /* margin: auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  overflow: hidden !important; */
 }
 
 .App-logo {
@@ -194,17 +181,6 @@ html {
   color: blue;
   background-color: red;
   border-color: black;
-}
-
-#whereToFind{
-  /* padding-top: 1rem; */
-  padding-bottom: 1rem;
-  /* color: white; */
-  font-family: 'Playfair Display', serif;
-}
-
-#wtfContainer{
-  /* background-color: #104e7d ; */
 }
 
 h1, h2{

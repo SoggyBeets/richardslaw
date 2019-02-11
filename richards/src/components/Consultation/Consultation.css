@@ -39,3 +39,17 @@
   background: #f1c253;
   /* border-color: #fff; */
 }
+
+@media only screen and (max-width: 375px) {
+  #consultationText{
+ padding-left: 1rem;
+  }
+
+  #consultationBtn{
+
+    margin-left: 4.5rem;
+    float: none;
+  }
+
+
+}
