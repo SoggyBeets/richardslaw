@@ -94,8 +94,8 @@ class FullWidthTabs extends React.Component {
     return (
       <div className={classes.root}>
       <div className="row no-gutters" id="tabsRow">
-      <div className="col-2" id="tabsRow"></div>
-      <div className="col-8" id="tabsRow">
+      <div className="col-xs-0 col-md-2" id="tabsRow"></div>
+      <div className="col-xs-12 col-md-8" id="tabsRow">
         <AppBar position="static" color="#104e7d" style={tabsBG}>
           <Tabs
             value={this.state.value}
@@ -127,12 +127,12 @@ class FullWidthTabs extends React.Component {
           </Tabs>
         </AppBar>
         </div>
-        <div className="col-2" id="tabsRow"></div>
+        <div className="col-xs-0 col-md-2" id="tabsRow"></div>
         </div>
         <div id="tabContentRow">
         <div className="row no-gutters">
-        <div className="col-2"></div>
-        <div className="col-8">
+        <div className="col-xs-0 col-md-2"></div>
+        <div className="col-xs-12 col-md-8">
         <SwipeableViews
           axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
           index={this.state.value}
@@ -183,7 +183,7 @@ Every second counts, and your Lawyer’s experience counts. Your future, your jo
 With RBR Law you get an Aggressive defense and an Advocate for the protection of your Rights.</h3></TabContainer>
         </SwipeableViews>
         </div>
-        <div className="col-2"></div>
+        <div className="col-xs-0 col-md-2"></div>
         </div>
       </div>
       </div>

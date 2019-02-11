@@ -22,8 +22,8 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <MainImg />
-        <Tabs />
-        {/* <Meet /> */}
+        {/* <Tabs /> */}
+        <Meet />
 
         {/* <Consultation /> */}
 
