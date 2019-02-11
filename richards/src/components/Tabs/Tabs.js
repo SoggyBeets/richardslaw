@@ -107,6 +107,7 @@ class FullWidthTabs extends React.Component {
           {/* <div className="row">
           <div className="col-md-1"></div>
           <div className="col-md-2"> */}
+
             <Tab label="Injury" style={tabsfont}  />
             {/* </div>
             <div className="col-md-2"> */}
@@ -121,9 +122,11 @@ class FullWidthTabs extends React.Component {
             <div className="col-md-2"> */}
             <Tab label="DUI/Criminal" style={tabsfont} />
             <Tab label="Estate Planning" style={tabsfont} />
+
             {/* </div>
             <div className="col-md-1"></div> */}
             {/* </div> */}
+            <Tab label="Estate Planning" />
           </Tabs>
         </AppBar>
         </div>
