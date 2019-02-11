@@ -7,74 +7,46 @@ import Facebook from "./components/Facebook";
 import Instagram from "./components/Instagram";
 import Footer from "./components/Footer";
 import Tabs from "./components/Tabs";
-import Carousel from "./components/Carousel";
+// import Carousel from "./components/Carousel";
+import MainImg from "./components/MainImg";
 import Form from "./components/Form";
+import Meet from "./components/Meet";
+import Consultation from "./components/Consultation";
+import Hover from "./components/Hover";
+import { Container, Row, Col} from 'reactstrap';
+import { checkPropTypes } from "prop-types";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar />
+        <MainImg />
+        {/* <Tabs /> */}
+        <Meet />
 
-        <div className="container" id="carouselcont">
-          <div className="row no-gutters" id="carouselrow">
-            <div className="col-12">
-              <Carousel />
+        {/* <Consultation /> */}
+
+        {/* <div className="row" id="wtfContainer">
+          <div className="col-2" />
+          <div className="col-8">
+            <h1 id="whereToFind">Where To Find Us</h1>
+          </div>
+          <div className="col-2" />
+        </div> */}
+
+        {/* <div className="row no-gutters" id="socialfeeds">
+          <div className="col-6" id="fbfeed">
+            <div className="test">
+              <Facebook />
             </div>
           </div>
-        </div>
-
-        <div className="row no-gutters" id="ttabs">
-        <div className="col-2"></div>
-            <div className="col-8">
-            <Tabs />
-            </div>
-            <div className="col-2"></div>
-          </div>
-
-        {/* <div className="container">
-          <div className="row no-gutters" id="ttabs">
-            <div className="col" />
+          <div className="col-6" id="instafeed">
+            <Google />
           </div>
         </div> */}
 
-        <AboutUs />
-
-        <div className="container">
-          <div className="row no-gutters" id="faces">
-            <div className="col">
-              <div className="kevin" />
-            </div>
-            <div className="col">
-              <div className="jaime" />
-            </div>
-          </div>
-        </div>
-
-        <Form />
-
-        <div className="row no-gutters" id="googlemaps">
-          <div className="col-1"></div>
-            <div className="col-10">
-              <Google />
-              </div>
-              <div className="col-1"></div>
-            </div>
-
-          <div className="row no-gutters" id="socialfeeds">
-          <div className="col-xs-1 col-md-2"></div>
-            <div className="col-xs-10 col-md-4" id="fbfeed">
-              <div className="test">
-                <Facebook />
-              </div>
-            </div>
-            <div className="col-xs-10 col-md-4" id="instafeed">
-              <Instagram />
-              </div>
-              <div className="col-xs-1 col-md-2"></div>
-            </div>
-
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

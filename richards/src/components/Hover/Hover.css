@@ -1,0 +1,54 @@
+#aboutUsTitle{
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+#lawyerCard{
+  height: 26.4rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.859);
+  padding-bottom: 1rem;
+}
+
+#meetCol{
+  padding-bottom: .25rem;
+  margin: 0rem;
+  background-color: black;
+  padding-right: 15rem;
+}
+
+#meetTitle{
+  color: #ffcc54;
+  text-align: left;
+  padding: 1rem;
+}
+
+#meeth3{
+  font-size: 0.85rem;
+  font-weight: 400;
+  text-align: left;
+  padding-top: .25rem;
+  padding-right: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+#meeth4{
+  font-size: 0.65rem;
+  font-weight: 400;
+  text-align: left;
+  padding-top: .25rem;
+  padding-right: .25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.1rem;
+  color: rgba(255, 255, 255, 0.671);
+}
+#meetp{
+  font-size: 0.65rem;
+  font-weight: 200;
+  text-align: left;
+  padding-top: .25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.1rem;
+  color: rgba(255, 255, 255, 0.753);
+}

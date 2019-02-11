@@ -1,0 +1,45 @@
+#mainimgcont {
+  /* background-image: url("https://www.rbrlawgroup.com/wp-content/uploads/2016/08/utah-lawyer-homepage-hero-3.jpg");
+  width: 100%;
+  height: auto; */
+  background-color: lightpink;
+}
+
+
+#headerSection {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+#aggresiveText{
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  top: -18rem;
+  color: #ffcc54;
+  font-family: 'Playfair', serif;
+  font-weight: 700;
+}
+
+#missionStatement{
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  top: -14.5rem;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+#msText{
+  width: 100%;
+  text-align: left;
+  position: absolute;
+  top:-11rem;
+  color: #dadada;
+  font-size: 1.2rem;
+  font-family: 'Rubik', sans-serif;
+
+}

@@ -9,11 +9,11 @@ html {
 }
 
 .App {
-  margin: auto;
+  /* margin: auto;
   position: absolute;
   left: 0;
   right: 0;
-  overflow: hidden !important;
+  overflow: hidden !important; */
 }
 
 .App-logo {
@@ -87,26 +87,82 @@ html {
 }
 
 .grey1 {
-  height: 22rem;
+  height: 28rem;
   background-color: #f8f8f9;
   position: relative;
   z-index: -5;
 }
 
+.white1 {
+  top: 28rem;
+  height: 5rem;
+  background-color: white;
+  position: relative;
+  z-index: -5;
+}
+
+.grey2 {
+  top: 34rem;
+  height: 34rem;
+  background-color: #f8f8f9;
+  position: relative;
+  z-index: -4;
+}
+
 .darkblue1 {
+  top: 20rem;
+  height: 24rem;
+  background-color: #111444;
+  position: relative;
+  z-index: -4;
+}
+
+.white2{
+  top: 30rem;
+  height: 32rem;
+  background-color: white;
+  position: relative;
+  z-index: -5;
+}
+
+.darkblue2 {
   top: 40rem;
-  height: 25rem;
+  height: 30rem;
   background-color: #111444;
   position: relative;
   z-index: -5;
 }
 
 #ttabs {
-  background-color: rgba(234, 234, 234, 0.5);
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  /* padding-top: 3rem; */
 }
 
+#googlemaps{
+  padding-top: 1rem;
+  /* background-color: #111444; */
+}
+
+#mapsBorder{
+  /* border: #104e7d 1rem solid; */
+}
+
+#socialfeeds{
+  margin-top: 1rem;
+}
+
+#instafeed{
+  /* border-top: solid #ffcc54; */
+  border-bottom: solid #ffcc54;
+  border-left: solid #ffcc54;
+  border-right: solid #ffcc54;
+}
+
+#fbfeed{
+  /* border-top: solid #ffcc54; */
+  border-bottom: solid #ffcc54;
+  border-left: solid #ffcc54;
+}
+/*
 #googlemaps {
   height: 25.85rem;
   background-color: #012998;
@@ -114,15 +170,9 @@ html {
   padding-bottom: 28rem;
 }
 
-#socialfeeds {
-  height: 26rem;
-  background-color: rgba(234, 234, 234, 0.5);;
-  padding-top: 5rem;
-  padding-bottom: 31rem;
-}
-#aboutUs {
-  /* padding-top: 30rem; */
-}
+/* #aboutUs {
+  padding-top: 30rem;
+} */
 
 /* .container {
   outline: 1px solid blue;
@@ -145,3 +195,19 @@ html {
   background-color: red;
   border-color: black;
 }
+
+#whereToFind{
+  /* padding-top: 1rem; */
+  padding-bottom: 1rem;
+  /* color: white; */
+  font-family: 'Playfair Display', serif;
+}
+
+#wtfContainer{
+  /* background-color: #104e7d ; */
+}
+
+h1, h2{
+font-family: 'Playfair Display', serif;
+}
+

@@ -1,16 +1,79 @@
-nav {
-  
-  height: 3rem;
+.navcont {
+  height: 4.55rem;
+  position: absolute;
+  width: 100%;
   z-index: 5;
+  background-color: #3333338f;
+}
+
+#navP {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+}
+
+#navA {
+  width: 100%;
+  color: #ffcc54 !important;
+  text-align: left;
+  text-decoration: none;
+  background-color: #84212100;
+  font-family: "Rubik", sans-serif;
+}
+
+#navA:hover {
+  color: #ffcc54ad !important;
+  text-decoration: underline;
+}
+
+#navPR {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  text-align: right;
+  font-family: "Rubik", sans-serif;
+}
+
+#navAR {
+  width: 100%;
+  color: #ffcc54 !important;
+  text-align: right;
+  text-decoration: none;
+  background-color: #84212100;
+  font-family: "Rubik", sans-serif;
+}
+
+#navAR:hover {
+  color: #ffcc54ad !important;
+  text-decoration: underline;
+}
+
+.textAlignL {
+  text-align: left;
+  padding-top: 0.5rem;
+}
+
+.textAlignR {
+  text-align: right;
+  padding-top: 0.5rem;
+  font-family: "Playfair Display", serif;
 }
 
 #phone {
-  line-height: .01rem;
+  line-height: 0.01rem;
   text-align: center;
+  font-family: "Rubik", sans-serif;
 }
 
-#phone a{
+#phone a {
   padding-left: 0rem;
+  font-family: "Rubik", sans-serif;
 }
 
 #logo {
@@ -22,8 +85,8 @@ nav {
   border-radius: 50%;
   width: 7rem;
   height: 7rem;
-  background: #F8F8F9;
-  box-shadow: 0 .2rem .1rem rgba(0, 0, 0, 0.28);
+  background: #f8f8f914;
+  box-shadow: 0 0.2rem 0.1rem rgba(0, 0, 0, 0.28);
   z-index: 999;
 }
 
@@ -36,6 +99,10 @@ nav {
 } */
 
 #q {
-  
   text-align: center;
+}
+
+#navLogo {
+  text-align: center;
+  width: 100%;
 }
