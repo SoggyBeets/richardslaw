@@ -93,7 +93,7 @@ class FullWidthTabs extends React.Component {
 
     return (
       <div className={classes.root}>
-      <div className="row" id="tabsRow">
+      <div className="row no-gutters" id="tabsRow">
       <div className="col-2" id="tabsRow"></div>
       <div className="col-8" id="tabsRow">
         <AppBar position="static" color="#104e7d" style={tabsBG}>
@@ -130,7 +130,7 @@ class FullWidthTabs extends React.Component {
         <div className="col-2" id="tabsRow"></div>
         </div>
         <div id="tabContentRow">
-        <div className="row">
+        <div className="row no-gutters">
         <div className="col-2"></div>
         <div className="col-8">
         <SwipeableViews

@@ -1,10 +1,8 @@
-nav {
+.navcont {
   height: 4.55rem;
   position: absolute;
-  /* z-index: 5; */
-  /* margin: 2rem; */
-  top: 0rem;
   width: 100%;
+  z-index: 5;
   background-color: #3333338f;
 }
 
@@ -13,9 +11,9 @@ nav {
   margin-bottom: 0rem !important;
   color: #fff;
   font-size: 1rem;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   text-align: left;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 #navA {
@@ -24,8 +22,7 @@ nav {
   text-align: left;
   text-decoration: none;
   background-color: #84212100;
-  font-family: 'Rubik', sans-serif;
-  
+  font-family: "Rubik", sans-serif;
 }
 
 #navA:hover {
@@ -38,9 +35,9 @@ nav {
   margin-bottom: 0rem !important;
   color: #fff;
   font-size: 1rem;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   text-align: right;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 #navAR {
@@ -49,7 +46,7 @@ nav {
   text-align: right;
   text-decoration: none;
   background-color: #84212100;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 #navAR:hover {
@@ -57,26 +54,26 @@ nav {
   text-decoration: underline;
 }
 
-.textAlignL{
+.textAlignL {
   text-align: left;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
-.textAlignR{
+.textAlignR {
   text-align: right;
-  padding-top: .5rem;
-  font-family: 'Playfair Display', serif;
+  padding-top: 0.5rem;
+  font-family: "Playfair Display", serif;
 }
 
 #phone {
-  line-height: .01rem;
+  line-height: 0.01rem;
   text-align: center;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
-#phone a{
+#phone a {
   padding-left: 0rem;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 #logo {
@@ -102,11 +99,10 @@ nav {
 } */
 
 #q {
-  
   text-align: center;
 }
 
-#navLogo{
-  text-align: center; 
+#navLogo {
+  text-align: center;
   width: 100%;
 }
