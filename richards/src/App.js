@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import AboutUs from "./components/AboutUs";
-import Google from "./components/Google";
-import Facebook from "./components/Facebook";
-import Instagram from "./components/Instagram";
-import Footer from "./components/Footer";
-import Tabs from "./components/Tabs";
+// import AboutUs from "./components/AboutUs";
+// import Google from "./components/Google";
+// import Facebook from "./components/Facebook";
+// import Instagram from "./components/Instagram";
+// import Footer from "./components/Footer";
+// import Tabs from "./components/Tabs";
 // import Carousel from "./components/Carousel";
 import MainImg from "./components/MainImg";
-import Form from "./components/Form";
+// import Form from "./components/Form";
 import Meet from "./components/Meet";
-import Consultation from "./components/Consultation";
-import Hover from "./components/Hover";
+// import Consultation from "./components/Consultation";
+// import Hover from "./components/Hover";
 import { Container, Row, Col} from 'reactstrap';
 import { checkPropTypes } from "prop-types";
 
