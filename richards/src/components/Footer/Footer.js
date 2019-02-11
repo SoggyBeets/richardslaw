@@ -88,9 +88,9 @@ const linkAlign = {
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Footer = () => (
   <footer>
-    <div className="row" id="footerRow">
+    <div className="row no-gutters" id="footerRow">
     <div className="col-12">
-    <div className="row">
+    <div className="row no-gutters">
     <div className="col-2"></div>
     <div className="col-2">
     <h2 id="contact">Address</h2>
@@ -111,7 +111,7 @@ const Footer = () => (
 
 
 
-<div className="row">
+<div className="row no-gutters">
 <div className="col-4"></div>
 <div className="col-4">
 <div id="footerLogo">
@@ -121,7 +121,7 @@ const Footer = () => (
 <div className="col-4"></div>
 </div>
 
-<div className="row">
+<div className="row no-gutters">
 <div className="col-4"></div>
 <div className="col-4">
 <div style={iconLinks}>
@@ -133,7 +133,7 @@ const Footer = () => (
 <div className="col-4"></div>
 </div>
 
-<div className="row">
+<div className="row no-gutters">
 {/* <div className="col-4"></div> */}
 <div className="col-12">
 <div id="ourLogoSection">
