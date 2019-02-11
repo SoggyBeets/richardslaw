@@ -12,7 +12,7 @@ import "./Tabs.css";
 
 function TabContainer({ children, dir }) {
   return (
-    <Typography component="div" dir={dir} style={{ padding: 8 * 3, height: '25rem', backgroundColor: ' rgba(0, 0, 0, 0.5)' }}>
+    <Typography component="div" dir={dir} style={{ padding: 8 * 3, height: '25rem', backgroundColor: ' rgba(0, 0, 0, 0.6)' }}>
       {children}
     </Typography>
   );
@@ -30,7 +30,7 @@ TabContainer.propTypes = {
 
 const lawArea = {
   
-  fontSize: '3rem',
+  fontSize: '2.5rem',
   fontWeight: '500',
   textAlign: 'left',
   paddingTop: '2rem',
@@ -65,7 +65,8 @@ const tabsBG = {
 }
 
 const tabsfont = {
-  color: '#ffffffb0'
+  color: '#ffffffb0',
+  // padding: '.65rem'
 }
 
 const styles = theme => ({
@@ -126,7 +127,7 @@ class FullWidthTabs extends React.Component {
             {/* </div>
             <div className="col-md-1"></div> */}
             {/* </div> */}
-            <Tab label="Estate Planning" />
+            {/* <Tab label="Estate Planning" /> */}
           </Tabs>
         </AppBar>
         </div>

@@ -11,7 +11,10 @@ import WhereToFind from "./components/WhereToFind";
 // import Google from "./components/Google";
 // import Facebook from "./components/Facebook";
 // import Instagram from "./components/Instagram";
-// import Footer from "./components/Footer";
+
+import Footer from "./components/Footer";
+import Tabs from "./components/Tabs";
+
 // import Carousel from "./components/Carousel";
 // import Form from "./components/Form";
 // import Hover from "./components/Hover";
@@ -24,7 +27,7 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <MainImg />
-        {/* <Tabs /> */}
+        <Tabs />
         <Meet />
         <Consultation />
         <WhereToFind />
@@ -40,7 +43,7 @@ class App extends Component {
           </div>
         </div> */}
 
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }

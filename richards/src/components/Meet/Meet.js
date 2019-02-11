@@ -6,11 +6,13 @@ const Meet = () => (
   <Row noGutters>
     <Col md="12" id="attorneyContainer">
       <Row noGutters>
-        <Col xs="0" md="2" />
-        <Col xs="12" md="8">
+
+        <Col md="2" />
+        <Col md="8">
           <h1 id="aboutUsTitle">Meet Our Attorneys</h1>
         </Col>
-        <Col xs="0" md="2" />
+        <Col md="2" />
+
       </Row>
 
       <Row noGutters id="kevinRow">
