@@ -1,64 +1,67 @@
-#aboutUsTitle{
+#aboutUsTitle {
   padding-top: 5rem;
   padding-bottom: 1rem;
-  font-family: 'Playfair Display', serif;
-  
+  font-family: "Playfair Display", serif;
 }
 
-#lawyerCard{
-  height: 26.4rem;
+#kevinPortrait {
   width: 100%;
+  max-width: 500px;
+  max-width: 500px;
+}
+
+#jaimePortrait {
+  width: 100%;
+  max-width: 500px;
+  max-width: 500px;
+}
+
+
+#lawyerCard {
+  height: 34rem;
   background-color: rgba(0, 0, 0, 0.859);
-  padding-bottom: 1rem;
 }
 
-#meetCol{
-  padding-bottom: .1rem;
-  padding-left: .0000001rem;
-  /* margin: 0rem;
-  background-color: black;
-  padding-right: 15rem; */
-}
-
-#meetTitle{
+#meetTitle {
   color: #ffcc54;
   text-align: left;
   padding-top: 1rem;
-  font-family: 'Playfair Display', serif;
+  padding-left: 1rem;
+  font-family: "Playfair Display", serif;
 }
 
-#meeth3{
-  font-size: 0.85rem;
+#meeth3 {
+  font-size: 1rem;
   font-weight: 400;
   text-align: left;
-  padding-top: .25rem;
-  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-left: 1rem;
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
   color: white;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
-#meeth4{
-  font-size: 0.65rem;
+#meeth4 {
+  font-size: 0.9rem;
   font-weight: 400;
   text-align: left;
-  padding-top: .25rem;
-  padding-right: .25rem;
+  padding-top: 0.25rem;
+  padding-left: 0.5rem;
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
   color: rgba(255, 255, 255, 0.671);
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
-#meetp{
-  font-size: 0.65rem;
+#meetp {
+  font-size: 0.9rem;
   font-weight: 200;
   text-align: left;
-  padding-top: .25rem;
+  padding-top: 1.5rem;
+  padding-left: 0.25rem;
+  padding-right: .25rem;
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
-  color: rgba(255, 255, 255, 0.753);
-  font-family: 'Rubik', sans-serif;
-}
-#attorneyContainer{
-background-color: black;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Rubik", sans-serif;
+  font-family: "Playfair Display", serif;
 }
