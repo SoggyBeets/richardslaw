@@ -2,6 +2,7 @@
   background-color: #191919;
     /* padding: 7rem 1rem 7rem 1rem; */
     /* margin-top: 5rem; */
+    border-top: #ffcc54 solid 2px;
 }
 
 #contact{
@@ -38,7 +39,7 @@
   text-align: center;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  border-top: #ffcc54 solid ;
+  border-top: #ffcc54 1px solid ;
 }
 
 #footerLogo{
