@@ -3,7 +3,7 @@
   position: absolute;
   width: 100%;
   z-index: 5;
-  background-color: #3333338f;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #navP {
