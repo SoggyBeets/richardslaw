@@ -1,0 +1,21 @@
+#socialfeeds {
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+#mapsfeed {
+  /* border-top: solid #ffcc54; */
+  border-bottom: solid #ffcc54;
+  border-left: solid #ffcc54;
+  border-right: solid #ffcc54;
+  overflow: hidden;
+  height: auto;
+}
+
+#fbfeed {
+  /* border-top: solid #ffcc54; */
+  border-bottom: solid #ffcc54;
+  border-left: solid #ffcc54;
+  overflow: hidden;
+  height: auto;
+}

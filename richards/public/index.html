@@ -49,7 +49,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script src="https://apps.elfsight.com/p/platform.js"></script>
 
     <title>Richards Law</title>
   </head>
@@ -58,23 +58,31 @@
     <noscript> You need to enable JavaScript to run this app. </noscript>
 
     <div id="root"></div>
-
-    <!-- <div class=grey1></div>
-    <div class=white1></div>
-    <div class=grey2></div>
-    <div class=darkblue1></div>
-    <div class=white2></div>
-    <div class=darkblue2></div>
-    <div class=grey3></div>
-    <div class=white3></div> -->
+<div class="float">Have Questions?</div>
   </body>
 
   <style>
     .eapps-form-floating-button {
       bottom: 1.6rem;
-      width: 2.75rem;
-      height: 2.75rem;
+      width: 3rem;
+      height: 3rem;
       right: 1.6rem;
+    }
+
+    .float {
+      display: flex;
+      font-size: 0.7rem;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      z-index: 9998;
+      right: 3rem;
+      bottom: 1rem;
+      width: 9rem;
+      height: 2rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28);
+      background: #104e7d;
     }
 
     .eapps-facebook-feed-inner {
@@ -94,22 +102,6 @@
       width: 100%;
     }
 
-    .float {
-      display: flex;
-      font-size: 0.7rem;
-      color: white;
-      justify-content: center;
-      align-items: center;
-      position: fixed;
-      z-index: 9998;
-      right: 3rem;
-      bottom: 1rem;
-      width: 9rem;
-      height: 2rem;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28);
-      background: #2d4897;
-    }
-
     .FullWidthTabs-root-1 {
       width: 100%;
       background-color: #fff;
@@ -123,25 +115,62 @@
     }
 
     #eapps-google-maps-1.eapps-google-maps {
-    max-width: 100%;
-    height: 30rem;
+      max-width: 100%;
+      height: 30rem;
+    }
+
+    .MuiPrivateTabIndicator-colorPrimary-63 {
+      background-color: #ffcc54;
+    }
+
+    @media only screen and (max-width: 1400px) {
 }
 
+@media only screen and (max-width: 600px) {
+}
 
+@media only screen and (max-width: 450px) {
+  .eapps-form-floating-button {
+      bottom: 1.6rem;
+      width: 3rem;
+      height: 3rem;
+      right: 2.5rem;
+    }
+
+    .float {
+      display: flex;
+      font-size: 0.7rem;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      z-index: 9998;
+      right: 4rem;
+      bottom: 1rem;
+      width: 9rem;
+      height: 2rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28);
+      background: #104e7d;
+    }
+
+}
   </style>
+  
   <script>
-  window.onscroll = function() {myFunction()};
+    window.onscroll = function() {
+      myFunction();
+    };
 
-var navbar = document.getElementById("nav");
+    var navbar = document.getElementById("nav");
 
-var sticky = navbar.offsetTop;
+    var sticky = navbar.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
   </script>
 </html>

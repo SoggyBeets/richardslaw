@@ -5,23 +5,25 @@
 }
 
 #jaimeRow {
-  margin-top: 1rem;
+  margin-top: 3rem;
+}
+
+#greyLeft {
+  background-color: rgba(0, 0, 0, 0.859);
 }
 
 #kevinPortrait {
   width: 100%;
   max-width: 500px;
   max-width: 500px;
-  margin-left: 8rem;
-  padding-top: 5rem;
+  margin-top: 5rem;
 }
 
 #jaimePortrait {
   width: 100%;
   max-width: 500px;
   max-width: 500px;
-  margin-left: 8rem;
-  padding-top: 5rem;
+  margin-top: 5rem;
 }
 
 #imgCard {
@@ -80,14 +82,23 @@
 @media only screen and (max-width: 600px) {
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
   #aboutUsTitle {
-    padding-left: .5rem;
+    padding-left: 0.5rem;
+  }
+
+  #greyLeft {
+    background-color: blue;
+  }
+
+  #jaimeRow {
+    margin-top: 0rem;
   }
 
   #imgCard {
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.859);
+    /* width: 100%; */
+    height: auto;
+    background-color: white;
   }
 
   #lawyerCard {
@@ -96,13 +107,11 @@
   }
 
   #kevinPortrait {
-    margin-left: 0rem;
-    padding-top: 0rem;
+    margin-top: 0rem;
   }
 
   #jaimePortrait {
-    margin-left: 0rem;
-    padding-top: 0rem;
+    margin-top: 3rem;
   }
 
   #meetTitle {
