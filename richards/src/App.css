@@ -46,136 +46,6 @@ html {
   }
 }
 
-/* 
-.tab-list {
-  border-bottom: 1px solid #ccc;
-  padding-left: 0;
-}
-
-.tab-list-itrem {
-  display: inline-block;
-  list-style: none;
-  margin-bottom: -1px;
-  padding: 0.5rem 0.75rem;
-}
-
-.tab-list-active {
-  background-color: white;
-  border: solid #ccc;
-  border-width: 0.06rem 0.06rem 0 0.06rem;
-} */
-
-/* #tabSection {
-  background-image: linear-gradient(rgb(10, 10, 43), rgb(48, 48, 77));
-} */
-
-#carouselrow {
-  margin-bottom: 5rem;
-}
-
-.grey1 {
-  height: 28rem;
-  background-color: #f8f8f9;
-  position: relative;
-  z-index: -5;
-}
-
-.white1 {
-  top: 28rem;
-  height: 5rem;
-  background-color: white;
-  position: relative;
-  z-index: -5;
-}
-
-.grey2 {
-  top: 34rem;
-  height: 34rem;
-  background-color: #f8f8f9;
-  position: relative;
-  z-index: -4;
-}
-
-.darkblue1 {
-  top: 20rem;
-  height: 24rem;
-  background-color: #111444;
-  position: relative;
-  z-index: -4;
-}
-
-.white2{
-  top: 30rem;
-  height: 32rem;
-  background-color: white;
-  position: relative;
-  z-index: -5;
-}
-
-.darkblue2 {
-  top: 40rem;
-  height: 30rem;
-  background-color: #111444;
-  position: relative;
-  z-index: -5;
-}
-
-#ttabs {
-  /* padding-top: 3rem; */
-}
-
-#googlemaps{
-  padding-top: 1rem;
-  /* background-color: #111444; */
-}
-
-#mapsBorder{
-  /* border: #104e7d 1rem solid; */
-}
-
-#socialfeeds{
-  margin-top: 1rem;
-}
-
-#instafeed{
-  /* border-top: solid #ffcc54; */
-  border-bottom: solid #ffcc54;
-  border-left: solid #ffcc54;
-  border-right: solid #ffcc54;
-}
-
-#fbfeed{
-  /* border-top: solid #ffcc54; */
-  border-bottom: solid #ffcc54;
-  border-left: solid #ffcc54;
-}
-/*
-#googlemaps {
-  height: 25.85rem;
-  background-color: #012998;
-  padding-top: 5rem;
-  padding-bottom: 28rem;
-}
-
-/* #aboutUs {
-  padding-top: 30rem;
-} */
-
-/* .container {
-  outline: 1px solid blue;
-  outline-offset: 6px;
-}
-
-.row {
-  outline: 1px solid green;
-  outline-offset: 3px;
-}
-
-.col {
-  outline: 1px solid red;
-  outline-offset: 0px;
-} */
-
 .nav-link.active,
 .nav-item.show .nav-link {
   color: blue;
@@ -183,7 +53,7 @@ html {
   border-color: black;
 }
 
-h1, h2{
-font-family: 'Playfair Display', serif;
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
 }
-
