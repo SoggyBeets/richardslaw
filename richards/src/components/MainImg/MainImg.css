@@ -42,3 +42,46 @@
   font-family: 'Rubik', sans-serif;
 
 }
+
+@media screen and (max-width: 992px) {
+  
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  #headerSection {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+
+  #aggresiveText {
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    top: -10rem;
+    color: #ffcc54;
+    font-family: 'Playfair', serif;
+    font-weight: 700;
+}
+#missionStatement {
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  top: -7.5rem;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+#msText {
+  width: 100%;
+  text-align: left;
+  position: absolute;
+  top: -3rem;
+  color: #dadada;
+  font-size: 1.2rem;
+  font-family: 'Rubik', sans-serif;
+}
+}

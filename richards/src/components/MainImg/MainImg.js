@@ -11,8 +11,8 @@ const MainImg = () => (
         alt="lawyer Jamie"
       />
       <Row noGutters>
-        <Col md="2" />
-        <Col md="8">
+        <Col xs="1" md="2" />
+        <Col xs="11" md="10">
           <h1 id="aggresiveText">Utah's Aggressive Law Firm</h1>
           {/* <hr></hr> */}
           <h2 id="missionStatement">

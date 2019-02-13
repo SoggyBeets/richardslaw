@@ -17,11 +17,12 @@ function TabContainer({ children, dir }) {
     <Typography
       component="div"
       dir={dir}
-      style={{
-        padding: 8 * 3,
-        height: "25rem",
-        backgroundColor: " rgba(0, 0, 0, 0.6)"
-      }}
+      id="typography"
+      // style={{
+      //   padding: 8 * 3,
+      //   height: "25rem",
+      //   backgroundColor: " rgba(0, 0, 0, 0.6)"
+      // }}
     >
       {children}
     </Typography>
