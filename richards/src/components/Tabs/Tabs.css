@@ -8,8 +8,15 @@
   color: white !important;
 }
 
+.MuiTab-fullWidth-54 {
+  flex-grow: 1 !important;
+  max-width: none !important;
+  flex-shrink: 0 !important;
+}
+
 .Tab[aria-selected="true"]{
   color: yellow;
+  /* flex-grow: 2; */
 }
 
 #tabsRow{
@@ -63,12 +70,13 @@ span{
     background-color: rgba(0, 0, 0, 0.6);
 }
 span{
-  padding-top: .1rem;
-  padding-bottom: .1rem;
-  font-size: .5rem;
+  /* padding-top: .1rem;
+  padding-bottom: .1rem; */
+  font-size: .64rem;
   text-align: center;
-  color: #dfecfa;
+  color: #ffffff;
   font-family: "Playfair Display", serif;
+  overflow: auto;
 }
 
 

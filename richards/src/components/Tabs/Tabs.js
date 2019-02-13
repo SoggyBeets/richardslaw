@@ -125,13 +125,15 @@ class FullWidthTabs extends React.Component {
                 <Tab label="Bankruptcy" style={tabsfont} />
                 {/* </div>
             <div className="col-md-2"> */}
-                <Tab label="Divorce/Custody" style={tabsfont} />
+                <Tab label="Divorce/
+                Custody" style={tabsfont} />
                 {/* </div>
             <div className="col-md-2"> */}
                 <Tab label="Immigration" style={tabsfont} />
                 {/* </div>
             <div className="col-md-2"> */}
-                <Tab label="DUI/Criminal" style={tabsfont} />
+                <Tab label="DUI/
+                Criminal" style={tabsfont} />
                 <Tab label="Estate Planning" style={tabsfont} />
 
                 {/* </div>
