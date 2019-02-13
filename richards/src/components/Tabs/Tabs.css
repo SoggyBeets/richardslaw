@@ -26,6 +26,11 @@
   background-size: cover;
 }
 
+#typography{
+    padding: 24px;
+    height: 25rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
 /* "http://www.duncanville.com/wp-content/uploads/2016/03/law-books.jpg" */
 
 span{
@@ -49,4 +54,22 @@ span{
 .MuiTabs-fixed-42 {
   width: 100%;
   overflow-x: inherit !important; 
+}
+
+@media screen and (max-width: 600px) {
+  #typography{
+    padding: 24px;
+    height: 43rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+span{
+  padding-top: .1rem;
+  padding-bottom: .1rem;
+  font-size: .5rem;
+  text-align: center;
+  color: #dfecfa;
+  font-family: "Playfair Display", serif;
+}
+
+
 }

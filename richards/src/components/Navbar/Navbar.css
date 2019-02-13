@@ -90,14 +90,6 @@
   z-index: 999;
 }
 
-/* #icon {
-  margin: auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-} */
-
 #q {
   text-align: center;
 }
@@ -107,20 +99,33 @@
   width: 100%;
 }
 
-/* Page content */
-.content {
-  padding: 16px;
-}
+/* Media Queries */
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-}
+/* @media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+} */
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .textAlignL {
+      text-align: left;
+      padding-top: 0.5rem;
+      padding-left: 0.5rem;
+    }
+
+    .textAlignR {
+      text-align: right;
+      padding-top: 0.5rem;
+      padding-right: 0.5rem;
+      font-family: "Playfair Display", serif;
+    }
+
+    .navcont {
+      position: relative;
+      width: 100%;
+      z-index: 5;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
 }
