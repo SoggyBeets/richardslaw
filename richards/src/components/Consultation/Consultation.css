@@ -50,6 +50,39 @@
     margin-left: 4.5rem;
     float: none;
   }
+}
+@media screen and (max-width: 600px) {
+#consultationText {
+  color: #ffcc54;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  /* padding-top: .25rem; */
+  line-height: 1.75rem;
+  letter-spacing: 0.1rem;
+  /* padding-top: 4rem; */
+  font-family: 'Rubik', sans-serif;
+}
+#consultationBtn {
+  background: #ffcc54;
+  color: #fff;
+  display: inline-block;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px 25px;
+  cursor: pointer;
+  text-decoration: none;
+  /* margin-top: 1em; */
+  border: 2px solid transparent;
+  font-family: 'Rubik', sans-serif;
+  float: none;
+}
+
+
+#consultationBtnDiv{
+  text-align: center;
+}
 
 
 }
