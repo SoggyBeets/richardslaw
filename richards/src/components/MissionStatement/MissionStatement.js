@@ -17,8 +17,7 @@ const MissionStatement = props => (
           <div className="overlay" style={overlay}>
             <h1>UTAH'S LAW FIRM</h1>
             <h2>
-              OGDEN BASED PERSONAL INJURY, BANKRUPTCY, FAMILY AND CRIMINAL
-              LAWYERS WITH SOME YARS OF EXPERIENCE.
+            A family firm that is dedicated to easing your stress, protecting your rights, and getting you what you deserve.
             </h2>
           </div>
           </div>

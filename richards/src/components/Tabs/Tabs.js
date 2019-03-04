@@ -125,15 +125,21 @@ class FullWidthTabs extends React.Component {
                 <Tab label="Bankruptcy" style={tabsfont} />
                 {/* </div>
             <div className="col-md-2"> */}
-                <Tab label="Divorce/
-                Custody" style={tabsfont} />
+                <Tab
+                  label="Divorce/
+                Custody"
+                  style={tabsfont}
+                />
                 {/* </div>
             <div className="col-md-2"> */}
                 <Tab label="Immigration" style={tabsfont} />
                 {/* </div>
             <div className="col-md-2"> */}
-                <Tab label="DUI/
-                Criminal" style={tabsfont} />
+                <Tab
+                  label="DUI/
+                Criminal"
+                  style={tabsfont}
+                />
                 <Tab label="Estate Planning" style={tabsfont} />
 
                 {/* </div>
@@ -158,106 +164,168 @@ class FullWidthTabs extends React.Component {
                 <TabContainer dir={theme.direction}>
                   <h1 style={lawArea}>Injury</h1>
                   <h2 style={containerTitle}>
-                    Agressive Pursuit Of Your Accident Claim And Care While You
-                    Recover
+                    Pursuit of Your Accident Claim and Care While You Recover
                   </h2>
                   <h3 style={containerText}>
-                    If you’ve been injured in Utah, through an accident or by
-                    someone else’s negligence; it may seem impossible to get
-                    your life back on track. Sadly, you would not believe the
-                    games insurance companies will play, and the efforts they
-                    will go through to prevent you from seeking legal protection
-                    for yourself. With Injuries, there’s no time for games. RBR
-                    Law will be aggressive with the Insurance Company, and help
-                    you get compensation for your injuries. We give you a
-                    fighting chance against the big money in Insurance, so you
-                    can get your life back, and the justice you deserve.
+                    If you’ve been injured in an accident in Utah let our firm
+                    help get your life back on track. At our firm we will work
+                    with your personally and fight with the insurance companies
+                    on your behalf. Don’t become another faceless case out of
+                    hundreds like you would at a big law firm. Insurance
+                    companies like to play games, but we won’t let them play
+                    games with you. We will be aggressive and make sure that you
+                    get the best settlement possible.
+                    <br />
+                    So, if you’ve been injured in a truck accident with
+                    commercial carriers, car accident or motorcycle accident,
+                    let our years of experience help you reach a settlement with
+                    the insurance companies. We won’t stand for their games and
+                    we know everything we are up against. Let us give you a
+                    fighting chance against the insurance companies so you can
+                    get your life back and the justice you deserve.
+                    <br />
+                    Call our office and get your FREE CONSULTATION scheduled
+                    today!
                   </h3>
                 </TabContainer>
                 <TabContainer dir={theme.direction}>
                   <h1 style={lawArea}>Bankruptcy</h1>
                   <h2 style={containerTitle}>
-                    Aggressive Assistance And Protection From Crippling Debt
+                    Assistance and Protection from Crippling Debt
                   </h2>
                   <h3 style={containerText}>
-                    If you have Bill Problems you probably have a lot of
-                    questions like: Will I lose my home? Creditors are so
-                    aggressive! Can they Really Call Me At Work? What about my
-                    retirement? At RBR we’ve helped hundreds of people get their
-                    Bill Problems taken care of, reduce stress, and get back
-                    peace of mind. Even if you’re facing a foreclosure, dealing
-                    with the IRS on back-taxes, or have been told by Bill
-                    Collectors that you can’t file bankruptcy, we have a
-                    solution. We get Aggressive with your creditors so they stop
-                    harassing you, and you get to move on with a fresh start.
+                    If you are facing financial issues and feel like the walls
+                    are closing in around you financially, let us here at R&R
+                    Law Group help you out. Whether these financial issues have
+                    come from the result of a job loss, divorce, foreclosure,
+                    medical issues, back-taxes or credit card debt, etc., we can
+                    help you.
+                    <br />
+                    Our attorney’s have years of experience in Bankruptcy Law
+                    and know what they are doing. Jaime G. Richards even serves
+                    as the Treasurer for the Utah Bankruptcy Lawyers Forum
+                    working one-on-one with Bankruptcy Trustees and Bankruptcy
+                    Court Judges. Let our office help you gain control again of
+                    your finances and not let creditors dictate and ruin your
+                    life.
+                    <br />
+                    Call our office and get your FREE CONSULTATION scheduled
+                    today!
                   </h3>
                 </TabContainer>
                 <TabContainer dir={theme.direction}>
                   <h1 style={lawArea}>Divorce/Custody</h1>
                   <h2 style={containerTitle}>
-                    Aggressive Protection Of Your Top Priorities And Your
-                    Highest Cares
+                    Protection of Your Top Priorities and Your Highest Cares
                   </h2>
                   <h3 style={containerText}>
-                    Facing a divorce or a domestic dispute is hard; You’re about
-                    to be in the fight of your life. Divorce, custody, and other
-                    family changes need to be handled by council with real
-                    experience in Utah. RBR has helped people just like you
-                    through the most painful times of their lives with grace and
-                    strength. If you've come to need help with difficult family
-                    circumstances, we'd like you to consider our help. When it
-                    comes to your kids, your home, and the life you’ve worked so
-                    hard to build, you need a Law Firm that Aggressively
-                    protects your future.
+                    Dealing with divorce and/or custody is never easy, and
+                    sometimes it can be even harder if the other party wants to
+                    bully you around. Here at R&R Law Group, we will not let
+                    that happen. We will stand beside you in this difficult time
+                    and help you fight for what you deserve. We deal with all
+                    kinds of divorce/custody cases from the easy to the most
+                    complex. Your kids, your home and your life are the most
+                    important things you have. We will make sure the deck is not
+                    stacked against you and get you what you deserve.
+                    <br />
+                    Besides divorce/custody cases we also handle adoptions which
+                    often is a long and complex process. Our attorneys know what
+                    the legal requirements are and we understand the process. We
+                    want to help make this process easy for you and as quick as
+                    possible.
+                    <br />
+                    Call our office and get your FREE CONSULTATION scheduled
+                    today!
                   </h3>
                 </TabContainer>
                 <TabContainer dir={theme.direction}>
                   <h1 style={lawArea}>Immigration</h1>
                   <h2 style={containerTitle}>
-                    Aggressive Pursuit Of Your Accident Claim And Care While
-                    Your Recover
+                    Pursuit of Obtaining Legal Status or Fighting Deportation
                   </h2>
                   <h3 style={containerText}>
-                    If you’ve been injured in Utah, through an accident or by
-                    someone else’s negligence; it may seem impossible to get
-                    your life back on track. Sadly, you would not believe the
-                    games insurance companies will play, and the efforts they
-                    will go through to prevent you from seeking legal protection
-                    for yourself. With Injuries, there’s no time for games. RBR
-                    Law will be aggressive with the Insurance Company, and help
-                    you get compensation for your injuries. We give you a
-                    fighting chance against the big money in Insurance, so you
-                    can get your life back, and the justice you deserve.
+                    Whether we are adjusting a person’s legal status or helping
+                    them fight deportation, the process here in the United
+                    States, is long and complicated. We want to help make that
+                    process less difficult for you and keep you here. Kevin G.
+                    Richards got involved with immigration law over 30 years ago
+                    when his wife emigrated to the United States from Brazil.
+                    Since then he has helped more of his family and countless
+                    others gain legal status here in the United States. Not only
+                    do we understand immigration law, but we also understand
+                    criminal law and how criminal charges could impact one’s
+                    immigration status.
+                    <br />
+                    Call our office and get your FREE CONSULTATION scheduled
+                    today!
                   </h3>
                 </TabContainer>
                 <TabContainer dir={theme.direction}>
                   <h1 style={lawArea}>DUI/Criminal</h1>
                   <h2 style={containerTitle}>
-                    Aggresive Defense While Facing Difficult Charges
+                    Good people sometimes make bad decisions. Don’t make another
+                    bad decision by not hiring us.
                   </h2>
                   <h3 style={containerText}>
-                    If you’ve been accused of driving under the influence, you
-                    are guaranteed to have the State, the City, the Police and
-                    the Prosecution come after you AGGRESSIVELY. Every second
-                    counts, and your Lawyer’s experience counts. Your future,
-                    your job, your right to drive – depends on it. With RBR Law
-                    you get an Aggressive defense and an Advocate for the
-                    protection of your Rights.
+                    If you’ve been charged with driving under the influence of
+                    drugs and/or alcohol, you can guarantee that the Police and
+                    Prosecutors will come after you. DUI charges in Utah carry
+                    significant fines and penalties including the loss of your
+                    license. We represent you at DMV/DLD hearings and criminal
+                    hearings in the court. Here at R&R Law Group we review each
+                    and every case thoroughly so that your rights are not taken
+                    away.
+                    <br />
+                    Besides DUI defense we also provide defense in all criminal
+                    matters whether they are felony or misdemeanor charges in
+                    all state and federal courts including serious drug
+                    offenses. Defending yourself or having an attorney who does
+                    not know what they are doing can have serious consequences
+                    such as increased fines, jail or prison times. We who have
+                    years of criminal experience and can help you no matter the
+                    situation. If you do not have legal status in the United
+                    States there is no one better than Kevin G. Richards to
+                    represent you as he has years of experience in both
+                    immigration and criminal law and knows how criminal charges
+                    can impact your legal status.
+                    <br />
+                    Call our office and get your FREE CONSULTATION scheduled
+                    today!
                   </h3>
                 </TabContainer>
                 <TabContainer dir={theme.direction}>
                   <h1 style={lawArea}>Estate Planning</h1>
-                  <h2 style={containerTitle}>
-                    Aggressive Defense While Facing Difficult Charges
-                  </h2>
+                  <h2 style={containerTitle}>Planning for Your Heirs Future</h2>
                   <h3 style={containerText}>
-                    If you’ve been accused of driving under the influence, you
-                    are guaranteed to have the State, the City, the Police and
-                    the Prosecution come after you AGGRESSIVELY. Every second
-                    counts, and your Lawyer’s experience counts. Your future,
-                    your job, your right to drive – depends on it. With RBR Law
-                    you get an Aggressive defense and an Advocate for the
-                    protection of your Rights.
+                    Is your Will up to date? Do you even have one? Who would
+                    take care of your children in the event of an untimely
+                    death? If you are like me, these are questions we would
+                    rather avoid. But the issue does not go away simply because
+                    we ignore it. The truth of the matter is if we fail to plan,
+                    we fail to make sure our loved ones are taken care of.
+                    Instead the courts or State could make important decisions
+                    regarding your children and distribution of your assets.
+                    Remember, failure to plan means you are planning to fail.
+                    Let our office help you so you don’t fail.
+                    <br />
+                    Besides creating a Will our office can help you set up a
+                    Trust which creates legal entity that holds property or
+                    assets for the person(s) who created it. Property created
+                    Trusts have several benefits such as: avoiding probate;
+                    providing for minor children incapable of caring for
+                    themselves financially; reduces estate taxes; and the terms
+                    of a Trust are private while terms of a will are public.
+                    <br />
+                    Probate is a word that is used but not always understood.
+                    However, all probate means is that you are going through the
+                    legal process of settling one’s estate when they die.
+                    Probate is not always a bad or scary thing. Let our office
+                    help you maneuver through the action of probate and come up
+                    with the best estate plan for you.
+                    <br />
+                    Call our office and get your FREE CONSULTATION scheduled
+                    today!
                   </h3>
                 </TabContainer>
               </SwipeableViews>

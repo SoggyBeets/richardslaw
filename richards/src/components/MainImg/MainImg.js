@@ -16,10 +16,17 @@ const MainImg = () => (
           <h1 id="aggresiveText">Utah's Aggressive Law Firm</h1>
           {/* <hr></hr> */}
           <h2 id="missionStatement">
-            This will be the mission statement of the company
+            A family firm that is dedicated to easing your stress, protecting
+            your rights, and getting you what you deserve.
           </h2>
           <h3 id="msText">
-            This will be some extra text for the mission statement
+            The attorneys at Richards & Richards Law Group, P.L.L.C. offer
+            top-notch legal advice and representation to clients throughout
+            Northern Utah. We are committed to providing the highest quality of
+            professional legal services at an affordable price. We believe that
+            dedicating our full attention to the needs of each individual client
+            is not only a matter of good service, but is critical to achieving
+            the best possible results.
           </h3>
         </Col>
       </Row>
