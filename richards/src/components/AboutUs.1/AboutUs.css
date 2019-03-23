@@ -1,0 +1,27 @@
+#aboutusrow {
+  margin-top: 10rem;
+  height: 30rem;
+  overflow: hidden;
+  padding-top: 3rem;
+}
+
+#img-card-body {
+  border-style: solid;
+  border-width: 0 .2rem 0 0;
+  border-color: #ffd54f;
+
+}
+
+.imgcardimg {
+  width: auto;
+  height: 30rem;
+  /* overflow: hidden; */
+}
+
+#txt-card-body {
+  font-family: "Libre Franklin", sans-serif;
+  background-color: #bbdefb;
+  padding: 6rem 2rem 3rem 2rem;
+  text-align: center;
+}
+

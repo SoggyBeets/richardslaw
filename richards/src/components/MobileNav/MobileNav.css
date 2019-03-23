@@ -1,0 +1,11 @@
+.mobileToolBar{
+    background: black;
+    /* position: fixed; */
+    width: 100%;
+    
+}
+
+#mobileIcon{
+    font-size: 3rem;
+    color: black'
+}
