@@ -25,7 +25,11 @@ const Meet = () => (
         </Col>
         <Col xs="0" md="1" className="greyLeft" />
         <Col xs="12" md="5" className="lawyerCard">
+        <Row noGutters>
           <h2 className="meetTitle">Kevin G. Richards</h2>
+          </Row>
+          <Row>
+          <Col md='5'> 
           <h3 className="meeth3">Education</h3>
           <h4 className="meeth4">
             J.D. University of Tulsa(1988) <br /> B.A. Weber State
@@ -41,6 +45,8 @@ const Meet = () => (
             <br />
             U.S. Immigration Court (all states)
           </h4>
+          </Col>
+          <Col md='5'>
           <h3 className="meeth3">Areas of Practice</h3>
           <h4 className="meeth4">
             Divorce & Custody
@@ -61,7 +67,17 @@ const Meet = () => (
             <br />
             Mediations/Alternative Dispute Resolution
           </h4>
+          </Col>
+          <Col md='2'/>
+          </Row>
+          <Row>
+          <Col md='10'>
           <hr align="left" width="80%" color="white" />
+          </Col>
+          <Col md='2' />
+          </Row>
+          <Row>
+          <Col md='10'>
           <p className="meetp">
             Kevin G. Richards was raised in Ogden and is a product of Ogden CIty
             Schools. It was while he was a senior at Ogden High that he decided
@@ -72,6 +88,9 @@ const Meet = () => (
             traveling with his wife and family, overlanding and spending a
             beautiful day up at Snowbasin skiing.
           </p>
+          </Col>
+          <Col md='2' />
+          </Row>
         </Col>
         <Col xs="0" md="1" />
       </Row>
@@ -88,28 +107,28 @@ const Meet = () => (
         </Col>
         <Col xs="0" md="1" className="greyLeft" />
         <Col xs="12" md="5" className="lawyerCard">
-        <Row>
+        <Row noGutters>
           <h2 className="meetTitle">Jaime G. Richards</h2>
           </Row>
           <Row>
-          <Col md="6">
+          <Col md='5'> 
           <h3 className="meeth3">Education</h3>
           <h4 className="meeth4">
-            J.D., Washburn University (2014)
+          J.D., Washburn University (2014)
             <br />
             B.A. Weber State University(1983)
           </h4>
           <h3 className="meeth3">Admissions</h3>
           <h4 className="meeth4">
-            U.S. District Court of Utah
+          U.S. District Court of Utah
             <br />
             U.S. Bankruptcy Court-State of Utah
           </h4>
           </Col>
-          <Col md="6">
+          <Col md='5'>
           <h3 className="meeth3">Areas of Practice</h3>
           <h4 className="meeth4">
-            Bankruptcy
+          Bankruptcy
             <br />
             Divorce & Custody
             <br />
@@ -124,11 +143,18 @@ const Meet = () => (
             Contract Disputes & Drafting
           </h4>
           </Col>
+          <Col md='2'/>
           </Row>
           <Row>
-          <hr align="center" width="60%" color="white" />
+          <Col md='10'>
+          <hr align="left" width="80%" color="white" />
+          </Col>
+          <Col md='2' />
+          </Row>
+          <Row>
+          <Col md='10'>
           <p className="meetp">
-            Jaime G. Richards was born and raised in Ogden and is a product of
+          Jaime G. Richards was born and raised in Ogden and is a product of
             Ogden City schools just like his father Kevin. Before law school
             Jaime had a career in real estate development and finance. He
             decided to become a lawyer because he likes working with people and
@@ -136,10 +162,13 @@ const Meet = () => (
             golfer, but also enjoys CrossFit, skiing and anything that involves
             spending time with his wife and children.
           </p>
-        </Row>
+          </Col>
+          <Col md='2' />
+          </Row>
         </Col>
         <Col xs="0" md="1" />
-  </Row>
+      </Row>
+
   </Col>
   </Row>
 );

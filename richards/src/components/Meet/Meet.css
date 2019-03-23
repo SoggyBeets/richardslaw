@@ -3,36 +3,41 @@
   padding-bottom: 1rem;
   font-family: "Playfair Display", serif;
 }
-
-.jaimeRow {
+#jaimeRow {
   margin-top: 3rem;
 }
-
 .greyLeft {
   background-color: rgba(0, 0, 0, 0.07);
 }
-
 #kevinPortrait {
   width: 100%;
   max-width: 500px;
   max-width: 500px;
   margin-top: 5rem;
 }
-
 #jaimePortrait {
   width: 100%;
   max-width: 500px;
   max-width: 500px;
   margin-top: 5rem;
 }
-
 .imgCard {
-  height: 34rem;
+  height: 41rem;
   background-color: rgba(0, 0, 0, 0.07);
 }
-
+hr {
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: -2rem;
+  padding-left: 1rem;
+  width: 88%;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
 .lawyerCard {
-  height: 57rem;
+  height: 41rem;
   background-color: rgba(0, 0, 0, 0.859);
   padding: 1rem;
 }
@@ -41,7 +46,7 @@
   color: #ffcc54;
   text-align: left;
   /* padding-top: 1rem; */
-  /* padding-left: .85rem; */
+  padding-left: .45rem;
   font-family: "Playfair Display", serif;
 }
 
@@ -50,6 +55,7 @@
   font-weight: 400;
   text-align: left;
   padding-top: 0.25rem;
+  padding-left: 0.45rem;
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
   color: white;
@@ -60,6 +66,7 @@
   font-size: 0.6rem;
   font-weight: 400;
   text-align: left;
+  padding-left: .85rem;
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
   color: rgba(255, 255, 255, 0.671);
@@ -67,10 +74,11 @@
 }
 
 .meetp {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   font-weight: 200;
   text-align: left;
-  padding-right: 0.25rem;
+  padding-right: 0.85rem;
+  padding-left: 0.85rem;
   line-height: 1.75rem;
   letter-spacing: 0.1rem;
   color: rgba(255, 255, 255, 0.9);
