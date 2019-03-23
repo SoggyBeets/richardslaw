@@ -1,5 +1,5 @@
 .navcont {
-  height: 4.55rem;
+  height: 5.15rem;
   position: absolute;
   width: 100%;
   z-index: 5;
@@ -56,12 +56,12 @@
 
 .textAlignL {
   text-align: left;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
 }
 
 .textAlignR {
   text-align: right;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   font-family: "Playfair Display", serif;
 }
 

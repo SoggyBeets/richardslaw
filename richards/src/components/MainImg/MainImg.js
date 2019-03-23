@@ -12,14 +12,14 @@ const MainImg = () => (
       />
       <Row noGutters>
         <Col xs="1" md="2" />
-        <Col xs="11" md="10">
+        <Col xs="11" md="8">
           <h1 id="aggresiveText">Utah's Aggressive Law Firm</h1>
           {/* <hr></hr> */}
           <h2 id="missionStatement">
             A family firm that is dedicated to easing your stress, protecting
             your rights, and getting you what you deserve.
           </h2>
-          <h3 id="msText">
+          {/* <h3 id="msText">
             The attorneys at Richards & Richards Law Group, P.L.L.C. offer
             top-notch legal advice and representation to clients throughout
             Northern Utah. We are committed to providing the highest quality of
@@ -27,8 +27,9 @@ const MainImg = () => (
             dedicating our full attention to the needs of each individual client
             is not only a matter of good service, but is critical to achieving
             the best possible results.
-          </h3>
+          </h3> */}
         </Col>
+        <Col xs='1' md='2' ></Col>
       </Row>
     </Col>
   </Row>

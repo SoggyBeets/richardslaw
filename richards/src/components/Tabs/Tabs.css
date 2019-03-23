@@ -30,8 +30,8 @@
 
 #typography{
     padding: 24px;
-    height: 25rem;
-    background-color: rgba(0, 0, 0, 0.6);
+    height: 35rem;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 /* "http://www.duncanville.com/wp-content/uploads/2016/03/law-books.jpg" */
 
@@ -60,9 +60,10 @@ span{
 
 @media screen and (max-width: 600px) {
   #typography{
-    padding: 24px;
+    padding-right: .25rem;
+    padding-left: .25rem;
     height: 44rem;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 span{
   /* padding-top: .1rem;

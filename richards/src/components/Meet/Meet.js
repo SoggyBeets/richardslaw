@@ -15,24 +15,24 @@ const Meet = () => (
 
       <Row noGutters id="kevinRow">
         <Col xs="0" md="1" />
-        <Col xs="0" md="1" id="greyLeft" />
-        <Col xs="12" md="3" id="imgCard">
+        <Col xs="0" md="1" className="greyLeft" />
+        <Col xs="12" md="3" className="imgCard">
           <img
             id="kevinPortrait"
             src="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px.jpg"
             alt="Kevin Richards Portrait"
           />
         </Col>
-        <Col xs="0" md="1" id="greyLeft" />
-        <Col xs="12" md="5" id="lawyerCard">
-          <h2 id="meetTitle">Kevin G. Richards</h2>
-          <h3 id="meeth3">Education</h3>
-          <h4 id="meeth4">
+        <Col xs="0" md="1" className="greyLeft" />
+        <Col xs="12" md="5" className="lawyerCard">
+          <h2 className="meetTitle">Kevin G. Richards</h2>
+          <h3 className="meeth3">Education</h3>
+          <h4 className="meeth4">
             J.D. University of Tulsa(1988) <br /> B.A. Weber State
             University(1983)
           </h4>
-          <h3 id="meeth3">Admissions</h3>
-          <h4 id="meeth4">
+          <h3 className="meeth3">Admissions</h3>
+          <h4 className="meeth4">
             U.S. District Court of Utah
             <br />
             U.S. Bankruptcy Court-State of Utah
@@ -41,8 +41,8 @@ const Meet = () => (
             <br />
             U.S. Immigration Court (all states)
           </h4>
-          <h3 id="meeth3">Areas of Practice</h3>
-          <h4 id="meeth4">
+          <h3 className="meeth3">Areas of Practice</h3>
+          <h4 className="meeth4">
             Divorce & Custody
             <br />
             Adoption
@@ -62,7 +62,7 @@ const Meet = () => (
             Mediations/Alternative Dispute Resolution
           </h4>
           <hr align="left" width="80%" color="white" />
-          <p id="meetp">
+          <p className="meetp">
             Kevin G. Richards was raised in Ogden and is a product of Ogden CIty
             Schools. It was while he was a senior at Ogden High that he decided
             that he wanted to be a lawyer. Mr. Richards now has over 30 years of
@@ -78,31 +78,37 @@ const Meet = () => (
 
       <Row noGutters id="jaimeRow">
         <Col xs="0" md="1" />
-        <Col xs="0" md="1" id="greyLeft" />
-        <Col xs="12" md="3" id="imgCard">
+        <Col xs="0" md="1" className="greyLeft" />
+        <Col xs="12" md="3" className="imgCard">
           <img
             id="jaimePortrait"
             src="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px.jpg"
             alt="Jaime Richards Portrait"
           />
         </Col>
-        <Col xs="0" md="1" id="greyLeft" />
-        <Col xs="12" md="5" id="lawyerCard">
-          <h2 id="meetTitle">Jaime G. Richards</h2>
-          <h3 id="meeth3">Education</h3>
-          <h4 id="meeth4">
+        <Col xs="0" md="1" className="greyLeft" />
+        <Col xs="12" md="5" className="lawyerCard">
+        <Row>
+          <h2 className="meetTitle">Jaime G. Richards</h2>
+          </Row>
+          <Row>
+          <Col md="6">
+          <h3 className="meeth3">Education</h3>
+          <h4 className="meeth4">
             J.D., Washburn University (2014)
             <br />
             B.A. Weber State University(1983)
           </h4>
-          <h3 id="meeth3">Admissions</h3>
-          <h4 id="meeth4">
+          <h3 className="meeth3">Admissions</h3>
+          <h4 className="meeth4">
             U.S. District Court of Utah
             <br />
             U.S. Bankruptcy Court-State of Utah
           </h4>
-          <h3 id="meeth3">Areas of Practice</h3>
-          <h4 id="meeth4">
+          </Col>
+          <Col md="6">
+          <h3 className="meeth3">Areas of Practice</h3>
+          <h4 className="meeth4">
             Bankruptcy
             <br />
             Divorce & Custody
@@ -117,8 +123,11 @@ const Meet = () => (
             <br />
             Contract Disputes & Drafting
           </h4>
-          <hr align="left" width="80%" color="white" />
-          <p id="meetp">
+          </Col>
+          </Row>
+          <Row>
+          <hr align="center" width="60%" color="white" />
+          <p className="meetp">
             Jaime G. Richards was born and raised in Ogden and is a product of
             Ogden City schools just like his father Kevin. Before law school
             Jaime had a career in real estate development and finance. He
@@ -127,10 +136,11 @@ const Meet = () => (
             golfer, but also enjoys CrossFit, skiing and anything that involves
             spending time with his wife and children.
           </p>
+        </Row>
         </Col>
         <Col xs="0" md="1" />
-      </Row>
-    </Col>
+  </Row>
+  </Col>
   </Row>
 );
 
