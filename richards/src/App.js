@@ -4,6 +4,7 @@ import "./App.css";
 import MainImg from "./components/MainImg";
 // import Tabs from "./components/Tabs";
 import Meet from "./components/Meet";
+import MobileBankruptcy from "./pages/MobileBankruptcy";
 import MobileNav from "./components/MobileNav";
 import Navbar from "./components/Navbar";
 import React, { Component } from "react";
@@ -24,18 +25,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-         <MobileNav />
+        <MobileNav />
+        <MobileBankruptcy />
         <Navbar />
         <MainImg />
         <Tabs />
         <Meet />
         <Consultation />
-     
         <WhereToFind />
         <Social />
         <Footer />
-       
-        {/*  */}
       </div>
     );
   }

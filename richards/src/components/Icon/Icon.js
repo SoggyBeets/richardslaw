@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import "./Icon.css";
-import Icon from '../Icon.svg';
+import Icon from '../../icons/Icon.svg';
 
 console.log(Icon)
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item

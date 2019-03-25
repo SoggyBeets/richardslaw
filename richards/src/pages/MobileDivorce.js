@@ -5,7 +5,7 @@ import React, { Component } from "react";
 
 
 
-class MobileMain extends Component {
+class MobileDivorce extends Component {
 render() {
 return(
 <div>
@@ -17,4 +17,4 @@ return(
 }
 }
 
-export default MobileMain;
+export default MobileDivorce;
