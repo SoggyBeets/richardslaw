@@ -1,3 +1,4 @@
+import AboutLawFirm from "./components/AboutLawfirm";
 import Consultation from "./components/Consultation";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -21,15 +22,17 @@ import WhereToFind from "./components/WhereToFind";
 // import Hover from "./components/Hover";
 import { checkPropTypes } from "prop-types";
 
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <MobileNav />
-        <MobileBankruptcy />
+        {/* <MobileNav />
+        <MobileBankruptcy /> */}
         <Navbar />
         <MainImg />
         <Tabs />
+        <AboutLawFirm />
         <Meet />
         <Consultation />
         <WhereToFind />

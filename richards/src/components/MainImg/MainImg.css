@@ -33,17 +33,6 @@
   /* padding-right: 0rem; */
 }
 
-#msText{
-  width: 100%;
-  text-align: left;
-  position: absolute;
-  top:-11rem;
-  color: #dadada;
-  font-size: 1.2rem;
-  font-family: 'Rubik', sans-serif;
-
-}
-
 @media screen and (max-width: 992px) {
   
 }
