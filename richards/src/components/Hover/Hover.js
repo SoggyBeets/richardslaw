@@ -41,7 +41,7 @@ class Hover extends Component {
 </img></div>
 <div className="col-4" id="meetCol">
 {this.state.isHovering && 
-<div id="lawyerCard">
+<div id="lawyerCard kevinLawyerCard">
 <h2 id="meetTitle">Kevin G. Richards</h2>
 <h3 id="meeth3">Education</h3>
 <h4 id="meeth4">J.D. University of Tulsa(1988)

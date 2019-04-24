@@ -29,20 +29,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <MediaQuery query="(min-device-width: 1224px)">
+        {/* <MediaQuery query="(min-device-width: 1224px)"> */}
           {/* <MobileNav />
         <MobileBankruptcy /> */}
           <Navbar />
           <MainImg />
-     
           <Tabs />
           <AboutLawFirm />
           <Meet />
-          <Consultation />
+          {/* <Consultation /> */}
           <WhereToFind />
           <Social />
           <Footer />
-          <MediaQuery query="(min-device-width: 1824px)">
+          {/* <MediaQuery query="(min-device-width: 1824px)">
             <div>You also have a huge screen</div>
           </MediaQuery>
           <MediaQuery query="(max-width: 1224px)">
@@ -62,7 +61,7 @@ class App extends Component {
         </MediaQuery>
         <MediaQuery query="(min-resolution: 2dppx)">
           <div>You are retina</div>
-        </MediaQuery>
+        </MediaQuery> */}
       </div>
     );
   }

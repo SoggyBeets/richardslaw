@@ -111,14 +111,16 @@
 @media screen and (max-width: 600px) {
     .textAlignL {
       text-align: left;
-      padding-top: 0.5rem;
+      /* padding-top: 0.5rem; */
       padding-left: 0.5rem;
+      font-size: .8rem;
     }
 
     .textAlignR {
       text-align: right;
-      padding-top: 0.5rem;
+      /* padding-top: 0.5rem; */
       padding-right: 0.5rem;
+      font-size: .8rem;
       font-family: "Playfair Display", serif;
     }
 
@@ -126,6 +128,27 @@
       position: relative;
       width: 100%;
       z-index: 5;
+      font-size: .8rem;
       background-color: rgba(0, 0, 0, 0.8);
     }
+
+    #navPR {
+      margin-top: 0rem !important;
+      margin-bottom: 0rem !important;
+      color: #fff;
+      font-size: .8rem;
+      letter-spacing: 0.15rem;
+      text-align: right;
+      font-family: "Rubik", sans-serif;
+  }
+
+  #navP {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    color: #fff;
+    font-size: .8rem;
+    letter-spacing: 0.15rem;
+    text-align: left;
+    font-family: "Rubik", sans-serif;
+}
 }

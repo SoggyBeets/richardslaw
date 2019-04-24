@@ -97,6 +97,14 @@ hr {
     padding-left: 1rem;
   }
 
+  .meetTitle {
+    color: #ffcc54;
+    text-align: left;
+    /* padding-top: 1rem; */
+    padding-left: 1.2rem;
+    font-family: "Playfair Display", serif;
+}
+
   .greyLeft {
     background-color: blue;
   }
@@ -112,7 +120,12 @@ hr {
   }
 
   .lawyerCard {
-    height: 45rem;
+    height: 55rem;
+    background-color: rgba(0, 0, 0, 0.859);
+  }
+
+  .kevinLawyerCard {
+    height:67rem;
     background-color: rgba(0, 0, 0, 0.859);
   }
 
@@ -140,7 +153,7 @@ hr {
 
   .meetp {
     font-size: 1rem;
-    padding-right: 0.25rem;
+    padding-right: 1rem;
     padding-left: 1rem;
   }
 }

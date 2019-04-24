@@ -24,7 +24,7 @@ const Meet = () => (
           />
         </Col>
         <Col xs="0" md="1" className="greyLeft" />
-        <Col xs="12" md="5" className="lawyerCard">
+        <Col xs="12" md="5" className="lawyerCard kevinLawyerCard">
         <Row noGutters>
           <h2 className="meetTitle">Kevin G. Richards</h2>
           </Row>
