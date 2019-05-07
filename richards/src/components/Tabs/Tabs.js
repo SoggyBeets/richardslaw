@@ -107,7 +107,7 @@ class FullWidthTabs extends React.Component {
         <Row noGutters id="tabsRow">
           <Col xs="0" md="2" id="tabsRow" />
           <Col xs="12" md="8" id="tabsRow">
-            <AppBar position="static" color="#104e7d" style={tabsBG}>
+            <AppBar position="static" color="inherit" style={tabsBG}>
               <Tabs
                 value={this.state.value}
                 onChange={this.handleChange}

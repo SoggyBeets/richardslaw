@@ -31,7 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "aws s3 sync build/ s3://rbrlawgroup.com",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
