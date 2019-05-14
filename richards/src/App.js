@@ -34,8 +34,8 @@ class App extends Component {
         <MobileBankruptcy /> */}
           <Navbar />
           <MainImg />
-          <Tabs />
           <AboutLawFirm />
+          <Tabs />
           <Meet />
           {/* <Consultation /> */}
           <WhereToFind />

@@ -104,6 +104,15 @@ class FullWidthTabs extends React.Component {
 
     return (
       <div className={classes.root}>
+      <Row noGutters className="tabSectionBG">
+  <Col xs="1" md="2" />
+  <Col xs="10" md="8" >
+  <h1 className="tabsTitle">
+  Practice Areas
+  </h1>
+  </Col>
+  <Col xs="1" md="2" />
+  </Row>
         <Row noGutters id="tabsRow">
           <Col xs="0" md="2" id="tabsRow" />
           <Col xs="12" md="8" id="tabsRow">

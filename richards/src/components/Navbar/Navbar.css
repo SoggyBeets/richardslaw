@@ -1,9 +1,9 @@
 .navcont {
-  height: 5.15rem;
-  position: absolute;
+  height: 5.50rem;
+  /* position: fixed; */
   width: 100%;
   z-index: 5;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
 #navP {

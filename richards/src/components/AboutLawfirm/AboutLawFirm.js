@@ -4,6 +4,15 @@ import { Row, Col } from "reactstrap";
 
 const AboutLawFirm = () => (
   <div id="aboutLawFirmContainer" className="col-12">
+   <Row noGutters>
+  <Col xs="1" md="2" />
+  <Col xs="10" md="8" >
+  <h1 className="aboutLawFirmTitle">
+  About Us
+  </h1>
+  </Col>
+  <Col xs="1" md="2" />
+  </Row>
   <Row noGutters>
   <Col xs="1" md="2" />
     <Col xs="10" md="8" id="aboutLawFirmContainer">

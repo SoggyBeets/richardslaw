@@ -4,6 +4,19 @@
   height: auto; */
 }
 
+.heroImgRow{
+width: 100%;
+}
+
+.heroImgText {
+top: -12rem;
+position: absolute;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.35);
+padding-left: 13rem;
+padding-right: 13rem;
+padding-bottom: 3.35rem;
+}
 
 #headerSection {
   width: 100%;
@@ -15,9 +28,9 @@
 
 #aggresiveText{
   text-align: left;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
-  top: -19rem;
+  /* top: -19rem; */
   color: #ffcc54;
   font-family: 'Playfair', serif;
   font-weight: 700;
@@ -25,9 +38,9 @@
 
 #missionStatement{
   text-align: left;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
-  top: -15.5rem;
+  /* top: -15.5rem; */
   color: white;
   font-family: 'Playfair Display', serif;
   /* padding-right: 0rem; */
@@ -48,11 +61,12 @@
     font-family: 'Playfair Display', serif;
   }
 
+
   #aggresiveText {
     text-align: left;
     position: absolute;
     width: 100%;
-    top: -10rem;
+    /* top: -10rem; */
     color: #ffcc54;
     font-family: 'Playfair', serif;
     font-weight: 700;
@@ -61,7 +75,7 @@
   text-align: left;
   position: absolute;
   width: 100%;
-  top: -7.5rem;
+  /* top: -7.5rem; */
   color: white;
   font-family: 'Playfair Display', serif;
 }
