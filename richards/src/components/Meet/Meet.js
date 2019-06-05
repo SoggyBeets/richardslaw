@@ -1,6 +1,8 @@
 import React from "react";
 import "./Meet.css";
 import { Row, Col } from "reactstrap";
+import KevinImg from "../../images/portrait1-500px.jpg"
+import JamieImg from "../../images/portrait2-500px.jpg"
 
 const Meet = () => (
   <Row noGutters>
@@ -19,7 +21,7 @@ const Meet = () => (
         <Col xs="12" md="3" className="imgCard">
           <img
             id="kevinPortrait"
-            src="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait1-500px.jpg"
+            src={KevinImg}
             alt="Kevin Richards Portrait"
           />
         </Col>
@@ -101,7 +103,7 @@ const Meet = () => (
         <Col xs="12" md="3" className="imgCard">
           <img
             id="jaimePortrait"
-            src="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/portrait2-500px.jpg"
+            src={JamieImg}
             alt="Jaime Richards Portrait"
           />
         </Col>

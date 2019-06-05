@@ -1,15 +1,17 @@
 import React from "react";
 import "./MainImg.css";
 import { Row, Col } from "reactstrap";
+import HeroImg from "../../images/utah-lawyer-homepage-hero-3.jpg"
+
 
 const MainImg = () => (
   <div className="heroImgContainer">
     <Row noGutters>
       <Col md="12">
         <img
-          id="headerSection"
-          src="https://www.rbrlawgroup.com/wp-content/uploads/2016/08/utah-lawyer-homepage-hero-3.jpg"
-          alt="lawyer Jamie"
+          id="headerSection" 
+          src={HeroImg}
+          alt="law firm hero image"
         />
       </Col>
       </Row>
