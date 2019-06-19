@@ -29,7 +29,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <div><h1>Test</h1></div>
+      <div><h1>Gavin</h1></div>
         {/* <MediaQuery query="(min-device-width: 1224px)">
           <MobileNav />
         <MobileBankruptcy />
