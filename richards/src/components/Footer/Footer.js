@@ -132,7 +132,7 @@ const Footer = () => (
           <Col md="4">
             <div style={iconLinks}>
               <FontAwesomeIcon icon={["fab", "google"]} style={google} />
-              <FontAwesomeIcon icon={["fab", "facebook"]} style={fb} />
+              <FontAwesomeIcon icon={["fab", "facebook"]} style={fb} onClick="parent.open('https://www.facebook.com/RBRlawgroup/')" />
               <FontAwesomeIcon icon={["fab", "instagram"]} style={insta} />
             </div>
           </Col>

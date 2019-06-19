@@ -29,9 +29,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <MediaQuery query="(min-device-width: 1224px)"> */}
-          {/* <MobileNav />
-        <MobileBankruptcy /> */}
+      <div><h1>Test</h1></div>
+        {/* <MediaQuery query="(min-device-width: 1224px)">
+          <MobileNav />
+        <MobileBankruptcy />
+        </MediaQuery> */}
           <Navbar />
           <MainImg />
           <AboutLawFirm />
@@ -47,7 +49,6 @@ class App extends Component {
           <MediaQuery query="(max-width: 1224px)">
             <div>You are sized like a tablet or mobile phone though</div>
           </MediaQuery>
-        </MediaQuery>
         <MediaQuery query="(max-device-width: 1224px)">
           <MobileNav />
           <MobileTabs />
