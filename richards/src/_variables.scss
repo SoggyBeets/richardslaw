@@ -1,0 +1,22 @@
+// ---------- IMPORTS ---------- //
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400");
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap');
+
+// ---------- VARIABLES ---------- //
+$colors: (
+  primary: #ffe2e8,
+  primary-light: lighten(#ffe2e8, 40%),
+  primary-dark: darken(#ffe2e8, 40%),
+  accent: #fff6bb,
+);
+
+$roboto: "Roboto", serif;
+$montserrat: "Montserrat", serif;
+
+// ---------- FUNCTIONS ---------- //
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+// ---------- MIXINS ---------- //

@@ -1,49 +1,51 @@
-import AboutLawFirm from "./components/AboutLawfirm";
-import Consultation from "./components/Consultation";
-import Footer from "./components/Footer";
-import "./App.css";
-import MainImg from "./components/MainImg";
-// import Tabs from "./components/Tabs";
-import MediaQuery from 'react-responsive';
-import Meet from "./components/Meet";
-import MobileBankruptcy from "./pages/MobileBankruptcy";
-import MobileNav from "./components/MobileNav";
-import MobileTabs from "./components/MobileTabs";
-import Navbar from "./components/Navbar";
 import React, { Component } from "react";
-import Social from "./components/Social";
-import Tabs from "./components/Tabs";
+import "./App.scss";
+import Navbar from "./components/00_Navbar/Navbar";
+import MainImg from "./components/01_MainImg/MainImg";
+import AboutLawFirm from "./components/02_AboutLawfirm/AboutLawFirm";
+import Tabs from "./components/03_Tabs/Tabs";
+import Meet from "./components/04_Meet/Meet";
+import WhereToFind from "./components/05_WhereToFind/WhereToFind";
+import Social from "./components/06_Social/Social";
+import Footer from "./components/07_Footer/Footer";
+
+// import Consultation from "./components/Consultation";
+// import Tabs from "./components/Tabs";
+// import MediaQuery from 'react-responsive';
+// import MobileBankruptcy from "./pages/MobileBankruptcy";
+// import MobileNav from "./components/MobileNav";
+// import MobileTabs from "./components/MobileTabs";
 // import AboutUs from "./components/AboutUs";
-import WhereToFind from "./components/WhereToFind";
-
-
-
-
 // import Carousel from "./components/Carousel";
 // import Form from "./components/Form";
 // import Hover from "./components/Hover";
-import { checkPropTypes } from "prop-types";
+// import { checkPropTypes } from "prop-types";
 
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-class App extends Component {
+  componentWillMount() {}
+
   render() {
     return (
       <div className="App">
-      <div><h1>Gavin</h1></div>
         {/* <MediaQuery query="(min-device-width: 1224px)">
           <MobileNav />
         <MobileBankruptcy />
         </MediaQuery> */}
-          <Navbar />
-          <MainImg />
-          <AboutLawFirm />
-          <Tabs />
-          <Meet />
-          {/* <Consultation /> */}
-          <WhereToFind />
-          <Social />
-          <Footer />
-          {/* <MediaQuery query="(min-device-width: 1824px)">
+        <Navbar />
+        <MainImg />
+        <AboutLawFirm />
+        <Tabs />
+        <Meet />
+        {/* <Consultation /> */}
+        <WhereToFind />
+        <Social />
+        <Footer />
+        {/* <MediaQuery query="(min-device-width: 1824px)">
             <div>You also have a huge screen</div>
           </MediaQuery>
           <MediaQuery query="(max-width: 1224px)">
@@ -67,5 +69,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
