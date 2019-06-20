@@ -35,7 +35,7 @@ export default class MainImg extends Component {
   }
 }
 
-{
+
   /* <h3 id="msText">
             The attorneys at Richards & Richards Law Group, P.L.L.C. offer
             top-notch legal advice and representation to clients throughout
@@ -45,4 +45,4 @@ export default class MainImg extends Component {
             is not only a matter of good service, but is critical to achieving
             the best possible results.
           </h3> */
-}
+

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Footer.scss";
-import { library, text } from "@fortawesome/fontawesome-svg-core";
+import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 // import { faGavel, faInstagram, faFacebookSquare, faMapMarkerAlt, faCarrot, faBeer, faUsers, faUserInjured, faBalanceScale } from '@fortawesome/free-solid-svg-icons'
@@ -26,15 +26,15 @@ library.add(fab, faCarrot, faBalanceScale, faRocket);
 //   fontSize: '1.75em'
 // }
 
-const hThreeStyle = {
-  fontFamily: "Roboto",
-  color: "black",
-  fontSize: "1rem",
-  fontWeight: "200",
-  marginLeft: "1rem",
-  marginRight: "1rem",
-  padding: "0rem"
-};
+// const hThreeStyle = {
+//   fontFamily: "Roboto",
+//   color: "black",
+//   fontSize: "1rem",
+//   fontWeight: "200",
+//   marginLeft: "1rem",
+//   marginRight: "1rem",
+//   padding: "0rem"
+// };
 
 const copyrightStyle = {
   fontFamily: "Roboto",
@@ -88,9 +88,9 @@ const iconLinks = {
   textAlign: "center"
 };
 
-const linkAlign = {
-  textAlign: "center"
-};
+// const linkAlign = {
+//   textAlign: "center"
+// };
 
 export default class Footer extends Component {
   constructor(props) {
