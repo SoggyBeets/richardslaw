@@ -1,18 +1,29 @@
 // ---------- IMPORTS ---------- //
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400");
-@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 
 // ---------- VARIABLES ---------- //
 $colors: (
-  primary: #ffe2e8,
-  primary-light: lighten(#ffe2e8, 40%),
-  primary-dark: darken(#ffe2e8, 40%),
-  accent: #fff6bb,
+  85-black: rgba(0, 0, 0, 0.85),
+  80-black: rgba(0, 0, 0, 0.8),
+  35-black: rgba(0, 0, 0, 0.35),
+  10-black: rgba(0, 0, 0, 0.10),
+  07-black: rgba(0, 0, 0, 0.07),
+  90-white: rgba(255, 255, 255, 0.9),
+  67-white: rgba(255, 255, 255, 0.67),
+  primary-blue: #104e7d,
+  primary-yellow: #ffcc54,
+  hover-yellow: #ffcc54ad,
+  nav-active: rgba(255, 128, 255, 0),
+  footer-bg: #191919
 );
 
-$roboto: "Roboto", serif;
-$montserrat: "Montserrat", serif;
+$anton: "Anton", serif;
+$libre: "Libre+Franklin", serif;
+$playfair: "Playfair+Display", serif;
+$rubik: "Rubik", serif;
 
 // ---------- FUNCTIONS ---------- //
 @function color($color-name) {

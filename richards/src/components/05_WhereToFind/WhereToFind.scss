@@ -1,3 +1,5 @@
+@import "../../variables";
+
 /* #whereToFind{
   padding-top: 5rem;
   padding-bottom: 1rem;
@@ -6,12 +8,4 @@
 
 #wtfContainer{
   /* background-color: #104e7d ; */
-}
-
-
-@media only screen and (max-width: 450px) {
-  #whereToFind{
-   padding-left: 1rem;
-   padding-top: 4rem;
-  }
 }

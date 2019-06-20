@@ -1,21 +1,23 @@
+@import "../../variables";
+
 #mainimgcont {
-  /* background-image: url("https://www.rbrlawgroup.com/wp-content/uploads/2016/08/utah-lawyer-homepage-hero-3.jpg");
-  width: 100%;
-  height: auto; */
+  //    background-image: url("https://www.rbrlawgroup.com/wp-content/uploads/2016/08/utah-lawyer-homepage-hero-3.jpg");
+  //   width: 100%;
+  //   height: auto;
 }
 
-.heroImgRow{
-width: 100%;
+.heroImgRow {
+  width: 100%;
 }
 
 .heroImgText {
-top: -12rem;
-position: absolute;
-width: 100%;
-background-color: rgba(0, 0, 0, 0.35);
-padding-left: 13rem;
-padding-right: 13rem;
-padding-bottom: 3.35rem;
+  top: -12rem;
+  position: absolute;
+  width: 100%;
+  background-color: color(35-black);
+  padding-left: 13rem;
+  padding-right: 13rem;
+  padding-bottom: 3.35rem;
 }
 
 #headerSection {
@@ -23,69 +25,25 @@ padding-bottom: 3.35rem;
   height: auto;
   overflow: hidden;
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: $playfair;
 }
 
-#aggresiveText{
+#aggresiveText {
   text-align: left;
   /* position: absolute; */
   width: 100%;
   /* top: -19rem; */
-  color: #ffcc54;
-  font-family: 'Playfair', serif;
+  color: color(primary-yellow);
+  font-family: $playfair;
   font-weight: 700;
 }
 
-#missionStatement{
+#missionStatement {
   text-align: left;
   /* position: absolute; */
   width: 100%;
   /* top: -15.5rem; */
   color: white;
-  font-family: 'Playfair Display', serif;
+  font-family: $playfair;
   /* padding-right: 0rem; */
-}
-
-@media screen and (max-width: 992px) {
-  
-}
-
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-  #headerSection {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-  }
-
-
-  #aggresiveText {
-    text-align: left;
-    position: absolute;
-    width: 100%;
-    /* top: -10rem; */
-    color: #ffcc54;
-    font-family: 'Playfair', serif;
-    font-weight: 700;
-}
-#missionStatement {
-  text-align: left;
-  position: absolute;
-  width: 100%;
-  /* top: -7.5rem; */
-  color: white;
-  font-family: 'Playfair Display', serif;
-}
-#msText {
-  width: 100%;
-  text-align: left;
-  position: absolute;
-  top: -3rem;
-  color: #dadada;
-  font-size: 1.2rem;
-  font-family: 'Rubik', sans-serif;
-}
 }

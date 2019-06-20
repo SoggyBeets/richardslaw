@@ -10,7 +10,6 @@ import WhereToFind from "./components/05_WhereToFind/WhereToFind";
 import Social from "./components/06_Social/Social";
 import Footer from "./components/07_Footer/Footer";
 
-
 // import Consultation from "./components/Consultation";
 // import Tabs from "./components/Tabs";
 // import MediaQuery from 'react-responsive';
@@ -25,7 +24,6 @@ import Footer from "./components/07_Footer/Footer";
 
 // import { checkPropTypes } from "prop-types";
 // import KevinCard from "./components/KevinCard";
-
 
 export default class App extends Component {
   constructor(props) {

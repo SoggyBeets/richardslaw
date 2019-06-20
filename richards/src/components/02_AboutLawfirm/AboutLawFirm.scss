@@ -1,18 +1,19 @@
-#msText{
-    width: 100%;
-    text-align: left;
-    color:rgba(0, 0, 0, 0.777);
-    font-size: 1.2rem;
-    font-family: 'Rubik', sans-serif;
-    padding-top: 0rem;  
-    padding-bottom: 7rem;
-    line-height: 2.5rem;
-    letter-spacing: 0.1rem;
-  }
+@import "../../variables";
 
-  .aboutLawFirmTitle {
-    padding-top: 5rem;
-    padding-bottom: 4rem;
-    font-family: "Playfair Display", serif;
-  }
-    
+#msText {
+  width: 100%;
+  text-align: left;
+  color: color(85-black);
+  font-size: 1.2rem;
+  font-family: $rubik;
+  padding-top: 0rem;
+  padding-bottom: 7rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.aboutLawFirmTitle {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  font-family: $playfair;
+}

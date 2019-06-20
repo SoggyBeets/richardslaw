@@ -1,9 +1,11 @@
+@import "../../variables";
+
 .navcont {
-  height: 5.50rem;
+  height: 5.5rem;
   /* position: fixed; */
   width: 100%;
   z-index: 5;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: color(85-black);
 }
 
 #navP {
@@ -13,20 +15,19 @@
   font-size: 1rem;
   letter-spacing: 0.15rem;
   text-align: left;
-  font-family: "Rubik", sans-serif;
+  font-family: $rubik;
 }
 
 #navA {
   width: 100%;
-  color: #ffcc54 !important;
+  color: color(primary-yellow) !important;
   text-align: left;
   text-decoration: none;
-  background-color: #84212100;
-  font-family: "Rubik", sans-serif;
+  font-family: $rubik;
 }
 
 #navA:hover {
-  color: #ffcc54ad !important;
+  color: color(hover-yellow) !important;
   text-decoration: underline;
 }
 
@@ -37,20 +38,19 @@
   font-size: 1rem;
   letter-spacing: 0.15rem;
   text-align: right;
-  font-family: "Rubik", sans-serif;
+  font-family: $rubik;
 }
 
 #navAR {
   width: 100%;
-  color: #ffcc54 !important;
+  color: color(primary-yellow) !important;
   text-align: right;
   text-decoration: none;
-  background-color: #84212100;
-  font-family: "Rubik", sans-serif;
+  font-family: $rubik;
 }
 
 #navAR:hover {
-  color: #ffcc54ad !important;
+  color: color(hover-yellow) !important;
   text-decoration: underline;
 }
 
@@ -62,18 +62,18 @@
 .textAlignR {
   text-align: right;
   padding-top: 1rem;
-  font-family: "Playfair Display", serif;
+  font-family: $playfair;
 }
 
 #phone {
   line-height: 0.01rem;
   text-align: center;
-  font-family: "Rubik", sans-serif;
+  font-family: $rubik;
 }
 
 #phone a {
   padding-left: 0rem;
-  font-family: "Rubik", sans-serif;
+  font-family: $rubik;
 }
 
 #logo {
@@ -85,8 +85,8 @@
   border-radius: 50%;
   width: 7rem;
   height: 7rem;
-  background: #f8f8f914;
-  box-shadow: 0 0.2rem 0.1rem rgba(0, 0, 0, 0.28);
+  // background: #f8f8f914;
+  box-shadow: 0 0.2rem 0.1rem color(35-black);
   z-index: 999;
 }
 
@@ -97,58 +97,4 @@
 #navLogo {
   text-align: center;
   width: 100%;
-}
-
-/* Media Queries */
-
-/* @media screen and (max-width: 992px) {
-  body {
-    background-color: blue;
-  }
-} */
-
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-    .textAlignL {
-      text-align: left;
-      /* padding-top: 0.5rem; */
-      padding-left: 0.5rem;
-      font-size: .8rem;
-    }
-
-    .textAlignR {
-      text-align: right;
-      /* padding-top: 0.5rem; */
-      padding-right: 0.5rem;
-      font-size: .8rem;
-      font-family: "Playfair Display", serif;
-    }
-
-    .navcont {
-      position: relative;
-      width: 100%;
-      z-index: 5;
-      font-size: .8rem;
-      background-color: rgba(0, 0, 0, 0.8);
-    }
-
-    #navPR {
-      margin-top: 0rem !important;
-      margin-bottom: 0rem !important;
-      color: #fff;
-      font-size: .8rem;
-      letter-spacing: 0.15rem;
-      text-align: right;
-      font-family: "Rubik", sans-serif;
-  }
-
-  #navP {
-    margin-top: 0rem !important;
-    margin-bottom: 0rem !important;
-    color: #fff;
-    font-size: .8rem;
-    letter-spacing: 0.15rem;
-    text-align: left;
-    font-family: "Rubik", sans-serif;
-}
 }

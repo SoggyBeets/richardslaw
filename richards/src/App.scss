@@ -1,9 +1,8 @@
 @import "./variables";
 
-
-html {
-  width: auto !important;
-  overflow-x: hidden !important;
+.App {
+  font-size: 10px !important;
+  overflow: hidden;
 }
 
 .sectionTitle{
@@ -11,21 +10,6 @@ html {
   padding-bottom: 1.5rem;
   font-family: "Playfair Display", serif;
 }
-
-/* 0.875rem(14px) @ 20rem(320px) increasing to 1.3125rem(21px) @ 128rem(2048px) */
-@media (min-width: 20rem) {
-  :root {
-    font-size: calc(0.875rem + ((1vw - 0.2rem) * 0.4051));
-    /* Where: * 0.4051 = 100 * font_Size_Difference / viewport_Width_Difference */
-  }
-}
-/* Prevent font scaling beyond this breakpoint */
-@media (min-width: 128rem) {
-  :root {
-    font-size: 1.3125rem;
-  }
-}
-
 
 .nav-link.active,
 .nav-item.show .nav-link {

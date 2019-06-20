@@ -1,3 +1,5 @@
+@import "../../variables";
+
 #socialfeeds {
   margin-top: 1rem;
   overflow: hidden;
@@ -7,7 +9,7 @@
   /* border-top: solid #ffcc54; */
   /* border-bottom: solid 1px #ffcc54; */
   /* border-left: solid #ffcc54; */
-  border-right: solid 1px #ffcc54;
+  border-right: solid 1px color(primary-yellow);
   overflow: hidden;
   height: auto;
 }
@@ -15,7 +17,7 @@
 #fbfeed {
   /* border-top: solid #ffcc54; */
   /* border-bottom: solid 1px #ffcc54; */
-  border-left: solid 1px #ffcc54;
+  border-left: solid 1px color(primary-yellow);
   overflow: hidden;
   height: auto;
   max-height: 70vh;
