@@ -1,28 +1,15 @@
 import React, { Component } from 'react';
-
-// const API = 'elfsight-app-b594ca64-b2d3-41bd-8a5f-d1040cd8f505';
-// const DEFAULT_QUERY = 'redux';
-
-// class Google extends Component {
-//   constructor(props) {
-//     super(props);
-
-//     this.state = {
-//       hits: [],
-//     };
-//   }
-
-//   componentDidMount() {
-//     fetch(API + DEFAULT_QUERY)
-//       .then(response => response.json())
-//       .then(data => this.setState({ hits: data.hits }));
-//   }
-
-// }
+import Iframe from "react-iframe";
 
 const Google = () => (
- <div className="elfsight-app-b594ca64-b2d3-41bd-8a5f-d1040cd8f505"></div> 
+    <Iframe
+    width="100%"
+    height="100%"
+    frameborder="0"
+    style="border:0"
+    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJRwqJiCAPU4cR5NSmcQa9Dt4&key=AIzaSyBPsKKJZej-c8ssGd_BMT7PLpyMk4ZSEeA"
+    allowfullscreen
+  />
 );
-
 
 export default Google;
