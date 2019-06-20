@@ -7,7 +7,7 @@ const AboutLawFirm = () => (
    <Row noGutters>
   <Col xs="1" md="2" />
   <Col xs="10" md="8" >
-  <h1 className="aboutLawFirmTitle">
+  <h1 className="sectionTitle">
   About Us
   </h1>
   </Col>

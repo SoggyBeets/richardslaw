@@ -107,7 +107,7 @@ class FullWidthTabs extends React.Component {
       <Row noGutters className="tabSectionBG">
   <Col xs="1" md="2" />
   <Col xs="10" md="8" >
-  <h1 className="tabsTitle">
+  <h1 className="sectionTitle">
   Practice Areas
   </h1>
   </Col>

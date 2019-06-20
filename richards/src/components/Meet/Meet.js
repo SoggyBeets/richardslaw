@@ -10,7 +10,7 @@ const Meet = () => (
       <Row noGutters>
         <Col md="2" />
         <Col md="8">
-          <h1 id="aboutUsTitle">Meet Our Attorneys</h1>
+          <h1 className="sectionTitle">Meet Our Attorneys</h1>
         </Col>
         <Col md="2" />
       </Row>

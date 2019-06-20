@@ -15,7 +15,7 @@ import Social from "./components/Social";
 import Tabs from "./components/Tabs";
 // import AboutUs from "./components/AboutUs";
 import WhereToFind from "./components/WhereToFind";
-
+import Form from "./components/Form";
 
 
 
@@ -23,13 +23,13 @@ import WhereToFind from "./components/WhereToFind";
 // import Form from "./components/Form";
 // import Hover from "./components/Hover";
 import { checkPropTypes } from "prop-types";
+import KevinCard from "./components/KevinCard";
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <div><h1>Gavin</h1></div>
         {/* <MediaQuery query="(min-device-width: 1224px)">
           <MobileNav />
         <MobileBankruptcy />
@@ -38,8 +38,10 @@ class App extends Component {
           <MainImg />
           <AboutLawFirm />
           <Tabs />
+          {/* <KevinCard /> */}
           <Meet />
           {/* <Consultation /> */}
+          {/* <Form /> */}
           <WhereToFind />
           <Social />
           <Footer />

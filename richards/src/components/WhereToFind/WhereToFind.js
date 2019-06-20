@@ -6,7 +6,7 @@ const WhereToFind = () => (
   <Row noGutters id="wtfContainer">
     <Col xs="0" md="2" />
     <Col xs="12" md="8">
-      <h1 id="whereToFind">Where To Find Us</h1>
+      <h1 className="sectionTitle">Where To Find Us</h1>
     </Col>
     <Col xs="0" md="2" />
   </Row>
