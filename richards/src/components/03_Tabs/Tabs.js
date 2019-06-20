@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Component } from "react";
+import "./Tabs.scss";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import SwipeableViews from "react-swipeable-views";
@@ -6,11 +7,11 @@ import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
-import "./Tabs.css";
 import { Row, Col } from "reactstrap";
 
 // import '../../logo.svg';
 // import color from '@material-ui/core/colors/deepOrange';
+
 
 function TabContainer({ children, dir }) {
   return (
@@ -86,7 +87,7 @@ const styles = theme => ({
   }
 });
 
-class FullWidthTabs extends React.Component {
+class FullWidthTabs extends Component {
   state = {
     value: 0
   };

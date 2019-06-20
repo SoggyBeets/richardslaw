@@ -1,6 +1,6 @@
 .nav-tabs .nav-link.active {
   color: #c9e3fd;
-  background-color: rgba(red, green, blue, .0);
+  background-color: rgba( 255, 128, 255, .0);
   border-color: #dee2e6 #dee2e6 #fff;
 }
 
@@ -19,7 +19,7 @@
 }
 
 #tabContentRow{
-  background-image: url("http://barbeelawfirm.com/wp-content/uploads/2014/12/books.jpg");
+  background-image: url("http:barbeelawfirm.com/wp-content/uploads/2014/12/books.jpg");
   /* -webkit-filter: grayscale(75%); */
   /* filter: grayscale(75%); */
   width: 100%;
@@ -33,7 +33,7 @@
     height: 35rem;
     background-color: rgba(0, 0, 0, 0.8);
 }
-/* "http://www.duncanville.com/wp-content/uploads/2016/03/law-books.jpg" */
+/* "http:www.duncanville.com/wp-content/uploads/2016/03/law-books.jpg" */
 
 span{
   padding-top: .5rem;
@@ -68,32 +68,32 @@ span{
 } */
   
 
-@media screen and (max-width: 600px) {
-  #typography{
-    padding-right: .25rem;
-    padding-left: .25rem;
-    height: 53rem;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-span{
-  /* padding-top: .1rem;
-  padding-bottom: .1rem; */
-  font-size: .64rem;
-  text-align: center;
-  color: #ffffff;
-  font-family: "Playfair Display", serif;
-  overflow: auto;
-  display: inline-block;
-}
-.MuiTab-fullWidth-54 {
-  flex-grow: 3 !important;
-  max-width: none !important;
-  flex-shrink: 0 !important;
-}
+ @media screen and (max-width: 600px) {
+   #typography{
+     padding-right: .25rem;
+     padding-left: .25rem;
+     height: 53rem;
+     background-color: rgba(0, 0, 0, 0.8);
+ }
+ span{
+   /* padding-top: .1rem;
+   padding-bottom: .1rem; */
+   font-size: .64rem;
+   text-align: center;
+   color: #ffffff;
+   font-family: "Playfair Display", serif;
+   overflow: auto;
+   display: inline-block;
+ }
+ .MuiTab-fullWidth-54 {
+   flex-grow: 3 !important;
+   max-width: none !important;
+   flex-shrink: 0 !important;
+ }
 
-.Tab[aria-selected="true"]{
-  color: yellow !important;
-  flex-grow: 2 !important;
-}
+ .Tab[aria-selected="true"]{
+   color: yellow !important;
+   flex-grow: 2 !important;
+ }
 
-}
+ }
