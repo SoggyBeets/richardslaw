@@ -68,7 +68,7 @@ const ourLogo = {
 };
 
 const fb = {
-  fontSize: "2.25rem",
+  fontSize: "2.10rem",
   color: "white",
   padding: "10px",
   marginRight: "2rem",
@@ -108,6 +108,7 @@ export default class Footer extends Component {
             <Row noGutters>
               <Col md="2" />
               <Col md="2">
+              <div className="footerContactSection">
                 <h2 id="contact">Address</h2>
                 <h3
                   href="https://www.google.com/maps/dir/41.2179494,-111.9417437/rbr+law/@41.2203729,-111.9752583,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x87530f2088890a47:0xde0ebd0671a6d4e4!2m2!1d-111.9737615!2d41.2224332"
@@ -115,18 +116,23 @@ export default class Footer extends Component {
                 >
                   289 24th St, Ogden, UT 84401
                 </h3>
+                </div>
               </Col>
               <Col md="1" />
               <Col md="2">
+                <div className="footerContactSection">
                 <h2 id="contact">Contact Us</h2>
-                <h3 href="tel:+1-801-621-7443" id="contactText">
+                <a href="tel:+1-801-621-7443" id="contactText">
                   (801) 621-7443
-                </h3>
+                </a>
+                </div>
               </Col>
               <Col md="1" />
               <Col md="2">
+              <div className="footerContactSection">
                 <h2 id="contact">Mail Us</h2>
-                <h3 id="contactText">example@example.mail</h3>
+                <a id="contactText" href="mailto: office@utahlegalcounsel.com">office@utahlegalcounsel.com</a>
+                </div>
               </Col>
               <Col md="2" />
             </Row>
@@ -145,13 +151,24 @@ export default class Footer extends Component {
               <Col md="4" />
               <Col md="4">
                 <div style={iconLinks}>
-                  <FontAwesomeIcon icon={["fab", "google"]} style={google} />
-                  <FontAwesomeIcon
+                <a href="https://www.google.com/search?rlz=1C1CHBF_enUS843US843&q=rbr+law+group&spell=1&sa=X&ved=0ahUKEwjsz-T___riAhUqnq0KHeULCGoQBQgtKAA&biw=1536&bih=754" 
+                  target="_blank">
+                  <FontAwesomeIcon icon={["fab", "google"]} 
+                  style={google} />
+                  </a>
+                  <a href="https://www.facebook.com/RBRlawgroup/" 
+                  target="_blank">
+                    <FontAwesomeIcon
                     icon={["fab", "facebook"]}
                     style={fb}
-                    onClick="parent.open('https://www.facebook.com/RBRlawgroup/')"
                   />
-                  <FontAwesomeIcon icon={["fab", "instagram"]} style={insta} />
+                  </a>
+                  <a href="https://www.instagram.com/explore/locations/291504041479/richards-brinley-richards-law-group/?hl=en" 
+                  target="_blank">
+                  <FontAwesomeIcon 
+                  icon={["fab", "instagram"]} 
+                  style={insta} />
+                  </a>
                 </div>
               </Col>
               <Col md="4" />
@@ -159,13 +176,13 @@ export default class Footer extends Component {
 
             <Row noGutters>
               <Col md="12">
-                <div id="ourLogoSection">
+                {/* <div id="ourLogoSection">
                   <h3 style={copyrightStyle}>
                     Created By
                     <FontAwesomeIcon icon="carrot" style={ourLogo} />
                     SoggyBeets.
                   </h3>
-                </div>
+                </div> */}
               </Col>
             </Row>
           </Col>
