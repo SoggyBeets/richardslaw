@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import Responsive from 'react-responsive';
 
-import "./App.scss";
+import MobileHome from './mobile_components/01_MobileHome';
+
 import Navbar from "./components/00_Navbar/Navbar";
 import MainImg from "./components/01_MainImg/MainImg";
 import AboutLawFirm from "./components/02_AboutLawfirm/AboutLawFirm";
@@ -10,10 +12,11 @@ import WhereToFind from "./components/05_WhereToFind/WhereToFind";
 import Social from "./components/06_Social/Social";
 import Footer from "./components/07_Footer/Footer";
 
+import "./App.scss";
 
 // import Consultation from "./components/Consultation";
 // import Tabs from "./components/Tabs";
-// import MediaQuery from 'react-responsive';
+
 // import MobileBankruptcy from "./pages/MobileBankruptcy";
 // import MobileNav from "./components/MobileNav";
 // import MobileTabs from "./components/MobileTabs";
@@ -26,6 +29,11 @@ import Footer from "./components/07_Footer/Footer";
 // import { checkPropTypes } from "prop-types";
 // import KevinCard from "./components/KevinCard";
 
+const Mobile = props => <Responsive {...props} maxWidth={767} />;
+const Tablet = props => (
+ <Responsive {...props} minWidth={767} maxWidth={1023} />
+);
+const Desktop = props => <Responsive {...props} minWidth={1024} />
 
 export default class App extends Component {
   constructor(props) {
@@ -38,19 +46,32 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
+        <Mobile>
+          <MobileHome />
+        </Mobile>
+        <Tablet>
+        <Navbar />
+            <MainImg />
+            <AboutLawFirm />
+            <Tabs />
+            <Meet />
+        </Tablet>
+        <Desktop>
+            <Navbar />
+            <MainImg />
+            <AboutLawFirm />
+            <Tabs />
+            <Meet />
+        </Desktop>
         {/* <MediaQuery query="(min-device-width: 1224px)">
           <MobileNav />
         <MobileBankruptcy />
         </MediaQuery> */}
-        <Navbar />
-        <MainImg />
-        <AboutLawFirm />
-        <Tabs />
-        <Meet />
+      
         {/* <Consultation /> */}
-        <WhereToFind />
+        {/* <WhereToFind />
         <Social />
-        <Footer />
+        <Footer /> */}
         {/* <MediaQuery query="(min-device-width: 1824px)">
             <div>You also have a huge screen</div>
           </MediaQuery>
