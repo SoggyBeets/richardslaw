@@ -1,7 +1,14 @@
 import React, { Component } from "react";
-import Responsive from 'react-responsive';
+import Responsive from "react-responsive";
+import { Route } from 'react-router-dom';
 
-import MobileHome from './mobile_components/01_MobileHome';
+// import MobileHome from "./mobile_components/01_MobileHome";
+import Contact from './mobile_components/05_Contact/Contact';
+import PracticeAreas from "./mobile_components/02_PracticeAreas/PracticeAreas";
+import Attorneys from "./mobile_components/03_Attorneys/Attorneys";
+import About from "./mobile_components/04_About/About";
+// import Contact from "../05_Contact/Contact";
+import Home from './mobile_components/01_MobileHome';
 
 import Navbar from "./components/00_Navbar/Navbar";
 import MainImg from "./components/01_MainImg/MainImg";
@@ -31,9 +38,9 @@ import "./App.scss";
 
 const Mobile = props => <Responsive {...props} maxWidth={767} />;
 const Tablet = props => (
- <Responsive {...props} minWidth={767} maxWidth={1023} />
+  <Responsive {...props} minWidth={767} maxWidth={1023} />
 );
-const Desktop = props => <Responsive {...props} minWidth={1024} />
+const Desktop = props => <Responsive {...props} minWidth={1024} />;
 
 export default class App extends Component {
   constructor(props) {
@@ -47,27 +54,34 @@ export default class App extends Component {
     return (
       <div className="App">
         <Mobile>
-          <MobileHome />
+        <Route path="/" component={Home} exact />
+            <Route path="/practiceAreas" component={PracticeAreas} />
+            <Route path="/attorneys" component={Attorneys} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
         </Mobile>
         <Tablet>
-        <Navbar />
-            <MainImg />
-            <AboutLawFirm />
-            <Tabs />
-            <Meet />
+          <Navbar />
+          <MainImg />
+          <AboutLawFirm />
+          <Tabs />
+          <Meet />
         </Tablet>
         <Desktop>
-            <Navbar />
-            <MainImg />
-            <AboutLawFirm />
-            <Tabs />
-            <Meet />
+          <Navbar />
+          <MainImg />
+          <AboutLawFirm />
+          <Tabs />
+          <Meet />
+          <WhereToFind />
+          <Social />
+          <Footer />
         </Desktop>
         {/* <MediaQuery query="(min-device-width: 1224px)">
           <MobileNav />
         <MobileBankruptcy />
         </MediaQuery> */}
-      
+
         {/* <Consultation /> */}
         {/* <WhereToFind />
         <Social />

@@ -12,6 +12,12 @@ html {
   font-family: "Playfair Display", serif;
 }
 
+.mobileContainer{
+  padding: 2rem;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
 /* 0.875rem(14px) @ 20rem(320px) increasing to 1.3125rem(21px) @ 128rem(2048px) */
 @media (min-width: 20rem) {
   :root {

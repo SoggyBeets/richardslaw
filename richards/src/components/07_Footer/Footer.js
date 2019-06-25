@@ -36,16 +36,16 @@ library.add(fab, faCarrot, faBalanceScale, faRocket);
 //   padding: "0rem"
 // };
 
-const copyrightStyle = {
-  fontFamily: "Roboto",
-  color: "white",
-  fontSize: ".85rem",
-  fontWeight: "400",
-  marginLeft: "1rem",
-  marginRight: "1rem",
-  lineHeight: "1.75rem",
-  letterSpacing: "0.1rem"
-};
+// const copyrightStyle = {
+//   fontFamily: "Roboto",
+//   color: "white",
+//   fontSize: ".85rem",
+//   fontWeight: "400",
+//   marginLeft: "1rem",
+//   marginRight: "1rem",
+//   lineHeight: "1.75rem",
+//   letterSpacing: "0.1rem"
+// };
 
 // const richardsLogo = {
 //   fontSize: '4em',
@@ -61,11 +61,11 @@ const google = {
   /* padding: 10px; */
 };
 
-const ourLogo = {
-  fontSize: "3rem",
-  color: "purple",
-  padding: "8px"
-};
+// const ourLogo = {
+//   fontSize: "3rem",
+//   color: "purple",
+//   padding: "8px"
+// };
 
 const fb = {
   fontSize: "2.10rem",
@@ -152,7 +152,7 @@ export default class Footer extends Component {
               <Col md="4">
                 <div style={iconLinks}>
                 <a href="https://www.google.com/search?rlz=1C1CHBF_enUS843US843&q=rbr+law+group&spell=1&sa=X&ved=0ahUKEwjsz-T___riAhUqnq0KHeULCGoQBQgtKAA&biw=1536&bih=754" 
-                  target="_blank">
+                  rel="noreferrer">
                   <FontAwesomeIcon icon={["fab", "google"]} 
                   style={google} />
                   </a>
