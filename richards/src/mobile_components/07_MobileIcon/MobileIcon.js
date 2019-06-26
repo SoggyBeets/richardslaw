@@ -1,6 +1,6 @@
 import React from 'react';
 import './MobileIcon.scss';
-import BlackMobileIcon from '../../icons/Icon-black.svg';
+import BlackMobileIcon from '../../icons/Icon.svg';
 
 const MobileIcon = () => (
     <div className="mobileIconSize">

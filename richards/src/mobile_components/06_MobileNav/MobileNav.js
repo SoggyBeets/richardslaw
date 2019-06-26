@@ -6,13 +6,13 @@ import { faHome, faUserFriends, faComments, faBook } from '@fortawesome/free-sol
 
 const mobileIcons = {
   fontSize: "3rem",
-  color: "black",
+  color: "white",
   padding: "10px"
 };
 
 const MobileNav = () => {
   return (
-    <nav className="MobileNav">
+    <nav className="mobileNav">
       <ul>
         <li>
           <NavLink to="/"><FontAwesomeIcon icon={faHome} style={mobileIcons} /><p className="iconLabel">Home</p></NavLink>
