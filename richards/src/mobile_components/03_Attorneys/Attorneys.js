@@ -13,8 +13,28 @@ const Attorneys = () => {
       <MobileIcon />
       <div className="mobileContainer">
       <MobileTitle title={"Attorneys"} />
-      <AttorneyCard name={"Kevin Richards"} img={KevinImage} info={"Hello my name is Kevin Richards and I am an attorney"}/>
-      <AttorneyCard name={"Jamie Richards"} img={JamieImage} info={"Hello my name is Jamie Richards and I am an attorney"}/>
+      <AttorneyCard 
+        name={"Kevin Richards"} 
+        img={KevinImage} 
+        edu={"Education"}
+        eduText={"J.D. University of Tulsa(1988) <br /> B.A. Weber State University(1983)"}
+        adm={"Admissions"}
+        admText={"U.S. District Court of Utah<br />U.S. Bankruptcy Court-State of Utah<br />U.S. Tenth Circuit Court of Appeals<br />U.S. Immigration Court (all states)"}
+        aop={"Areas of Practice"}
+        aopText={"Divorce & Custody<br />Adoption<br />Immigration<br />DUI/Criminal-all felonies & misdemeanors<br />Civil Litigation<br />Probate/Estate Planning<br />Guardian & Conservatorship<br />Personal Injury<br />Mediations/Alternative Dispute Resolution"}
+        info={"Kevin G. Richards was raised in Ogden and is a product of Ogden CIty Schools. It was while he was a senior at Ogden High that he decided that he wanted to be a lawyer. Mr.Richards now has over 30 years of legal experience. Asidefrom being an attorney he also does mediation andalternative dispute resolution. He is fluent in Portugueseand Spanish. Mr. Richards’ current hobbies involve traveling with his wife and family, overlanding and spending a beautiful day up at Snowbasin skiing."}
+        />
+      <AttorneyCard 
+        name={"Jamie Richards"} 
+        img={JamieImage}
+        edu={"Education"}
+        eduText={""}
+        adm={""}
+        admText={""}
+        aop={""}
+        aopText={""} 
+        info={"Hello my name is Jamie Richards and I am an attorney"}
+        />
       </div>
       <MobileNav />
     </div>

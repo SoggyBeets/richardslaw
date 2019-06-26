@@ -1,3 +1,30 @@
 .mobileImg{
     width: 100%;
 }
+
+.mobileHeading{
+    font-family: "Playfair Display", serif;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+.attorneyCardTitle{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 0.25rem;
+    padding-left: 0.45rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.1rem;
+    color: black;
+    font-family: "Playfair Display", serif;
+}
+.attorneyCardText{
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: left;
+    padding-left: .85rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.1rem;
+    color: rgb(158, 158, 158);
+    font-family: "Rubik", sans-serif;
+}
