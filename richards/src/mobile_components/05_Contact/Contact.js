@@ -39,9 +39,13 @@ const Contact = () => {
           </a>
         </div>
         <h1 className="mobileHeading">Where to find Us</h1>
+        <div className="mobileGoogle">
         <GoogleMap />
+        </div>
+        <div className="mobileFacebook">
         <FacebookFeed />
       </div>
+      </div> 
       <MobileNav />
     </div>
   );
