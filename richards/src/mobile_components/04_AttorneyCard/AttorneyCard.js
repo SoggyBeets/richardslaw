@@ -7,6 +7,7 @@ export class AttorneyCard extends React.Component {
     <div>
       <h1 className="mobileHeading">{this.props.name}</h1>
       <img className="mobileImg" src={this.props.img}></img>
+      <div className="attorneyCardBg">
       <h3 className="attorneyCardTitle">{this.props.edu}</h3>
       <h4 className="attorneyCardText">{this.props.eduText}</h4>
       <h3 className="attorneyCardTitle">{this.props.adm}</h3>
@@ -14,6 +15,7 @@ export class AttorneyCard extends React.Component {
       <h3 className="attorneyCardTitle">{this.props.aop}</h3>
       <h4 className="attorneyCardText">{this.props.aopText}</h4>
       <p>{this.props.info}</p>
+      </div>
     </div>
   );
 };

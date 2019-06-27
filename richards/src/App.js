@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import Responsive from "react-responsive";
-import { Route } from 'react-router-dom';
+import { Route } from "react-router-dom";
 
 // import MobileHome from "./mobile_components/01_MobileHome";
-import Contact from './mobile_components/05_Contact/Contact';
+import Contact from "./mobile_components/05_Contact/Contact";
 import PracticeAreas from "./mobile_components/02_PracticeAreas/PracticeAreas";
 import Attorneys from "./mobile_components/03_Attorneys/Attorneys";
 import About from "./mobile_components/04_About/About";
 // import Contact from "../05_Contact/Contact";
-import Home from './mobile_components/01_MobileHome';
+import Home from "./mobile_components/01_MobileHome";
 
 import Navbar from "./components/00_Navbar/Navbar";
 import MainImg from "./components/01_MainImg/MainImg";
@@ -18,6 +18,7 @@ import Meet from "./components/04_Meet/Meet";
 import WhereToFind from "./components/05_WhereToFind/WhereToFind";
 import Social from "./components/06_Social/Social";
 import Footer from "./components/07_Footer/Footer";
+import ReactForm from "./components/08_Form/Form";
 
 import "./App.scss";
 
@@ -54,11 +55,11 @@ export default class App extends Component {
     return (
       <div className="App">
         <Mobile>
-        <Route path="/" component={Home} exact />
-            <Route path="/practiceAreas" component={PracticeAreas} />
-            <Route path="/attorneys" component={Attorneys} />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
+          <Route path="/" component={Home} exact />
+          <Route path="/practiceAreas" component={PracticeAreas} />
+          <Route path="/attorneys" component={Attorneys} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
         </Mobile>
         <Tablet>
           <Navbar />
@@ -68,6 +69,7 @@ export default class App extends Component {
           <Meet />
         </Tablet>
         <Desktop>
+          <ReactForm />
           <Navbar />
           <MainImg />
           <AboutLawFirm />
