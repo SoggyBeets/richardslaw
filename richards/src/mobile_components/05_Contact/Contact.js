@@ -147,7 +147,7 @@ class Contact extends Component {
             <Fieldset>
               <ReactFormLabel htmlFor="formName" title="Full Name:" />
 
-              <nput
+              <Input
                 id="formName"
                 name="name"
                 type="text"

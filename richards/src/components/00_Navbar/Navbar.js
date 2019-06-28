@@ -32,7 +32,20 @@ export default class Navbar extends Component {
 
         <Col xs="4" md="3">
           <div className="textAlignR">
-            <p id="navPR">About Practices Attorneys Contact</p>
+            <ul>
+              <li>
+              <a href="#aboutScroll" className="navPR">About</a>
+              </li>
+              <li>
+              <a href="#practicesScroll" className="navPR">Practices</a>
+                </li>
+                <li>
+                <a href="#attorneysScroll" className="navPR">Attorneys</a>
+                </li>
+                <li>
+                <a href="#whereToFind" className="navPR">Contact</a>
+                </li>
+            </ul>
           </div>
         </Col>
 

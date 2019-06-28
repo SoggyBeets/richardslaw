@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Responsive from "react-responsive";
 import { Route } from "react-router-dom";
-import ScrollableSection from "react-update-url-on-scroll";
+// import ScrollableSection from "react-update-url-on-scroll";
 
 import Contact from "./mobile_components/05_Contact/Contact";
 import PracticeAreas from "./mobile_components/02_PracticeAreas/PracticeAreas";
@@ -44,24 +44,21 @@ export default class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
         </Mobile>
-        <Tablet>
-        <Navbar />
+        <Desktop>
+          <Navbar />
           <MainImg />
           <AboutLawFirm />
           <Tabs />
           <Meet />
           <WhereToFind />
           <Social />
-          <Footer />
-        </Tablet>
-        <Desktop>
-          <Navbar />
+//             <Footer />
 
-//           <ScrollableSection name={""} exact>
+{/* //           <ScrollableSection name={""} exact>
 //             <Navbar />
 //           </ScrollableSection>
 
-//           <MainImg />
+//         
 
 //           <ScrollableSection name={"about"} exact>
 //             <AboutLawFirm />
@@ -82,7 +79,7 @@ export default class App extends Component {
 //           <ScrollableSection name={"footer"} exact>
 //             <Social />
 //             <Footer />
-//           </ScrollableSection>
+//           </ScrollableSection> */}
 
           <Form />
         </Desktop>
