@@ -33,7 +33,9 @@
     "react-scripts": "^3.0.1",
     "react-spring": "^8.0.25",
     "react-swipeable-views": "^0.13.3",
-    "reactstrap": "^8.0.0"
+    "react-update-url-on-scroll": "^3.5.0",
+    "reactstrap": "^8.0.0",
+    "styled-components": "^4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",

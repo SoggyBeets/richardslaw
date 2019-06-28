@@ -32,10 +32,7 @@ export default class Navbar extends Component {
 
         <Col xs="4" md="3">
           <div className="textAlignR">
-            <p id="navPR">Questions?</p>
-            <a id="navAR" href="tel:+1-801-621-7443">
-              801-621-7443
-            </a>
+            <p id="navPR">About Practices Attorneys Contact</p>
           </div>
         </Col>
 

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Responsive from "react-responsive";
 import { Route } from "react-router-dom";
+import ScrollableSection from "react-update-url-on-scroll";
 
 import Contact from "./mobile_components/05_Contact/Contact";
 import PracticeAreas from "./mobile_components/02_PracticeAreas/PracticeAreas";
@@ -17,14 +18,13 @@ import Meet from "./components/04_Meet/Meet";
 import WhereToFind from "./components/05_WhereToFind/WhereToFind";
 import Social from "./components/06_Social/Social";
 import Footer from "./components/07_Footer/Footer";
+import Form from "./components/08_Form/form";
+
 
 import "./App.scss";
 
 const Mobile = props => <Responsive {...props} maxWidth={767} />;
-const Tablet = props => (
-  <Responsive {...props} minWidth={767} maxWidth={1023} />
-);
-const Desktop = props => <Responsive {...props} minWidth={1024} />;
+const Desktop = props => <Responsive {...props} minWidth={768} />;
 
 export default class App extends Component {
   constructor(props) {
@@ -56,13 +56,35 @@ export default class App extends Component {
         </Tablet>
         <Desktop>
           <Navbar />
-          <MainImg />
-          <AboutLawFirm />
-          <Tabs />
-          <Meet />
-          <WhereToFind />
-          <Social />
-          <Footer />
+
+//           <ScrollableSection name={""} exact>
+//             <Navbar />
+//           </ScrollableSection>
+
+//           <MainImg />
+
+//           <ScrollableSection name={"about"} exact>
+//             <AboutLawFirm />
+//           </ScrollableSection>
+
+//           <ScrollableSection name={"practice-areas"} exact>
+//             <Tabs />
+//           </ScrollableSection>
+
+//           <ScrollableSection name={"attorneys"} exact>
+//             <Meet />
+//           </ScrollableSection>
+
+//           <ScrollableSection name={"where-to-find"} exact>
+//             <WhereToFind />
+//           </ScrollableSection>
+
+//           <ScrollableSection name={"footer"} exact>
+//             <Social />
+//             <Footer />
+//           </ScrollableSection>
+
+          <Form />
         </Desktop>
       </div>
     );
