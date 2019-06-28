@@ -2,6 +2,15 @@ import React, { Component } from "react";
 import "./Navbar.scss";
 import Logo from "../Icon";
 import { Row, Col } from "reactstrap";
+import {
+  Link,
+  DirectLink,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller
+} from "react-scroll";
 
 export default class Navbar extends Component {
   constructor(props) {
@@ -32,7 +41,19 @@ export default class Navbar extends Component {
 
         <Col xs="4" md="3">
           <div className="textAlignR">
-            <p id="navPR">About Practices Attorneys Contact</p>
+            <ul>
+              <li>
+                <Link
+                  activeclass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  About
+                </Link>
+              </li>
+            </ul>
           </div>
         </Col>
 
