@@ -4,7 +4,7 @@ import MobileNav from "./06_MobileNav/MobileNav";
 import MobileIcon from "./07_MobileIcon/MobileIcon";
 import MobileTitle from "./07_MobileTitle/MobileTitle";
 import HeroImg from "../images/utah-lawyer-homepage-hero-3.jpg";
-import AboutLawFirm from "../components/02_AboutLawfirm/AboutLawFirm";
+// import AboutLawFirm from "../components/02_AboutLawfirm/AboutLawFirm";
 
 const Home = () => {
   return (

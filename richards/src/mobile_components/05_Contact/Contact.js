@@ -147,7 +147,7 @@ class Contact extends Component {
             <Fieldset>
               <ReactFormLabel htmlFor="formName" title="Full Name:" />
 
-              <Input
+              <nput
                 id="formName"
                 name="name"
                 type="text"
@@ -156,7 +156,6 @@ class Contact extends Component {
                 value={this.state.name}
               />
             </Fieldset>
-
             <Fieldset>
               <ReactFormLabel htmlFor="formEmail" title="Email:" />
 
@@ -169,7 +168,6 @@ class Contact extends Component {
                 value={this.state.email}
               />
             </Fieldset>
-
             <Fieldset>
               <ReactFormLabel htmlFor="formPhone" title="Phone:" />
 
@@ -184,7 +182,6 @@ class Contact extends Component {
 
             <Fieldset>
               <ReactFormLabel htmlFor="formMessage" title="Message:" />
-
               <TextArea
                 id="formMessage"
                 name="message"
@@ -192,7 +189,6 @@ class Contact extends Component {
                 onChange={this.handleChange}
               />
             </Fieldset>
-
             <div>
               <SubmitInput
                 id="formButton"

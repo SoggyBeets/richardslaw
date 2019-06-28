@@ -3,12 +3,11 @@ import Responsive from "react-responsive";
 import { Route } from "react-router-dom";
 import ScrollableSection from "react-update-url-on-scroll";
 
-// import MobileHome from "./mobile_components/01_MobileHome";
 import Contact from "./mobile_components/05_Contact/Contact";
 import PracticeAreas from "./mobile_components/02_PracticeAreas/PracticeAreas";
-import Attorneys from "./mobile_components/03_Attorneys/Attorneys";
+// import Attorneys from "./mobile_components/03_Attorneys/Attorneys";
+import AttorneyCard from './mobile_components/04_AttorneyCard/AttorneyCard';
 import About from "./mobile_components/04_About/About";
-// import Contact from "../05_Contact/Contact";
 import Home from "./mobile_components/01_MobileHome";
 
 import Navbar from "./components/00_Navbar/Navbar";
@@ -21,22 +20,8 @@ import Social from "./components/06_Social/Social";
 import Footer from "./components/07_Footer/Footer";
 import Form from "./components/08_Form/form";
 
+
 import "./App.scss";
-
-// import Consultation from "./components/Consultation";
-// import Tabs from "./components/Tabs";
-
-// import MobileBankruptcy from "./pages/MobileBankruptcy";
-// import MobileNav from "./components/MobileNav";
-// import MobileTabs from "./components/MobileTabs";
-// import AboutUs from "./components/AboutUs";
-// import Carousel from "./components/Carousel";
-// import Form from "./components/Form";
-// import Hover from "./components/Hover";
-// import { checkPropTypes } from "prop-types";
-
-// import { checkPropTypes } from "prop-types";
-// import KevinCard from "./components/KevinCard";
 
 const Mobile = props => <Responsive {...props} maxWidth={767} />;
 const Desktop = props => <Responsive {...props} minWidth={768} />;
@@ -55,71 +40,52 @@ export default class App extends Component {
         <Mobile>
           <Route path="/" component={Home} exact />
           <Route path="/practiceAreas" component={PracticeAreas} />
-          <Route path="/attorneys" component={Attorneys} />
+          <Route path="/attorneyCard" component={AttorneyCard} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
         </Mobile>
-
-        <Desktop>
-
-          <ScrollableSection name={""} exact>
-            <Navbar />
-          </ScrollableSection>
-
+        <Tablet>
+        <Navbar />
           <MainImg />
+          <AboutLawFirm />
+          <Tabs />
+          <Meet />
+          <WhereToFind />
+          <Social />
+          <Footer />
+        </Tablet>
+        <Desktop>
+          <Navbar />
 
-          <ScrollableSection name={"about"} exact>
-            <AboutLawFirm />
-          </ScrollableSection>
+//           <ScrollableSection name={""} exact>
+//             <Navbar />
+//           </ScrollableSection>
 
-          <ScrollableSection name={"practice-areas"} exact>
-            <Tabs />
-          </ScrollableSection>
+//           <MainImg />
 
-          <ScrollableSection name={"attorneys"} exact>
-            <Meet />
-          </ScrollableSection>
+//           <ScrollableSection name={"about"} exact>
+//             <AboutLawFirm />
+//           </ScrollableSection>
 
-          <ScrollableSection name={"where-to-find"} exact>
-            <WhereToFind />
-          </ScrollableSection>
+//           <ScrollableSection name={"practice-areas"} exact>
+//             <Tabs />
+//           </ScrollableSection>
 
-          <ScrollableSection name={"footer"} exact>
-            <Social />
-            <Footer />
-          </ScrollableSection>
+//           <ScrollableSection name={"attorneys"} exact>
+//             <Meet />
+//           </ScrollableSection>
+
+//           <ScrollableSection name={"where-to-find"} exact>
+//             <WhereToFind />
+//           </ScrollableSection>
+
+//           <ScrollableSection name={"footer"} exact>
+//             <Social />
+//             <Footer />
+//           </ScrollableSection>
 
           <Form />
         </Desktop>
-        {/* <MediaQuery query="(min-device-width: 1224px)">
-          <MobileNav />
-        <MobileBankruptcy />
-        </MediaQuery> */}
-
-        {/* <Consultation /> */}
-        {/* <WhereToFind />
-        <Social />
-        <Footer /> */}
-        {/* <MediaQuery query="(min-device-width: 1824px)">
-            <div>You also have a huge screen</div>
-          </MediaQuery>
-          <MediaQuery query="(max-width: 1224px)">
-            <div>You are sized like a tablet or mobile phone though</div>
-          </MediaQuery>
-        <MediaQuery query="(max-device-width: 1224px)">
-          <MobileNav />
-          <MobileTabs />
-          <MobileBankruptcy />
-        </MediaQuery>
-        <MediaQuery query="(orientation: portrait)">
-          <div>You are portrait</div>
-        </MediaQuery>
-        <MediaQuery query="(orientation: landscape)">
-          <div>You are landscape</div>
-        </MediaQuery>
-        <MediaQuery query="(min-resolution: 2dppx)">
-          <div>You are retina</div>
-        </MediaQuery> */}
       </div>
     );
   }

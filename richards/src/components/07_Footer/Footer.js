@@ -157,14 +157,14 @@ export default class Footer extends Component {
                   style={google} />
                   </a>
                   <a href="https://www.facebook.com/RBRlawgroup/" 
-                  target="_blank">
+                  rel="noreferrer">
                     <FontAwesomeIcon
                     icon={["fab", "facebook"]}
                     style={fb}
                   />
                   </a>
                   <a href="https://www.instagram.com/explore/locations/291504041479/richards-brinley-richards-law-group/?hl=en" 
-                  target="_blank">
+                  rel="noreferrer">
                   <FontAwesomeIcon 
                   icon={["fab", "instagram"]} 
                   style={insta} />

@@ -8,6 +8,7 @@ import {
   faComments,
   faBook
 } from "@fortawesome/free-solid-svg-icons";
+import MobileDropdown from "../08_MobileDropdown/MobileDropdown";
 import Form from "../../components/08_Form/form";
 
 const mobileIcons = {
@@ -33,6 +34,18 @@ const MobileNav = () => {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/attorneyCard">
+            <FontAwesomeIcon icon={faUserFriends} style={mobileIcons} />
+            <p className="iconLabel">Attorneys</p>
+
+        </li>
+        <li>
+          <NavLink to="/practiceAreas">
+            <FontAwesomeIcon icon={faBook} style={mobileIcons} />
+            <p className="iconLabel">Practice Areas</p>
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/attorneys">
             <FontAwesomeIcon icon={faUserFriends} style={mobileIcons} />
             <p className="iconLabel">Attorneys</p>
@@ -42,6 +55,7 @@ const MobileNav = () => {
           <NavLink to="/about">
             <FontAwesomeIcon icon={faHome} style={mobileIcons} />
             <p className="iconLabel">About</p>
+
           </NavLink>
         </li>
         <li>
@@ -49,6 +63,14 @@ const MobileNav = () => {
             <FontAwesomeIcon icon={faComments} style={mobileIcons} />
             <p className="iconLabel">Contact</p>
           </NavLink>
+        </li>
+        <li>
+          <MobileDropdown>
+          {/* <NavLink to="/about">
+            <FontAwesomeIcon icon={faHome} style={mobileIcons} />
+            <p className="iconLabel">About</p>
+          </NavLink> */}
+          </MobileDropdown>
         </li>
       </ul>
     </nav>
