@@ -146,7 +146,6 @@ class Contact extends Component {
 
             <Fieldset>
               <ReactFormLabel htmlFor="formName" title="Full Name:" />
-
               <Input
                 id="formName"
                 name="name"
@@ -156,6 +155,7 @@ class Contact extends Component {
                 value={this.state.name}
               />
             </Fieldset>
+
             <Fieldset>
               <ReactFormLabel htmlFor="formEmail" title="Email:" />
 

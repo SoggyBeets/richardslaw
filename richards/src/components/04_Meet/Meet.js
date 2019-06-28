@@ -40,7 +40,7 @@ export default class Meet extends Component {
                 <h2 className="meetTitle">Kevin G. Richards</h2>
               </Row>
               <Row>
-                <Col md="5">
+                <Col md="6">
                   <h3 className="meeth3">Education</h3>
                   <h4 className="meeth4">
                     J.D. University of Tulsa(1988) <br /> B.A. Weber State
@@ -57,7 +57,7 @@ export default class Meet extends Component {
                     U.S. Immigration Court (all states)
                   </h4>
                 </Col>
-                <Col md="5">
+                <Col md="6">
                   <h3 className="meeth3">Areas of Practice</h3>
                   <h4 className="meeth4">
                     Divorce & Custody
@@ -79,7 +79,6 @@ export default class Meet extends Component {
                     Mediations/Alternative Dispute Resolution
                   </h4>
                 </Col>
-                <Col md="2" />
               </Row>
               <Row>
                 <Col md="10">
@@ -88,7 +87,7 @@ export default class Meet extends Component {
                 <Col md="2" />
               </Row>
               <Row>
-                <Col md="10">
+                <Col md="12">
                   <p className="meetp">
                     Kevin G. Richards was raised in Ogden and is a product of
                     Ogden CIty Schools. It was while he was a senior at Ogden
@@ -101,7 +100,7 @@ export default class Meet extends Component {
                     beautiful day up at Snowbasin skiing.
                   </p>
                 </Col>
-                <Col md="2" />
+             
               </Row>
             </Col>
             <Col xs="0" md="1" />
@@ -123,7 +122,7 @@ export default class Meet extends Component {
                 <h2 className="meetTitle">Jaime G. Richards</h2>
               </Row>
               <Row>
-                <Col md="5">
+                <Col md="6">
                   <h3 className="meeth3">Education</h3>
                   <h4 className="meeth4">
                     J.D., Washburn University (2014)
@@ -137,7 +136,7 @@ export default class Meet extends Component {
                     U.S. Bankruptcy Court-State of Utah
                   </h4>
                 </Col>
-                <Col md="5">
+                <Col md="6">
                   <h3 className="meeth3">Areas of Practice</h3>
                   <h4 className="meeth4">
                     Bankruptcy
@@ -155,7 +154,7 @@ export default class Meet extends Component {
                     Contract Disputes & Drafting
                   </h4>
                 </Col>
-                <Col md="2" />
+              
               </Row>
               <Row>
                 <Col md="10">
@@ -164,7 +163,7 @@ export default class Meet extends Component {
                 <Col md="2" />
               </Row>
               <Row>
-                <Col md="10">
+                <Col md="12">
                   <p className="meetp">
                     Jaime G. Richards was born and raised in Ogden and is a
                     product of Ogden City schools just like his father Kevin.
@@ -176,7 +175,7 @@ export default class Meet extends Component {
                     spending time with his wife and children.
                   </p>
                 </Col>
-                <Col md="2" />
+               
               </Row>
             </Col>
             <Col xs="0" md="1" />

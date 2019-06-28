@@ -15,7 +15,9 @@ export default class AboutLawFirm extends Component {
         <Row noGutters>
           <Col xs="1" md="2" />
           <Col xs="10" md="8">
-            <h1 className="aboutLawFirmTitle">About Us</h1>
+            <h1 
+            className="aboutLawFirmTitle"
+            >About Us</h1>
           </Col>
           <Col xs="1" md="2" />
         </Row>

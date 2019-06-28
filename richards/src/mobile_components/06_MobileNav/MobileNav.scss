@@ -1,32 +1,32 @@
-.mobileNav{
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.mobileNav {
+  height: 10vh;
+  position: fixed;
+  bottom: 0rem !important;
+  width: 100vw;
 }
 
 ul {
-    display: flex;
-    align-items: stretch; /* Default */
-    justify-content: space-between;
-    width: 100%;
-    background: rgb(51, 51, 51);
-    padding-inline-start: 1.25rem;
-    padding-inline-end: 1.25rem;
-    margin-top: 10rem;
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 100%;
+  background: rgb(51, 51, 51);
+  padding-inline-start: 1.25rem;
+  padding-inline-end: 1.25rem;
+  margin-top: 10rem;
 }
 li {
-    display: block;
-    flex: 0 1 auto; /* Default */
-    list-style-type: none;
-    background: rgb(51, 51, 51);
-    text-align: center;
+  display: block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
+  background: rgb(51, 51, 51);
+  text-align: center;
 }
 
-.iconLabel{
-    font-size: .75rem;
-    color: lightgray;
-    text-align: center;
-    padding: none;
-    margin-bottom: none;
+.iconLabel {
+  font-size: 0.75rem;
+  color: lightgray;
+  text-align: center;
+  padding: none;
+  margin-bottom: none;
 }
