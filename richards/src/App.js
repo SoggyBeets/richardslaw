@@ -61,9 +61,11 @@ export default class App extends Component {
         </Mobile>
 
         <Desktop>
+
           <ScrollableSection name={""} exact>
             <Navbar />
           </ScrollableSection>
+
           <MainImg />
 
           <ScrollableSection name={"about"} exact>
