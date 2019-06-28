@@ -1,0 +1,29 @@
+.mobileContainer{
+    // background-color: red;
+}
+
+.mobileUl{
+    background-color: red;
+}
+
+.mobileListItem{
+    background-color: green;
+}
+
+.nav-link{
+    background-color: white;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+    cursor: pointer;
+}
+.nav-tabs{
+    background-color: white;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+    cursor: pointer;
+}
+
+.nav-link.active{
+ border: none;
+ border-color: white white white white !important;
+}

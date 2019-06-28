@@ -43,6 +43,18 @@ export default class Navbar extends Component {
           <div className="textAlignR">
             <ul>
               <li>
+              <a href="#aboutScroll" className="navPR">About</a>
+              </li>
+              <li>
+              <a href="#practicesScroll" className="navPR">Practices</a>
+                </li>
+                <li>
+                <a href="#attorneysScroll" className="navPR">Attorneys</a>
+                </li>
+                <li>
+                <a href="#whereToFind" className="navPR">Contact</a>
+                </li>
+
                 <Link
                   activeclass="active"
                   to="about"
@@ -53,6 +65,7 @@ export default class Navbar extends Component {
                   About
                 </Link>
               </li>
+
             </ul>
           </div>
         </Col>

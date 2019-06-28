@@ -1,11 +1,16 @@
 import React, { Component } from "react";
 import Responsive from "react-responsive";
+
+import { Route } from "react-router-dom";
+// import ScrollableSection from "react-update-url-on-scroll";
+
 import { Route, Switch } from "react-router-dom";
 import "./components/00_Navbar/Navbar.scss";
 import { Row, Col } from "reactstrap";
 import Logo from "./components/Icon/Icon";
 import { Link, Element, animateScroll as scroll } from "react-scroll";
 import styled from "styled-components";
+
 
 import Contact from "./mobile_components/05_Contact/Contact";
 import PracticeAreas from "./mobile_components/02_PracticeAreas/PracticeAreas";
@@ -130,6 +135,41 @@ export default class App extends Component {
         <Desktop>
           <Navbar />
           <MainImg />
+
+          <AboutLawFirm />
+          <Tabs />
+          <Meet />
+          <WhereToFind />
+          <Social />
+//             <Footer />
+
+{/* //           <ScrollableSection name={""} exact>
+//             <Navbar />
+//           </ScrollableSection>
+
+//         
+
+//           <ScrollableSection name={"about"} exact>
+//             <AboutLawFirm />
+//           </ScrollableSection>
+
+//           <ScrollableSection name={"practice-areas"} exact>
+//             <Tabs />
+//           </ScrollableSection>
+
+//           <ScrollableSection name={"attorneys"} exact>
+//             <Meet />
+//           </ScrollableSection>
+
+//           <ScrollableSection name={"where-to-find"} exact>
+//             <WhereToFind />
+//           </ScrollableSection>
+
+//           <ScrollableSection name={"footer"} exact>
+//             <Social />
+//             <Footer />
+//           </ScrollableSection> */}
+
           <Element id="about">
             <AboutLawFirm />
           </Element>
