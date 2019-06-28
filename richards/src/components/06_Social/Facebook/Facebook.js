@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StreamApp, Activity, FlatFeed } from "react-activity-feed";
+// import { StreamApp, Activity, FlatFeed } from "react-activity-feed";
 import "react-activity-feed/dist/index.css";
 import '../Social.scss';
 
@@ -25,7 +25,7 @@ export default class FacebookFeed extends Component {
     >
       <blockquote
         cite="https://www.facebook.com/RBRlawgroup/"
-        class="fb-xfbml-parse-ignore"
+        className="fb-xfbml-parse-ignore"
       >
         <a href="https://www.facebook.com/RBRlawgroup/">Facebook</a>
       </blockquote>

@@ -3,8 +3,8 @@ import "../05_Contact/Contact.scss";
 import MobileNav from "../06_MobileNav/MobileNav";
 import MobileIcon from "../07_MobileIcon/MobileIcon";
 import MobileTitle from "../07_MobileTitle/MobileTitle";
-import WhereToFind from "../../components/05_WhereToFind/WhereToFind";
-import Social from "../../components/06_Social/Social";
+// import WhereToFind from "../../components/05_WhereToFind/WhereToFind";
+// import Social from "../../components/06_Social/Social";
 import GoogleMap from "../../components/06_Social/Google/Google";
 import FacebookFeed from "../../components/06_Social/Facebook/Facebook";
 

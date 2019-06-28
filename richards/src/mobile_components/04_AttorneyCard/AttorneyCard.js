@@ -14,7 +14,7 @@ export class AttorneyCard extends React.Component {
         <div className="mobileContainer">
           <MobileTitle title={"Attorneys"} />
           <h1 className="mobileHeading">Kevin Richards</h1>
-          <img className="mobileImg" src={KevinImage} />
+          <img className="mobileImg" src={KevinImage} alt="Kevin" />
           <div className="attorneyCardBg">
             <h3 className="attorneyCardTitle">Education</h3>
             <h4 className="attorneyCardText">
@@ -65,7 +65,7 @@ export class AttorneyCard extends React.Component {
             </p>
           </div>
           <h1 className="mobileHeading">Jamie Richards</h1>
-          <img className="mobileImg" src={JamieImage} />
+          <img className="mobileImg" src={JamieImage} alt='Jamie' />
           <div className="attorneyCardBg bottomAttorneyCard">
             <h3 className="attorneyCardTitle">Education</h3>
             <h4 className="attorneyCardText">
