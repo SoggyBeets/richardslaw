@@ -12,6 +12,12 @@ const Home = () => {
       <MobileIcon />
       <div className="mobileContainer">
         <MobileTitle title={"Home"} />
+        <div>
+          <h2 className="mobileContact">Phone</h2>
+          <a href="tel:+1-801-621-7443" className="mobileContactText">
+            (801) 621-7443
+          </a>
+        </div>
         <div className="mobileHomeHero">
           <img className="mobileHeroImg" src={HeroImg} alt="law firm" />
           <h1 className="mobileHeading">About Us</h1>

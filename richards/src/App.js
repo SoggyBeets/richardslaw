@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Responsive from "react-responsive";
 
-import { Route } from "react-router-dom";
+// import { Route } from "react-router-dom";
 // import ScrollableSection from "react-update-url-on-scroll";
 
 import { Route, Switch } from "react-router-dom";
@@ -132,62 +132,25 @@ export default class App extends Component {
             <Route path="/contact" component={Contact} />
           </Switch>
         </Mobile>
+
         <Desktop>
           <Navbar />
           <MainImg />
-
-          <AboutLawFirm />
-          <Tabs />
-          <Meet />
-          <WhereToFind />
-          <Social />
-//             <Footer />
-
-{/* //           <ScrollableSection name={""} exact>
-//             <Navbar />
-//           </ScrollableSection>
-
-//         
-
-//           <ScrollableSection name={"about"} exact>
-//             <AboutLawFirm />
-//           </ScrollableSection>
-
-//           <ScrollableSection name={"practice-areas"} exact>
-//             <Tabs />
-//           </ScrollableSection>
-
-//           <ScrollableSection name={"attorneys"} exact>
-//             <Meet />
-//           </ScrollableSection>
-
-//           <ScrollableSection name={"where-to-find"} exact>
-//             <WhereToFind />
-//           </ScrollableSection>
-
-//           <ScrollableSection name={"footer"} exact>
-//             <Social />
-//             <Footer />
-//           </ScrollableSection> */}
-
           <Element id="about">
             <AboutLawFirm />
           </Element>
-
           <Element id="practice-areas">
             <Tabs />
           </Element>
-
           <Element id="attorneys">
             <Meet />
           </Element>
-
           <Element id="contact">
             <WhereToFind />
           </Element>
           <Social />
-          <Footer />
-          <Form />
+        <Footer />
+          {/* <Form /> */}
         </Desktop>
       </div>
     );

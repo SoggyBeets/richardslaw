@@ -21,9 +21,11 @@
     border-top-left-radius: 0rem !important;
     border-top-right-radius: 0rem !important;
     cursor: pointer;
+    border-bottom: none !important;
 }
 
 .nav-link.active{
  border: none;
  border-color: white white white white !important;
+ background-color: white !important;
 }

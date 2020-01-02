@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../05_Contact/Contact.scss";
 import MobileNav from "../06_MobileNav/MobileNav";
 import MobileIcon from "../07_MobileIcon/MobileIcon";
 import MobileTitle from "../07_MobileTitle/MobileTitle";
@@ -28,13 +27,10 @@ const TextArea = styled.textarea`
   font-size: 1rem;
   line-height: 1.25;
   color: #55595c;
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 1px solid #eee;
-  border-left: 0;
+  margin-top: 1.618rem;
+  border: 1px solid transparent;
   border-radius: 3px;
-  -webkit-transition: all 0.25s cubic-bezier(0.4, 0, 1, 1);
-  transition: all 0.25s cubic-bezier(0.4, 0, 1, 1);
+ 
   resize: vertical;
 
   &:focus {
@@ -61,12 +57,7 @@ const SubmitInput = styled.input`
   border: 1px solid transparent;
   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
   cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.25s cubic-bezier(0.4, 0, 1, 1);
-  transition: all 0.25s cubic-bezier(0.4, 0, 1, 1);
+
 
   &:focus {
     outline: 0;

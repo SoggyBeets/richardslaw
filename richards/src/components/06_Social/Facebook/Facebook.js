@@ -3,11 +3,23 @@ import React, { Component } from "react";
 import "react-activity-feed/dist/index.css";
 import "../Social.scss";
 
-class Facebook extends Component {
+
+
+export default class FacebookFeed extends Component {
+  constructor(props) {
+    super(props);
+    this.feed = null;
+    this.state = {};
+  }
+
+  componentDidMount() {
+    // this.feed = Facebook;
+  }
   render() {
     return (
       <div
         className="facebookContainer"
+        className="fb-page"
         data-href="https://www.facebook.com/RBRlawgroup/"
         data-tabs="timeline"
         data-width="500"
@@ -24,25 +36,7 @@ class Facebook extends Component {
           <a href="https://www.facebook.com/RBRlawgroup/">Facebook</a>
         </blockquote>
       </div>
-    );
-  }
-}
-
-export default class FacebookFeed extends Component {
-  constructor(props) {
-    super(props);
-    this.feed = null;
-    this.state = {};
-  }
-
-  componentDidMount() {
-    // this.feed = Facebook;
-  }
-  render() {
-    return (
-      <div >
-        <Facebook />
-      </div>
+       
     );
   }
 }
