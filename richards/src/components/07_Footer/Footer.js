@@ -114,7 +114,7 @@ export default class Footer extends Component {
                   href="https://www.google.com/maps/dir/41.2179494,-111.9417437/rbr+law/@41.2203729,-111.9752583,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x87530f2088890a47:0xde0ebd0671a6d4e4!2m2!1d-111.9737615!2d41.2224332"
                   id="contactText"
                 >
-                  289 24th St, Ogden, UT 84401
+                  2562 Monroe Blvd. Ogden, UT 84401
                 </h3>
                 </div>
               </Col>

@@ -127,7 +127,7 @@ export default class Meet extends Component {
                   <h4 className="meeth4">
                     J.D., Washburn University (2014)
                     <br />
-                    B.A. Weber State University(1983)
+                    B.A. Weber State University(2011)
                   </h4>
                   <h3 className="meeth3">Admissions</h3>
                   <h4 className="meeth4">
