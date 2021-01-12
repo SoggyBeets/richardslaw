@@ -71,7 +71,7 @@ export class AttorneyCard extends React.Component {
             <h4 className="attorneyCardText">
               J.D., Washburn University (2014)
               <br />
-              B.A. Weber State University(1983)
+              B.A. Weber State University(2011)
             </h4>
             <h3 className="attorneyCardTitle">Admissions</h3>
             <h4 className="attorneyCardText">
