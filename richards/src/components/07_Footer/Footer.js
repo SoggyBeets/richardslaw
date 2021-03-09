@@ -156,14 +156,14 @@ export default class Footer extends Component {
                   <FontAwesomeIcon icon={["fab", "google"]} 
                   style={google} />
                   </a>
-                  <a href="https://www.facebook.com/RBRlawgroup/" 
+                  <a href="https://www.facebook.com/RnRLaw" 
                   rel="noreferrer">
                     <FontAwesomeIcon
                     icon={["fab", "facebook"]}
                     style={fb}
                   />
                   </a>
-                  <a href="https://www.instagram.com/explore/locations/291504041479/richards-brinley-richards-law-group/?hl=en" 
+                  <a href="https://www.instagram.com/randrlawfirm/" 
                   rel="noreferrer">
                   <FontAwesomeIcon 
                   icon={["fab", "instagram"]} 

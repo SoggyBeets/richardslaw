@@ -20,7 +20,7 @@ export default class FacebookFeed extends Component {
       <div
         className="facebookContainer"
         className="fb-page"
-        data-href="https://www.facebook.com/RBRlawgroup/"
+        data-href="https://www.facebook.com/RnRLaw"
         data-tabs="timeline"
         data-width="500"
         data-height="500"
@@ -30,10 +30,10 @@ export default class FacebookFeed extends Component {
         data-show-facepile="true"
       >
         <blockquote
-          cite="https://www.facebook.com/RBRlawgroup/"
+          cite="https://www.facebook.com/RnRLaw"
           className="fb-xfbml-parse-ignore"
         >
-          <a href="https://www.facebook.com/RBRlawgroup/">Facebook</a>
+          <a href="https://www.facebook.com/RnRLaw">Facebook</a>
         </blockquote>
       </div>
        
